@@ -1,0 +1,47 @@
+# Central Banks and the Macroeconomy {#sec-week03}
+
+::: {.callout-note appearance="minimal"}
+**Week 3** | Original topics: Central Banks: The Fed and the ECB · Aggregate Demand and Aggregate Supply
+:::
+
+## Learning objectives
+
+By the end of this chapter, you should be able to:
+
+1. Describe the structure and mandate of the Federal Reserve and the ECB
+2. Explain how central banks differ from commercial banks
+3. Use the aggregate demand and aggregate supply (AD-AS) framework
+4. Analyze how monetary policy shifts aggregate demand
+5. Distinguish between short-run and long-run macroeconomic equilibrium
+
+---
+
+## What central banks are and why they exist
+
+*Content to be drafted.*
+
+## The Federal Reserve: structure and mandate
+
+*Content to be drafted.*
+
+## The European Central Bank
+
+*Content to be drafted.*
+
+## Aggregate demand and aggregate supply
+
+*Content to be drafted.*
+
+## Monetary policy and the macroeconomy
+
+*Content to be drafted.*
+
+---
+
+## Key terms
+
+*To be populated after drafting.*
+
+## Review questions
+
+*To be added after content is finalized.*

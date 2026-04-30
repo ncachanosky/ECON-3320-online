@@ -1,0 +1,43 @@
+# Managing Risk in Financial Markets {#sec-week07}
+
+::: {.callout-note appearance="minimal"}
+**Week 7** | Original topics: Risk · Derivatives · Financial Regulation · The Foreign Exchange Market
+:::
+
+## Learning objectives
+
+By the end of this chapter, you should be able to:
+
+1. Distinguish between systematic and idiosyncratic risk and explain diversification
+2. Describe the main types of derivatives and what purpose they serve
+3. Explain why financial regulation exists and what forms it takes
+4. Describe how exchange rates are determined and what drives them
+5. Connect exchange rate dynamics to monetary policy and the broader macroeconomy
+
+---
+
+## Risk and return
+
+*Content to be drafted.*
+
+## Derivatives
+
+*Content to be drafted.*
+
+## Financial regulation
+
+*Content to be drafted.*
+
+## The foreign exchange market
+
+*Content to be drafted.*
+
+---
+
+## Key terms
+
+*To be populated after drafting.*
+
+## Review questions
+
+*To be added after content is finalized.*

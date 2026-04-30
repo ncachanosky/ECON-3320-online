@@ -1,0 +1,64 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Money, Institutions, and Markets"
+  author: "Nicolas Cachanosky"
+  date: last-modified
+  date-format: "MMMM YYYY"
+  description: |
+    Course readings for ECON 3320 – Money and Banking.
+    University of Texas at El Paso.
+
+  sidebar:
+    style: docked
+    search: true
+
+  chapters:
+    - index.qmd
+    - week01.qmd
+    - week02.qmd
+    - week03.qmd
+    - week04.qmd
+    - week05.qmd
+    - week06.qmd
+    - week07.qmd
+    - references.qmd
+
+  page-footer:
+    left: "© Nicolas Cachanosky, UTEP"
+    right:
+      - icon: github
+        href: https://github.com/ncachanosky/money-institutions-markets
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    fontsize: 1.1em
+    mainfont: "Georgia, serif"
+    highlight-style: github
+    code-fold: false
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    number-depth: 2
+    smooth-scroll: true
+    fig-align: center
+    fig-responsive: true
+    include-in-header:
+      text: |
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <style>
+          /* Navigation sidebar and top navbar — Lato for compact sans-serif */
+          .sidebar, .navbar, #quarto-sidebar {
+            font-family: Lato, sans-serif;
+            font-size: 0.95rem;
+            line-height: 1.6;
+          }
+        </style>
+
+bibliography: references.bib
+# csl: chicago-author-date.csl

@@ -1,0 +1,47 @@
+# How Financial Markets Work {#sec-week05}
+
+::: {.callout-note appearance="minimal"}
+**Week 5** | Original topics: Interest Rates, Future and Present Value · Financial Markets
+:::
+
+## Learning objectives
+
+By the end of this chapter, you should be able to:
+
+1. Explain the time value of money and calculate present and future values
+2. Define interest rates and describe how they are determined
+3. Identify the main types of financial markets and what they do
+4. Explain how financial markets channel savings into investment
+5. Describe how interest rates connect the financial system to the real economy
+
+---
+
+## The time value of money
+
+*Content to be drafted.*
+
+## Present value and future value
+
+*Content to be drafted.*
+
+## Interest rates: what they are and how they are determined
+
+*Content to be drafted.*
+
+## The structure of financial markets
+
+*Content to be drafted.*
+
+## How financial markets connect savers and borrowers
+
+*Content to be drafted.*
+
+---
+
+## Key terms
+
+*To be populated after drafting.*
+
+## Review questions
+
+*To be added after content is finalized.*

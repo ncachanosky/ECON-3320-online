@@ -1,0 +1,43 @@
+# Pricing Financial Assets {#sec-week06}
+
+::: {.callout-note appearance="minimal"}
+**Week 6** | Original topics: Bonds I: Valuation · Bonds II: The Yield Curve · Stocks I: Valuation · Stocks II: The Efficient Market Hypothesis
+:::
+
+## Learning objectives
+
+By the end of this chapter, you should be able to:
+
+1. Value bonds using present value and explain the inverse price-yield relationship
+2. Interpret the yield curve and explain what its shape signals
+3. Value stocks using the dividend discount model and price-earnings ratios
+4. State the Efficient Market Hypothesis and its three forms
+5. Evaluate the implications of market efficiency for investors
+
+---
+
+## Bond valuation
+
+*Content to be drafted.*
+
+## The yield curve
+
+*Content to be drafted.*
+
+## Stock valuation
+
+*Content to be drafted.*
+
+## The Efficient Market Hypothesis
+
+*Content to be drafted.*
+
+---
+
+## Key terms
+
+*To be populated after drafting.*
+
+## Review questions
+
+*To be added after content is finalized.*

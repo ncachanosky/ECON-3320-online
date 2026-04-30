@@ -1,0 +1,40 @@
+# Preface {.unnumbered}
+
+Welcome to *Money, Institutions, and Markets*, the reading companion for ECON 3320 – Money and Banking at the University of Texas at El Paso.
+
+This book was designed for the fully online, accelerated version of the course. It covers the same core ideas as the in-person version, condensed into seven weeks of focused, readable chapters. Each chapter combines economic theory with real-world examples and live data — the goal is not just to understand how money and financial markets work in the abstract, but to be able to look at the actual world and make sense of what you see.
+
+## How to use this book
+
+Each chapter corresponds to one week of the course. Within each chapter you will find:
+
+- **Learning objectives** at the start, so you know what to focus on
+- **Callout boxes** that flag key definitions, helpful intuitions, common mistakes, and essential takeaways
+- **Interactive charts** built from real economic data, so you can explore the evidence behind the concepts
+- **Key terms** collected at the end of each chapter
+
+Read actively. If a concept isn't clicking, the charts and examples are there to make it concrete — use them.
+
+## Course structure
+
+| Week | Chapter                                        |
+|------|------------------------------------------------|
+| 1    | The Nature and Price of Money                  |
+| 2    | How Banking Developed Before Central Banks     |
+| 3    | Central Banks and the Macroeconomy             |
+| 4    | How Central Banks Operate — and Why It Matters |
+| 5    | How Financial Markets Work                     |
+| 6    | Pricing Financial Assets                       |
+| 7    | Managing Risk in Financial Markets             |
+
+## A note on prerequisites
+
+This course assumes you have completed introductory economics (principles of micro and macro). You do not need a background in finance or advanced mathematics — but you should be comfortable thinking in terms of supply, demand, and incentives. When we need a new tool, we will build it from scratch.
+
+---
+
+***[Nicolas Cachanosky, PhD](https://www.ncachanosky.com/)***  
+*Center for Free Enterprise*  
+*Department of Economics and Finance*  
+*The University of Texas at El Paso*  
+*[ncachanosky@utep.edu](mailto:ncachanosky@utep.edu)*

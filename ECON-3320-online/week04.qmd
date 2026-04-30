@@ -1,0 +1,47 @@
+# How Central Banks Operate — and Why It Matters {#sec-week04}
+
+::: {.callout-note appearance="minimal"}
+**Week 4** | Original topics: Monetary Policy I: Rules vs. Discretion · Monetary Policy II: Tools, Corridor and Floor Systems · Bank Runs and the Lender of Last Resort
+:::
+
+## Learning objectives
+
+By the end of this chapter, you should be able to:
+
+1. Explain the debate between rules-based and discretionary monetary policy
+2. Describe the main tools available to central banks
+3. Distinguish between corridor and floor systems for implementing policy
+4. Explain what bank runs are and why they happen
+5. Understand the lender of last resort function and its role in financial stability
+
+---
+
+## Rules vs. discretion in monetary policy
+
+*Content to be drafted.*
+
+## The tools of monetary policy
+
+*Content to be drafted.*
+
+## Corridor and floor systems
+
+*Content to be drafted.*
+
+## Bank runs: why they happen and what they cost
+
+*Content to be drafted.*
+
+## The lender of last resort
+
+*Content to be drafted.*
+
+---
+
+## Key terms
+
+*To be populated after drafting.*
+
+## Review questions
+
+*To be added after content is finalized.*

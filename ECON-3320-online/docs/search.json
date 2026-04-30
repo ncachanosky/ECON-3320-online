@@ -1,0 +1,1312 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Money, Institutions, and Markets",
+    "section": "",
+    "text": "Preface\nWelcome to Money, Institutions, and Markets, the reading companion for ECON 3320 – Money and Banking at the University of Texas at El Paso.\nThis book was designed for the fully online, accelerated version of the course. It covers the same core ideas as the in-person version, condensed into seven weeks of focused, readable chapters. Each chapter combines economic theory with real-world examples and live data — the goal is not just to understand how money and financial markets work in the abstract, but to be able to look at the actual world and make sense of what you see.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use-this-book",
+    "href": "index.html#how-to-use-this-book",
+    "title": "Money, Institutions, and Markets",
+    "section": "How to use this book",
+    "text": "How to use this book\nEach chapter corresponds to one week of the course. Within each chapter you will find:\n\nLearning objectives at the start, so you know what to focus on\nCallout boxes that flag key definitions, helpful intuitions, common mistakes, and essential takeaways\nInteractive charts built from real economic data, so you can explore the evidence behind the concepts\nKey terms collected at the end of each chapter\n\nRead actively. If a concept isn’t clicking, the charts and examples are there to make it concrete — use them.",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#course-structure",
+    "href": "index.html#course-structure",
+    "title": "Money, Institutions, and Markets",
+    "section": "Course structure",
+    "text": "Course structure\n\n\n\nWeek\nChapter\n\n\n\n\n1\nThe Nature and Price of Money\n\n\n2\nHow Banking Developed Before Central Banks\n\n\n3\nCentral Banks and the Macroeconomy\n\n\n4\nHow Central Banks Operate — and Why It Matters\n\n\n5\nHow Financial Markets Work\n\n\n6\nPricing Financial Assets\n\n\n7\nManaging Risk in Financial Markets",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "index.html#a-note-on-prerequisites",
+    "href": "index.html#a-note-on-prerequisites",
+    "title": "Money, Institutions, and Markets",
+    "section": "A note on prerequisites",
+    "text": "A note on prerequisites\nThis course assumes you have completed introductory economics (principles of micro and macro). You do not need a background in finance or advanced mathematics — but you should be comfortable thinking in terms of supply, demand, and incentives. When we need a new tool, we will build it from scratch.\n\nNicolas Cachanosky, PhD\nCenter for Free Enterprise\nDepartment of Economics and Finance\nThe University of Texas at El Paso\nncachanosky@utep.edu",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "week_01.html",
+    "href": "week_01.html",
+    "title": "1  The Nature and Price of Money",
+    "section": "",
+    "text": "1.1 Learning objectives\nBy the end of this chapter, you should be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week_01.html#learning-objectives",
+    "href": "week_01.html#learning-objectives",
+    "title": "1  The Nature and Price of Money",
+    "section": "",
+    "text": "Define money and explain why it exists\nDescribe the functions and properties of money\nExplain how the price level and inflation are measured\nUnderstand the relationship between money supply and inflation\nEvaluate cryptocurrencies as a form of money",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week_01.html#what-is-money-and-why-does-it-exist",
+    "href": "week_01.html#what-is-money-and-why-does-it-exist",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.2 1.1 What is money and why does it exist?",
+    "text": "1.2 1.1 What is money and why does it exist?\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week_01.html#the-functions-and-properties-of-money",
+    "href": "week_01.html#the-functions-and-properties-of-money",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.3 1.2 The functions and properties of money",
+    "text": "1.3 1.2 The functions and properties of money\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week_01.html#a-brief-history-of-money",
+    "href": "week_01.html#a-brief-history-of-money",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.4 1.3 A brief history of money",
+    "text": "1.4 1.3 A brief history of money\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week_01.html#the-price-of-money-inflation-and-purchasing-power",
+    "href": "week_01.html#the-price-of-money-inflation-and-purchasing-power",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.5 1.4 The price of money: inflation and purchasing power",
+    "text": "1.5 1.4 The price of money: inflation and purchasing power\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week_01.html#cryptocurrencies-and-the-future-of-money",
+    "href": "week_01.html#cryptocurrencies-and-the-future-of-money",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.6 1.5 Cryptocurrencies and the future of money",
+    "text": "1.6 1.5 Cryptocurrencies and the future of money\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week_01.html#key-terms",
+    "href": "week_01.html#key-terms",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.7 Key terms",
+    "text": "1.7 Key terms\nTo be populated after drafting.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week_01.html#review-questions",
+    "href": "week_01.html#review-questions",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.8 Review questions",
+    "text": "1.8 Review questions\nTo be added after content is finalized.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week_02.html",
+    "href": "week_02.html",
+    "title": "2  How Banking Developed Before Central Banks",
+    "section": "",
+    "text": "2.1 Learning objectives\nBy the end of this chapter, you should be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Banking Developed Before Central Banks</span>"
+    ]
+  },
+  {
+    "objectID": "week_02.html#learning-objectives",
+    "href": "week_02.html#learning-objectives",
+    "title": "2  How Banking Developed Before Central Banks",
+    "section": "",
+    "text": "Explain how commodity money systems worked and their limitations\nDescribe what free banking is and how it operated historically\nAnalyze historical cases of free banking (Scotland, the US, and others)\nEvaluate the strengths and weaknesses of decentralized banking\nUnderstand why central banks emerged as a response to free banking systems",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Banking Developed Before Central Banks</span>"
+    ]
+  },
+  {
+    "objectID": "week_02.html#commodity-money-gold-silver-and-the-origins-of-banking",
+    "href": "week_02.html#commodity-money-gold-silver-and-the-origins-of-banking",
+    "title": "2  How Banking Developed Before Central Banks",
+    "section": "2.2 2.1 Commodity money: gold, silver, and the origins of banking",
+    "text": "2.2 2.1 Commodity money: gold, silver, and the origins of banking\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Banking Developed Before Central Banks</span>"
+    ]
+  },
+  {
+    "objectID": "week_02.html#what-is-free-banking",
+    "href": "week_02.html#what-is-free-banking",
+    "title": "2  How Banking Developed Before Central Banks",
+    "section": "2.3 2.2 What is free banking?",
+    "text": "2.3 2.2 What is free banking?\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Banking Developed Before Central Banks</span>"
+    ]
+  },
+  {
+    "objectID": "week_02.html#free-banking-in-practice-historical-cases",
+    "href": "week_02.html#free-banking-in-practice-historical-cases",
+    "title": "2  How Banking Developed Before Central Banks",
+    "section": "2.4 2.3 Free banking in practice: historical cases",
+    "text": "2.4 2.3 Free banking in practice: historical cases\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Banking Developed Before Central Banks</span>"
+    ]
+  },
+  {
+    "objectID": "week_02.html#lessons-from-the-free-banking-era",
+    "href": "week_02.html#lessons-from-the-free-banking-era",
+    "title": "2  How Banking Developed Before Central Banks",
+    "section": "2.5 2.4 Lessons from the free banking era",
+    "text": "2.5 2.4 Lessons from the free banking era\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Banking Developed Before Central Banks</span>"
+    ]
+  },
+  {
+    "objectID": "week_02.html#key-terms",
+    "href": "week_02.html#key-terms",
+    "title": "2  How Banking Developed Before Central Banks",
+    "section": "2.6 Key terms",
+    "text": "2.6 Key terms\nTo be populated after drafting.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Banking Developed Before Central Banks</span>"
+    ]
+  },
+  {
+    "objectID": "week_02.html#review-questions",
+    "href": "week_02.html#review-questions",
+    "title": "2  How Banking Developed Before Central Banks",
+    "section": "2.7 Review questions",
+    "text": "2.7 Review questions\nTo be added after content is finalized.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Banking Developed Before Central Banks</span>"
+    ]
+  },
+  {
+    "objectID": "week_03.html",
+    "href": "week_03.html",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "",
+    "text": "3.1 Learning objectives\nBy the end of this chapter, you should be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week_03.html#learning-objectives",
+    "href": "week_03.html#learning-objectives",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "",
+    "text": "Describe the structure and mandate of the Federal Reserve and the ECB\nExplain how central banks differ from commercial banks\nUse the aggregate demand and aggregate supply (AD-AS) framework\nAnalyze how monetary policy shifts aggregate demand\nDistinguish between short-run and long-run macroeconomic equilibrium",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week_03.html#what-central-banks-are-and-why-they-exist",
+    "href": "week_03.html#what-central-banks-are-and-why-they-exist",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "3.2 3.1 What central banks are and why they exist",
+    "text": "3.2 3.1 What central banks are and why they exist\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week_03.html#the-federal-reserve-structure-and-mandate",
+    "href": "week_03.html#the-federal-reserve-structure-and-mandate",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "3.3 3.2 The Federal Reserve: structure and mandate",
+    "text": "3.3 3.2 The Federal Reserve: structure and mandate\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week_03.html#the-european-central-bank",
+    "href": "week_03.html#the-european-central-bank",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "3.4 3.3 The European Central Bank",
+    "text": "3.4 3.3 The European Central Bank\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week_03.html#aggregate-demand-and-aggregate-supply",
+    "href": "week_03.html#aggregate-demand-and-aggregate-supply",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "3.5 3.4 Aggregate demand and aggregate supply",
+    "text": "3.5 3.4 Aggregate demand and aggregate supply\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week_03.html#monetary-policy-and-the-macroeconomy",
+    "href": "week_03.html#monetary-policy-and-the-macroeconomy",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "3.6 3.5 Monetary policy and the macroeconomy",
+    "text": "3.6 3.5 Monetary policy and the macroeconomy\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week_03.html#key-terms",
+    "href": "week_03.html#key-terms",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "3.7 Key terms",
+    "text": "3.7 Key terms\nTo be populated after drafting.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week_03.html#review-questions",
+    "href": "week_03.html#review-questions",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "3.8 Review questions",
+    "text": "3.8 Review questions\nTo be added after content is finalized.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week_04.html",
+    "href": "week_04.html",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "",
+    "text": "4.1 Learning objectives\nBy the end of this chapter, you should be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week_04.html#learning-objectives",
+    "href": "week_04.html#learning-objectives",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "",
+    "text": "Explain the debate between rules-based and discretionary monetary policy\nDescribe the main tools available to central banks\nDistinguish between corridor and floor systems for implementing policy\nExplain what bank runs are and why they happen\nUnderstand the lender of last resort function and its role in financial stability",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week_04.html#rules-vs.-discretion-in-monetary-policy",
+    "href": "week_04.html#rules-vs.-discretion-in-monetary-policy",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "4.2 4.1 Rules vs. discretion in monetary policy",
+    "text": "4.2 4.1 Rules vs. discretion in monetary policy\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week_04.html#the-tools-of-monetary-policy",
+    "href": "week_04.html#the-tools-of-monetary-policy",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "4.3 4.2 The tools of monetary policy",
+    "text": "4.3 4.2 The tools of monetary policy\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week_04.html#corridor-and-floor-systems",
+    "href": "week_04.html#corridor-and-floor-systems",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "4.4 4.3 Corridor and floor systems",
+    "text": "4.4 4.3 Corridor and floor systems\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week_04.html#bank-runs-why-they-happen-and-what-they-cost",
+    "href": "week_04.html#bank-runs-why-they-happen-and-what-they-cost",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "4.5 4.4 Bank runs: why they happen and what they cost",
+    "text": "4.5 4.4 Bank runs: why they happen and what they cost\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week_04.html#the-lender-of-last-resort",
+    "href": "week_04.html#the-lender-of-last-resort",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "4.6 4.5 The lender of last resort",
+    "text": "4.6 4.5 The lender of last resort\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week_04.html#key-terms",
+    "href": "week_04.html#key-terms",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "4.7 Key terms",
+    "text": "4.7 Key terms\nTo be populated after drafting.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week_04.html#review-questions",
+    "href": "week_04.html#review-questions",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "4.8 Review questions",
+    "text": "4.8 Review questions\nTo be added after content is finalized.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week_05.html",
+    "href": "week_05.html",
+    "title": "5  How Financial Markets Work",
+    "section": "",
+    "text": "5.1 Learning objectives\nBy the end of this chapter, you should be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week_05.html#learning-objectives",
+    "href": "week_05.html#learning-objectives",
+    "title": "5  How Financial Markets Work",
+    "section": "",
+    "text": "Explain the time value of money and calculate present and future values\nDefine interest rates and describe how they are determined\nIdentify the main types of financial markets and what they do\nExplain how financial markets channel savings into investment\nDescribe how interest rates connect the financial system to the real economy",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week_05.html#the-time-value-of-money",
+    "href": "week_05.html#the-time-value-of-money",
+    "title": "5  How Financial Markets Work",
+    "section": "5.2 5.1 The time value of money",
+    "text": "5.2 5.1 The time value of money\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week_05.html#present-value-and-future-value",
+    "href": "week_05.html#present-value-and-future-value",
+    "title": "5  How Financial Markets Work",
+    "section": "5.3 5.2 Present value and future value",
+    "text": "5.3 5.2 Present value and future value\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week_05.html#interest-rates-what-they-are-and-how-they-are-determined",
+    "href": "week_05.html#interest-rates-what-they-are-and-how-they-are-determined",
+    "title": "5  How Financial Markets Work",
+    "section": "5.4 5.3 Interest rates: what they are and how they are determined",
+    "text": "5.4 5.3 Interest rates: what they are and how they are determined\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week_05.html#the-structure-of-financial-markets",
+    "href": "week_05.html#the-structure-of-financial-markets",
+    "title": "5  How Financial Markets Work",
+    "section": "5.5 5.4 The structure of financial markets",
+    "text": "5.5 5.4 The structure of financial markets\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week_05.html#how-financial-markets-connect-savers-and-borrowers",
+    "href": "week_05.html#how-financial-markets-connect-savers-and-borrowers",
+    "title": "5  How Financial Markets Work",
+    "section": "5.6 5.5 How financial markets connect savers and borrowers",
+    "text": "5.6 5.5 How financial markets connect savers and borrowers\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week_05.html#key-terms",
+    "href": "week_05.html#key-terms",
+    "title": "5  How Financial Markets Work",
+    "section": "5.7 Key terms",
+    "text": "5.7 Key terms\nTo be populated after drafting.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week_05.html#review-questions",
+    "href": "week_05.html#review-questions",
+    "title": "5  How Financial Markets Work",
+    "section": "5.8 Review questions",
+    "text": "5.8 Review questions\nTo be added after content is finalized.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week_06.html",
+    "href": "week_06.html",
+    "title": "6  Pricing Financial Assets",
+    "section": "",
+    "text": "6.1 Learning objectives\nBy the end of this chapter, you should be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pricing Financial Assets</span>"
+    ]
+  },
+  {
+    "objectID": "week_06.html#learning-objectives",
+    "href": "week_06.html#learning-objectives",
+    "title": "6  Pricing Financial Assets",
+    "section": "",
+    "text": "Value bonds using present value and explain the inverse price-yield relationship\nInterpret the yield curve and explain what its shape signals\nValue stocks using the dividend discount model and price-earnings ratios\nState the Efficient Market Hypothesis and its three forms\nEvaluate the implications of market efficiency for investors",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pricing Financial Assets</span>"
+    ]
+  },
+  {
+    "objectID": "week_06.html#bond-valuation",
+    "href": "week_06.html#bond-valuation",
+    "title": "6  Pricing Financial Assets",
+    "section": "6.2 6.1 Bond valuation",
+    "text": "6.2 6.1 Bond valuation\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pricing Financial Assets</span>"
+    ]
+  },
+  {
+    "objectID": "week_06.html#the-yield-curve",
+    "href": "week_06.html#the-yield-curve",
+    "title": "6  Pricing Financial Assets",
+    "section": "6.3 6.2 The yield curve",
+    "text": "6.3 6.2 The yield curve\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pricing Financial Assets</span>"
+    ]
+  },
+  {
+    "objectID": "week_06.html#stock-valuation",
+    "href": "week_06.html#stock-valuation",
+    "title": "6  Pricing Financial Assets",
+    "section": "6.4 6.3 Stock valuation",
+    "text": "6.4 6.3 Stock valuation\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pricing Financial Assets</span>"
+    ]
+  },
+  {
+    "objectID": "week_06.html#the-efficient-market-hypothesis",
+    "href": "week_06.html#the-efficient-market-hypothesis",
+    "title": "6  Pricing Financial Assets",
+    "section": "6.5 6.4 The Efficient Market Hypothesis",
+    "text": "6.5 6.4 The Efficient Market Hypothesis\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pricing Financial Assets</span>"
+    ]
+  },
+  {
+    "objectID": "week_06.html#key-terms",
+    "href": "week_06.html#key-terms",
+    "title": "6  Pricing Financial Assets",
+    "section": "6.6 Key terms",
+    "text": "6.6 Key terms\nTo be populated after drafting.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pricing Financial Assets</span>"
+    ]
+  },
+  {
+    "objectID": "week_06.html#review-questions",
+    "href": "week_06.html#review-questions",
+    "title": "6  Pricing Financial Assets",
+    "section": "6.7 Review questions",
+    "text": "6.7 Review questions\nTo be added after content is finalized.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pricing Financial Assets</span>"
+    ]
+  },
+  {
+    "objectID": "week_07.html",
+    "href": "week_07.html",
+    "title": "7  Managing Risk in Financial Markets",
+    "section": "",
+    "text": "7.1 Learning objectives\nBy the end of this chapter, you should be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Managing Risk in Financial Markets</span>"
+    ]
+  },
+  {
+    "objectID": "week_07.html#learning-objectives",
+    "href": "week_07.html#learning-objectives",
+    "title": "7  Managing Risk in Financial Markets",
+    "section": "",
+    "text": "Distinguish between systematic and idiosyncratic risk and explain diversification\nDescribe the main types of derivatives and what purpose they serve\nExplain why financial regulation exists and what forms it takes\nDescribe how exchange rates are determined and what drives them\nConnect exchange rate dynamics to monetary policy and the broader macroeconomy",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Managing Risk in Financial Markets</span>"
+    ]
+  },
+  {
+    "objectID": "week_07.html#risk-and-return",
+    "href": "week_07.html#risk-and-return",
+    "title": "7  Managing Risk in Financial Markets",
+    "section": "7.2 7.1 Risk and return",
+    "text": "7.2 7.1 Risk and return\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Managing Risk in Financial Markets</span>"
+    ]
+  },
+  {
+    "objectID": "week_07.html#derivatives",
+    "href": "week_07.html#derivatives",
+    "title": "7  Managing Risk in Financial Markets",
+    "section": "7.3 7.2 Derivatives",
+    "text": "7.3 7.2 Derivatives\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Managing Risk in Financial Markets</span>"
+    ]
+  },
+  {
+    "objectID": "week_07.html#financial-regulation",
+    "href": "week_07.html#financial-regulation",
+    "title": "7  Managing Risk in Financial Markets",
+    "section": "7.4 7.3 Financial regulation",
+    "text": "7.4 7.3 Financial regulation\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Managing Risk in Financial Markets</span>"
+    ]
+  },
+  {
+    "objectID": "week_07.html#the-foreign-exchange-market",
+    "href": "week_07.html#the-foreign-exchange-market",
+    "title": "7  Managing Risk in Financial Markets",
+    "section": "7.5 7.4 The foreign exchange market",
+    "text": "7.5 7.4 The foreign exchange market\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Managing Risk in Financial Markets</span>"
+    ]
+  },
+  {
+    "objectID": "week_07.html#key-terms",
+    "href": "week_07.html#key-terms",
+    "title": "7  Managing Risk in Financial Markets",
+    "section": "7.6 Key terms",
+    "text": "7.6 Key terms\nTo be populated after drafting.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Managing Risk in Financial Markets</span>"
+    ]
+  },
+  {
+    "objectID": "week_07.html#review-questions",
+    "href": "week_07.html#review-questions",
+    "title": "7  Managing Risk in Financial Markets",
+    "section": "7.7 Review questions",
+    "text": "7.7 Review questions\nTo be added after content is finalized.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Managing Risk in Financial Markets</span>"
+    ]
+  },
+  {
+    "objectID": "week01.html",
+    "href": "week01.html",
+    "title": "1  The Nature and Price of Money",
+    "section": "",
+    "text": "1.1 What Is Money?\nLet’s start with a question that sounds almost too simple to be worth asking: what is money?\nMost people would point to the dollar bills in their wallet or the balance in their bank account. That’s a reasonable start — but it turns out that what money is and what money does are two different things. Economists care a lot about getting the distinction right, because sloppy thinking about money leads to serious confusion in economic policy.\nThe most useful way to understand money is not to look at what it’s made of, but at what it does. Money performs three essential functions in any economy.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week01.html#learning-objectives",
+    "href": "week01.html#learning-objectives",
+    "title": "1  The Nature and Price of Money",
+    "section": "",
+    "text": "Define money and explain why it exists\nDescribe the functions and properties of money\nExplain how the price level and inflation are measured\nUnderstand the relationship between money supply and inflation\nEvaluate cryptocurrencies as a form of money",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week01.html#what-is-money-and-why-does-it-exist",
+    "href": "week01.html#what-is-money-and-why-does-it-exist",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.2 1.1 What is money and why does it exist?",
+    "text": "1.2 1.1 What is money and why does it exist?\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week01.html#the-functions-and-properties-of-money",
+    "href": "week01.html#the-functions-and-properties-of-money",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.3 1.2 The functions and properties of money",
+    "text": "1.3 1.2 The functions and properties of money\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week01.html#a-brief-history-of-money",
+    "href": "week01.html#a-brief-history-of-money",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.4 1.3 A brief history of money",
+    "text": "1.4 1.3 A brief history of money\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week01.html#the-price-of-money-inflation-and-purchasing-power",
+    "href": "week01.html#the-price-of-money-inflation-and-purchasing-power",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.5 1.4 The price of money: inflation and purchasing power",
+    "text": "1.5 1.4 The price of money: inflation and purchasing power\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week01.html#cryptocurrencies-and-the-future-of-money",
+    "href": "week01.html#cryptocurrencies-and-the-future-of-money",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.6 1.5 Cryptocurrencies and the future of money",
+    "text": "1.6 1.5 Cryptocurrencies and the future of money\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week01.html#key-terms",
+    "href": "week01.html#key-terms",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.7 Key terms",
+    "text": "1.7 Key terms\nTo be populated after drafting.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week01.html#review-questions",
+    "href": "week01.html#review-questions",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.8 Review questions",
+    "text": "1.8 Review questions\nTo be added after content is finalized.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week02.html",
+    "href": "week02.html",
+    "title": "2  How Banking Developed Before Central Banks",
+    "section": "",
+    "text": "2.1 Learning objectives\nBy the end of this chapter, you should be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Banking Developed Before Central Banks</span>"
+    ]
+  },
+  {
+    "objectID": "week02.html#learning-objectives",
+    "href": "week02.html#learning-objectives",
+    "title": "2  How Banking Developed Before Central Banks",
+    "section": "",
+    "text": "Explain how commodity money systems worked and their limitations\nDescribe what free banking is and how it operated historically\nAnalyze historical cases of free banking (Scotland, the US, and others)\nEvaluate the strengths and weaknesses of decentralized banking\nUnderstand why central banks emerged as a response to free banking systems",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Banking Developed Before Central Banks</span>"
+    ]
+  },
+  {
+    "objectID": "week02.html#commodity-money-gold-silver-and-the-origins-of-banking",
+    "href": "week02.html#commodity-money-gold-silver-and-the-origins-of-banking",
+    "title": "2  How Banking Developed Before Central Banks",
+    "section": "2.2 2.1 Commodity money: gold, silver, and the origins of banking",
+    "text": "2.2 2.1 Commodity money: gold, silver, and the origins of banking\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Banking Developed Before Central Banks</span>"
+    ]
+  },
+  {
+    "objectID": "week02.html#what-is-free-banking",
+    "href": "week02.html#what-is-free-banking",
+    "title": "2  How Banking Developed Before Central Banks",
+    "section": "2.3 2.2 What is free banking?",
+    "text": "2.3 2.2 What is free banking?\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Banking Developed Before Central Banks</span>"
+    ]
+  },
+  {
+    "objectID": "week02.html#free-banking-in-practice-historical-cases",
+    "href": "week02.html#free-banking-in-practice-historical-cases",
+    "title": "2  How Banking Developed Before Central Banks",
+    "section": "2.4 2.3 Free banking in practice: historical cases",
+    "text": "2.4 2.3 Free banking in practice: historical cases\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Banking Developed Before Central Banks</span>"
+    ]
+  },
+  {
+    "objectID": "week02.html#lessons-from-the-free-banking-era",
+    "href": "week02.html#lessons-from-the-free-banking-era",
+    "title": "2  How Banking Developed Before Central Banks",
+    "section": "2.5 2.4 Lessons from the free banking era",
+    "text": "2.5 2.4 Lessons from the free banking era\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Banking Developed Before Central Banks</span>"
+    ]
+  },
+  {
+    "objectID": "week02.html#key-terms",
+    "href": "week02.html#key-terms",
+    "title": "2  How Banking Developed Before Central Banks",
+    "section": "2.6 Key terms",
+    "text": "2.6 Key terms\nTo be populated after drafting.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Banking Developed Before Central Banks</span>"
+    ]
+  },
+  {
+    "objectID": "week02.html#review-questions",
+    "href": "week02.html#review-questions",
+    "title": "2  How Banking Developed Before Central Banks",
+    "section": "2.7 Review questions",
+    "text": "2.7 Review questions\nTo be added after content is finalized.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Banking Developed Before Central Banks</span>"
+    ]
+  },
+  {
+    "objectID": "week03.html",
+    "href": "week03.html",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "",
+    "text": "3.1 Learning objectives\nBy the end of this chapter, you should be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week03.html#learning-objectives",
+    "href": "week03.html#learning-objectives",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "",
+    "text": "Describe the structure and mandate of the Federal Reserve and the ECB\nExplain how central banks differ from commercial banks\nUse the aggregate demand and aggregate supply (AD-AS) framework\nAnalyze how monetary policy shifts aggregate demand\nDistinguish between short-run and long-run macroeconomic equilibrium",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week03.html#what-central-banks-are-and-why-they-exist",
+    "href": "week03.html#what-central-banks-are-and-why-they-exist",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "3.2 3.1 What central banks are and why they exist",
+    "text": "3.2 3.1 What central banks are and why they exist\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week03.html#the-federal-reserve-structure-and-mandate",
+    "href": "week03.html#the-federal-reserve-structure-and-mandate",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "3.3 3.2 The Federal Reserve: structure and mandate",
+    "text": "3.3 3.2 The Federal Reserve: structure and mandate\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week03.html#the-european-central-bank",
+    "href": "week03.html#the-european-central-bank",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "3.4 3.3 The European Central Bank",
+    "text": "3.4 3.3 The European Central Bank\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week03.html#aggregate-demand-and-aggregate-supply",
+    "href": "week03.html#aggregate-demand-and-aggregate-supply",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "3.5 3.4 Aggregate demand and aggregate supply",
+    "text": "3.5 3.4 Aggregate demand and aggregate supply\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week03.html#monetary-policy-and-the-macroeconomy",
+    "href": "week03.html#monetary-policy-and-the-macroeconomy",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "3.6 3.5 Monetary policy and the macroeconomy",
+    "text": "3.6 3.5 Monetary policy and the macroeconomy\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week03.html#key-terms",
+    "href": "week03.html#key-terms",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "3.7 Key terms",
+    "text": "3.7 Key terms\nTo be populated after drafting.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week03.html#review-questions",
+    "href": "week03.html#review-questions",
+    "title": "3  Central Banks and the Macroeconomy",
+    "section": "3.8 Review questions",
+    "text": "3.8 Review questions\nTo be added after content is finalized.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Central Banks and the Macroeconomy</span>"
+    ]
+  },
+  {
+    "objectID": "week04.html",
+    "href": "week04.html",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "",
+    "text": "4.1 Learning objectives\nBy the end of this chapter, you should be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week04.html#learning-objectives",
+    "href": "week04.html#learning-objectives",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "",
+    "text": "Explain the debate between rules-based and discretionary monetary policy\nDescribe the main tools available to central banks\nDistinguish between corridor and floor systems for implementing policy\nExplain what bank runs are and why they happen\nUnderstand the lender of last resort function and its role in financial stability",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week04.html#rules-vs.-discretion-in-monetary-policy",
+    "href": "week04.html#rules-vs.-discretion-in-monetary-policy",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "4.2 4.1 Rules vs. discretion in monetary policy",
+    "text": "4.2 4.1 Rules vs. discretion in monetary policy\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week04.html#the-tools-of-monetary-policy",
+    "href": "week04.html#the-tools-of-monetary-policy",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "4.3 4.2 The tools of monetary policy",
+    "text": "4.3 4.2 The tools of monetary policy\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week04.html#corridor-and-floor-systems",
+    "href": "week04.html#corridor-and-floor-systems",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "4.4 4.3 Corridor and floor systems",
+    "text": "4.4 4.3 Corridor and floor systems\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week04.html#bank-runs-why-they-happen-and-what-they-cost",
+    "href": "week04.html#bank-runs-why-they-happen-and-what-they-cost",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "4.5 4.4 Bank runs: why they happen and what they cost",
+    "text": "4.5 4.4 Bank runs: why they happen and what they cost\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week04.html#the-lender-of-last-resort",
+    "href": "week04.html#the-lender-of-last-resort",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "4.6 4.5 The lender of last resort",
+    "text": "4.6 4.5 The lender of last resort\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week04.html#key-terms",
+    "href": "week04.html#key-terms",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "4.7 Key terms",
+    "text": "4.7 Key terms\nTo be populated after drafting.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week04.html#review-questions",
+    "href": "week04.html#review-questions",
+    "title": "4  How Central Banks Operate — and Why It Matters",
+    "section": "4.8 Review questions",
+    "text": "4.8 Review questions\nTo be added after content is finalized.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>How Central Banks Operate — and Why It Matters</span>"
+    ]
+  },
+  {
+    "objectID": "week05.html",
+    "href": "week05.html",
+    "title": "5  How Financial Markets Work",
+    "section": "",
+    "text": "5.1 Learning objectives\nBy the end of this chapter, you should be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week05.html#learning-objectives",
+    "href": "week05.html#learning-objectives",
+    "title": "5  How Financial Markets Work",
+    "section": "",
+    "text": "Explain the time value of money and calculate present and future values\nDefine interest rates and describe how they are determined\nIdentify the main types of financial markets and what they do\nExplain how financial markets channel savings into investment\nDescribe how interest rates connect the financial system to the real economy",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week05.html#the-time-value-of-money",
+    "href": "week05.html#the-time-value-of-money",
+    "title": "5  How Financial Markets Work",
+    "section": "5.2 5.1 The time value of money",
+    "text": "5.2 5.1 The time value of money\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week05.html#present-value-and-future-value",
+    "href": "week05.html#present-value-and-future-value",
+    "title": "5  How Financial Markets Work",
+    "section": "5.3 5.2 Present value and future value",
+    "text": "5.3 5.2 Present value and future value\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week05.html#interest-rates-what-they-are-and-how-they-are-determined",
+    "href": "week05.html#interest-rates-what-they-are-and-how-they-are-determined",
+    "title": "5  How Financial Markets Work",
+    "section": "5.4 5.3 Interest rates: what they are and how they are determined",
+    "text": "5.4 5.3 Interest rates: what they are and how they are determined\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week05.html#the-structure-of-financial-markets",
+    "href": "week05.html#the-structure-of-financial-markets",
+    "title": "5  How Financial Markets Work",
+    "section": "5.5 5.4 The structure of financial markets",
+    "text": "5.5 5.4 The structure of financial markets\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week05.html#how-financial-markets-connect-savers-and-borrowers",
+    "href": "week05.html#how-financial-markets-connect-savers-and-borrowers",
+    "title": "5  How Financial Markets Work",
+    "section": "5.6 5.5 How financial markets connect savers and borrowers",
+    "text": "5.6 5.5 How financial markets connect savers and borrowers\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week05.html#key-terms",
+    "href": "week05.html#key-terms",
+    "title": "5  How Financial Markets Work",
+    "section": "5.7 Key terms",
+    "text": "5.7 Key terms\nTo be populated after drafting.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week05.html#review-questions",
+    "href": "week05.html#review-questions",
+    "title": "5  How Financial Markets Work",
+    "section": "5.8 Review questions",
+    "text": "5.8 Review questions\nTo be added after content is finalized.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>How Financial Markets Work</span>"
+    ]
+  },
+  {
+    "objectID": "week06.html",
+    "href": "week06.html",
+    "title": "6  Pricing Financial Assets",
+    "section": "",
+    "text": "6.1 Learning objectives\nBy the end of this chapter, you should be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pricing Financial Assets</span>"
+    ]
+  },
+  {
+    "objectID": "week06.html#learning-objectives",
+    "href": "week06.html#learning-objectives",
+    "title": "6  Pricing Financial Assets",
+    "section": "",
+    "text": "Value bonds using present value and explain the inverse price-yield relationship\nInterpret the yield curve and explain what its shape signals\nValue stocks using the dividend discount model and price-earnings ratios\nState the Efficient Market Hypothesis and its three forms\nEvaluate the implications of market efficiency for investors",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pricing Financial Assets</span>"
+    ]
+  },
+  {
+    "objectID": "week06.html#bond-valuation",
+    "href": "week06.html#bond-valuation",
+    "title": "6  Pricing Financial Assets",
+    "section": "6.2 6.1 Bond valuation",
+    "text": "6.2 6.1 Bond valuation\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pricing Financial Assets</span>"
+    ]
+  },
+  {
+    "objectID": "week06.html#the-yield-curve",
+    "href": "week06.html#the-yield-curve",
+    "title": "6  Pricing Financial Assets",
+    "section": "6.3 6.2 The yield curve",
+    "text": "6.3 6.2 The yield curve\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pricing Financial Assets</span>"
+    ]
+  },
+  {
+    "objectID": "week06.html#stock-valuation",
+    "href": "week06.html#stock-valuation",
+    "title": "6  Pricing Financial Assets",
+    "section": "6.4 6.3 Stock valuation",
+    "text": "6.4 6.3 Stock valuation\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pricing Financial Assets</span>"
+    ]
+  },
+  {
+    "objectID": "week06.html#the-efficient-market-hypothesis",
+    "href": "week06.html#the-efficient-market-hypothesis",
+    "title": "6  Pricing Financial Assets",
+    "section": "6.5 6.4 The Efficient Market Hypothesis",
+    "text": "6.5 6.4 The Efficient Market Hypothesis\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pricing Financial Assets</span>"
+    ]
+  },
+  {
+    "objectID": "week06.html#key-terms",
+    "href": "week06.html#key-terms",
+    "title": "6  Pricing Financial Assets",
+    "section": "6.6 Key terms",
+    "text": "6.6 Key terms\nTo be populated after drafting.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pricing Financial Assets</span>"
+    ]
+  },
+  {
+    "objectID": "week06.html#review-questions",
+    "href": "week06.html#review-questions",
+    "title": "6  Pricing Financial Assets",
+    "section": "6.7 Review questions",
+    "text": "6.7 Review questions\nTo be added after content is finalized.",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Pricing Financial Assets</span>"
+    ]
+  },
+  {
+    "objectID": "week07.html",
+    "href": "week07.html",
+    "title": "7  Managing Risk in Financial Markets",
+    "section": "",
+    "text": "7.1 Learning objectives\nBy the end of this chapter, you should be able to:",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Managing Risk in Financial Markets</span>"
+    ]
+  },
+  {
+    "objectID": "week07.html#learning-objectives",
+    "href": "week07.html#learning-objectives",
+    "title": "7  Managing Risk in Financial Markets",
+    "section": "",
+    "text": "Distinguish between systematic and idiosyncratic risk and explain diversification\nDescribe the main types of derivatives and what purpose they serve\nExplain why financial regulation exists and what forms it takes\nDescribe how exchange rates are determined and what drives them\nConnect exchange rate dynamics to monetary policy and the broader macroeconomy",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Managing Risk in Financial Markets</span>"
+    ]
+  },
+  {
+    "objectID": "week07.html#risk-and-return",
+    "href": "week07.html#risk-and-return",
+    "title": "7  Managing Risk in Financial Markets",
+    "section": "7.2 7.1 Risk and return",
+    "text": "7.2 7.1 Risk and return\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Managing Risk in Financial Markets</span>"
+    ]
+  },
+  {
+    "objectID": "week07.html#derivatives",
+    "href": "week07.html#derivatives",
+    "title": "7  Managing Risk in Financial Markets",
+    "section": "7.3 7.2 Derivatives",
+    "text": "7.3 7.2 Derivatives\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Managing Risk in Financial Markets</span>"
+    ]
+  },
+  {
+    "objectID": "week07.html#financial-regulation",
+    "href": "week07.html#financial-regulation",
+    "title": "7  Managing Risk in Financial Markets",
+    "section": "7.4 7.3 Financial regulation",
+    "text": "7.4 7.3 Financial regulation\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Managing Risk in Financial Markets</span>"
+    ]
+  },
+  {
+    "objectID": "week07.html#the-foreign-exchange-market",
+    "href": "week07.html#the-foreign-exchange-market",
+    "title": "7  Managing Risk in Financial Markets",
+    "section": "7.5 7.4 The foreign exchange market",
+    "text": "7.5 7.4 The foreign exchange market\nContent to be drafted.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Managing Risk in Financial Markets</span>"
+    ]
+  },
+  {
+    "objectID": "week07.html#key-terms",
+    "href": "week07.html#key-terms",
+    "title": "7  Managing Risk in Financial Markets",
+    "section": "7.6 Key terms",
+    "text": "7.6 Key terms\nTo be populated after drafting.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Managing Risk in Financial Markets</span>"
+    ]
+  },
+  {
+    "objectID": "week07.html#review-questions",
+    "href": "week07.html#review-questions",
+    "title": "7  Managing Risk in Financial Markets",
+    "section": "7.7 Review questions",
+    "text": "7.7 Review questions\nTo be added after content is finalized.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Managing Risk in Financial Markets</span>"
+    ]
+  },
+  {
+    "objectID": "week01.html#what-is-money",
+    "href": "week01.html#what-is-money",
+    "title": "1  The Nature and Price of Money",
+    "section": "",
+    "text": "The Three Functions of Money\nFunction 1: Means of Payment. The most fundamental job of money is to serve as a means of payment — a commonly accepted asset that finalizes transactions. When you hand over cash (or swipe a card that triggers a transfer of funds) for a cup of coffee, the transaction is complete. The seller accepts the payment and lets you walk away. No further obligation exists between you.\nThis might sound obvious, but it’s actually an extraordinary achievement. Before money existed, people had to trade goods directly for other goods. That system is called barter, and it has a fatal flaw we’ll explore in section 1.3. Money solves that problem elegantly by becoming the universal go-between in every transaction.\nNotice also that money enables anonymous transactions. The coffee shop doesn’t need to know anything about you — your reputation, your creditworthiness, your relationship to anyone — to accept your payment. Money carries its own credibility. This anonymity is economically profound. In a barter economy, or in any system where payment depends on personal trust, you can only trade with people you know and who know you. Money dissolves that constraint: you can transact with almost anyone who carries the same commonly accepted medium of exchange, whether they live next door or on the other side of the country. This represents a massive reduction in transaction costs — the time, effort, and resources spent finding, evaluating, and negotiating with trading partners — and a correspondingly massive expansion in the potential size of the market. Adam Smith’s insight that the division of labor is limited by the extent of the market cuts both ways: money extends the market, which deepens specialization, which raises productivity. Much of modern economic prosperity traces back to this single feature of money.\n\n\n\n\n\n\nNoteKey Definition: Money\n\n\n\nMoney is an asset that is generally accepted as a means of payment for goods and services. This is the definition, and it flows from the first function. The other two functions — unit of account and store of value — are necessary conditions for money to work, but they don’t constitute its definition.\n\n\nFunction 2: Unit of Account. Money provides a common measuring stick for prices. In a modern economy with thousands of goods and services, prices are expressed in money terms: a coffee costs $4, a textbook costs $80, an apartment rents for $1,200 a month. This is enormously useful because it allows us to compare the value of very different things using a single scale.\nThink about what life would be like without a unit of account. If you wanted to know how much a textbook was worth relative to coffee, you’d need to know the textbook-to-coffee exchange rate directly. In a world with \\(n\\) goods, you’d need to track \\(\\frac{n(n-1)}{2}\\) different bilateral exchange ratios — for just 1,000 goods, that’s nearly half a million prices. A unit of account collapses this to just \\(n\\) prices, one for each good expressed in money.\nMore importantly, money prices make profit and loss calculation possible. Entrepreneurs can add up revenues and subtract costs — all in the same units — to figure out whether an activity creates or destroys value. Without a unit of account, this calculation is practically impossible, and market economies cannot function.\nFunction 3: Store of Value. For money to work as a means of payment, people need to be willing to hold it. A seller who accepts money today must be confident that it will still be worth something tomorrow. If money lost its value overnight, nobody would want to hold it, and it would cease to circulate.\nMoney is not the only store of value — stocks, bonds, real estate, and even fine art can all preserve purchasing power over time. But money is the most liquid store of value: it can be used immediately in any transaction without needing to be converted into something else first.\nIt is worth pausing to distinguish the definition of money from its functions. The definition — a generally accepted means of payment — tells us what money is. The three functions tell us what money does, and they also give us a way to evaluate money’s quality. Money that performs all three functions well is high-quality money: it is widely accepted, prices are reliably quoted in it, and it holds its value over time. Money that performs them poorly is low-quality money. The Argentine peso, for instance, qualifies as money by definition — it is the accepted means of payment within Argentina — but it performs poorly as a store of value due to persistent inflation, making it low-quality money by the three-function standard. This quality dimension matters for policy: a central bank that destroys the store-of-value function through excessive money creation does not stop producing money, it just produces worse money.\n\n\n\n\n\n\nFigure 1.1: Functions of money; do not confuse with the definition of money.\n\n\n\n\n\n\n\n\n\nWarningCommon Mistake: Confusing the Functions with the Definition\n\n\n\nStudents often assume that anything performing all three functions is money. That’s not quite right. The definition rests on the first function: general acceptance as a means of payment. Storing value alone doesn’t make something money. Gold stores value beautifully, but you can’t walk into a grocery store and pay with gold coins — gold is not money in modern economies. Bitcoin may store value (though extreme volatility makes that debatable), but it is not generally accepted as a means of payment, so it too is not money, at least not yet.\n\n\n\n\nMoney vs. Wealth, Income, and Payment Technologies\nThree things are frequently confused with money. Clearing them up now will prevent headaches later.\nMoney is not the same as wealth. This is one of the most common everyday confusions. When someone says “she has a lot of money,” they usually mean she is wealthy — not that she is literally carrying large amounts of cash. But the two are genuinely distinct, and conflating them causes real analytical errors.\nWealth is your total assets minus your total liabilities:\n\\[W = (\\text{money} + \\text{stocks} + \\text{real estate} + \\text{cars} + \\text{art}) - (\\text{mortgage} + \\text{other loans})\\]\nMoney is just one item on the asset side — and often a small one. Consider two people. The first owns a home, a diversified stock portfolio, and a car, but keeps only $200 in her checking account: she is wealthy but holds very little money in the economic sense. The second has $5,000 in cash but owes $40,000 in credit card debt and has no other assets: he holds a lot of money but has strongly negative net wealth. Having cash and being wealthy are related but distinct conditions. Indeed, a truly wealthy individual typically chooses to hold little money, because idle cash earns little return — they prefer to keep assets in higher-yielding forms like stocks or real estate.\nMoney is not the same as income. Income is a flow — earnings over a period of time. Money is a stock — an amount held at a point in time. But the relationship between them is worth spelling out carefully, because money is the form in which income is typically delivered. Your employer pays your salary in dollars rather than in apples or hours of legal advice for the same reason money exists at all: it is far more practical. Receiving income in money rather than in goods eliminates the need to negotiate what you are paid in, find buyers for your in-kind income, and evaluate its quality. Money makes income fungible — a dollar of wages buys the same things as a dollar of rental income or dividend income. That said, not all income arrives as money. Senior executives often receive part of their compensation in stock options — claims on equity that are not money but may be converted into money later. This is a reminder that the boundary between money and other assets is not always sharp in practice, even though the conceptual distinction is clear.\nMoney is not the same as payment technologies. The technology used to transfer money is not money itself. When you pay with a debit card, the card is not money — your bank deposit is. The card is just a tool to move it. This is the subject of the next section.\n\n\n\n\n\n\nFigure 1.2: Wealth is composed of money plus other assets, minus liabilities. Having cash and being wealthy are not the same thing.\n\n\n\nOne concept bridges the definition of money and its legal context: legal tender. Legal tender is an asset that a state has designated as acceptable for settling debts and paying taxes. In the US, Federal Reserve notes are legal tender — a creditor cannot legally refuse them in settlement of a debt, though a private store may choose to refuse cash for a spot transaction. Legal tender status is neither necessary nor sufficient for something to be money in the economic sense: an asset can circulate as money without legal tender designation (as privately issued banknotes did in the free banking era), and legal tender status cannot by itself make a worthless asset into functioning money. But it is an important part of the institutional framework that supports modern monetary systems.\n\nApplied: Is It Actually Money?\nThe table below applies the three functions to four familiar assets. Notice that both gold and Bitcoin fail the means-of-payment criterion — and therefore fail the definition — even though gold clearly stores value and Bitcoin might. The Argentine peso qualifies as money despite failing as a store of value, because it is still widely accepted and used for transactions and pricing within Argentina.\n\n\n\nTable 1.1: The three-function test applied to four assets.\n\n\n\n\n\n\n\n\n\n\n\n\n\nU.S. Dollar\nArgentine Peso\nGold\nBitcoin\n\n\n\n\nCommon means of exchange\n✅ Yes\n✅ Yes\n❌ No\n❌ No\n\n\nUnit of account\n✅ Yes\n✅ Yes\n❌ No\n❌ No\n\n\nStore of value\n✅ Yes\n❌ No\n✅ Yes\n❓ Maybe\n\n\nIs it money?\n✅ Yes\n✅ Yes\n❌ No\n❌ No",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week01.html#payment-technologies",
+    "href": "week01.html#payment-technologies",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.3 Payment Technologies",
+    "text": "1.3 Payment Technologies\nNow that we know what money is and how much of it exists, a separate question arises: how does it actually move from one person to another? That is the job of payment technologies — the mechanisms and instruments that transfer money between buyers and sellers. Understanding this distinction is essential, because payment technology is often confused with money itself.\nThink of it like a railroad and a train. The railroad (payment technology) is the infrastructure that moves things from one place to another; the train (money) is what actually travels along it. Building more railroads — faster, cheaper, more extensive — does not create more trains. It just moves existing trains more efficiently. In the same way, improving payment technology makes transactions faster and cheaper, but it does not create more money or change the money supply.\nHere is a question that illustrates the confusion: if you pay for lunch with Apple Pay, what are you actually paying with? The answer is not “Apple Pay.” Apple Pay is the railroad — a method of routing a transfer of funds. What you’re paying with is money held in a bank account: the train. The technology is the interface; the money is the underlying asset being moved.\nCash transactions are where the confusion is most acute, because the technology and the money look like the same thing. When you hand over a $20 bill, the physical act — moving your arm, passing paper — is the payment technology. The money is the dollar claim that bill represents. In a digital payment this is obvious (you can clearly see the app is separate from your bank balance); with cash it is less visible, but the distinction is real. The $20 bill is both the instrument and the carrier, which is what makes cash the special case — and why understanding payment technologies separately from the money supply matters most when we move beyond cash.\n\nCash\nCash is the most direct form of payment. When you hand over physical currency, you are transferring money itself — no intermediary needed, no clearing required, no counterparty risk. The transaction is immediate and final.\nThree types of money can circulate as cash:\n\nCommodity money: physical objects with value both as money and as goods — gold, silver, salt, silk. Historically important; rarely used today.\nFiat money: paper currency issued by a government with no significant non-monetary use. The US dollar, euro, and yen are all fiat money. They are valuable because governments declare them legal tender and people accept them as payment.\nDigital money: money that exists only as electronic records, with no physical counterpart and no non-monetary use.\n\n\n\nChecks\nA check is not money. It is an instruction — an order from you to your bank to transfer funds to someone else’s account. The paper itself has no intrinsic value; it is a claim on the deposit behind it.\n\n\n\n\n\n\nFigure 1.6: A check is a payment instruction, not money itself. Its design incorporates multiple security features: an authorized signature acting as a password, a MICR line encoding routing and account numbers, and intricate graphic patterns that make counterfeiting difficult..\n\n\n\nA check’s security comes from several built-in design features. The authorized signature acts as a “password” — the bank checks it against the account holder’s signature on file before honoring the instruction. The MICR line (the row of machine-readable numbers at the bottom of every check) encodes the routing number identifying the bank, the account number, and the check number, allowing automated processing and verification at scale. Sequential check numbers provide an audit trail, making it easy to detect gaps or duplicates. Magnetic ink and printed security features on the paper itself make physical counterfeiting difficult. Together, these features make checks significantly more secure than handing cash to a stranger.\nA bounced check is not “bad money” — it’s a failed instruction, because the deposit balance wasn’t there to cover it.\n\n\nElectronic Payments\nElectronic payments are the digital evolution of the check. Instead of paper, an electronic signal triggers the fund transfer.\n\nDebit cards work like electronic checks — they draw directly from your bank account in near real time.\nCredit cards work differently: the card issuer pays the merchant on your behalf, and you repay the issuer later. You are spending borrowed money — a credit line — not your own deposit.\nElectronic funds transfers move money between accounts through networks like Fedwire (large-value, real-time) or ACH (Automated Clearing House, used for recurring transactions like payroll and bills).\nReal-Time Payments (RTP): The newest development is truly instantaneous settlement. Private networks (like The Clearing House’s RTP) and the Federal Reserve’s FedNow service now clear payments in seconds, 24/7 — unlike traditional ACH, which can take one to two business days.\n\nMore recently, payment apps like Venmo, Zelle, Apple Pay, and Google Pay have made electronic transfers almost frictionless. In some markets — Kenya’s M-Pesa being the most striking example — mobile phone-based payments have replaced both cash and traditional banking for tens of millions of people. Worldwide, more individuals have a mobile phone than a bank account, making mobile money the most realistic path to financial inclusion in many developing economies.\n\n\n\n\n\n\nTipIntuition Builder: The Plumbing vs. the Water\n\n\n\nThink of the money supply as water in a plumbing system. Cash, checks, and electronic payments are different types of pipes — they move water from one place to another. The amount of water in the system is determined by monetary policy, not by the choice of pipes. A better payment technology (faster, cheaper pipes) makes the system more efficient, but it doesn’t change how much water there is. This is why the Federal Reserve tracks M1 and M2, not the volume of card or app transactions.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week01.html#a-short-history-of-money",
+    "href": "week01.html#a-short-history-of-money",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.4 A Short History of Money",
+    "text": "1.4 A Short History of Money\nMoney is one of humanity’s great institutional inventions. But unlike the steam engine or the smartphone, nobody sat down and designed it. It emerged — gradually, spontaneously, and independently in different parts of the world — as societies grew too complex for barter.\n\nThe Problem of Barter\nImagine a world without money. You’re a farmer with a surplus of apples. You want bananas. Across town, someone has bananas but wants salt. Somewhere else, a third person has salt but wants apples.\n\n\n\n\n\n\nFigure 1.7: Barter economy and the problem of double-coincidence of wants.\n\n\n\nFor direct barter to work, you need a double coincidence of wants: person A must have what person B wants, and person B must have what person A wants, at the same time and place. In a small village this might be manageable. But as economies grow — more people, more specialization, more goods — the double coincidence of wants becomes a crippling constraint on trade.\nMoney dissolves this problem. Instead of finding someone who has bananas and wants apples, you just find someone who has bananas and accepts money — which everyone does.\n\n\nHow Money Emerged: Two Competing Theories\nExplanation 1: The Spontaneous Market Account\nThe Austrian economist Carl Menger provided the classic account in the late 19th century, later formalized by Ludwig von Mises as the regression theorem. In a barter economy, some goods are more salable than others — more widely desired, more divisible, more durable. A smart trader realizes that even if the person offering salt doesn’t want what the trader has, acquiring salt is still useful because it can be traded with almost anyone later. Salt becomes a medium of exchange before it becomes money, simply through its high marketability.\nAs more traders adopt this strategy, salt’s value increases: it acquires both its consumption value and a monetary premium. This self-reinforcing process can elevate a commodity to the status of a general medium of exchange.\nThe regression theorem’s critical point: for a good to first serve as money, it must already have an established value from non-monetary uses. When adopted as money, people use yesterday’s non-monetary prices as a reference. Trace this logic backward and you always arrive at a good that had value before it was money. This means purely fiat money — with no non-monetary value — cannot emerge spontaneously from barter. It can only arise as an outgrowth of a prior commodity money system.\nWhat kinds of goods ended up as money? History gives a consistent answer: precious metals — durable (they don’t rot or rust), divisible (meltable into any denomination), portable (high value in small volume), and relatively scarce.\n\n\n\n\n\n\nTipIntuition Builder: Why Salt Before Gold?\n\n\n\nIn coastal regions with easy sea access, salt was cheap and abundant — a poor money candidate. In landlocked regions where salt required long-distance transport, it was scarce and universally desired. The word “salary” comes from the Latin salarium, related to salt payments made to Roman soldiers. Context and scarcity determine what becomes money — not any intrinsic property of the good itself.\n\n\nExplanation 2: The Chartalist Theory\nThe chartalist tradition (Georg Friedrich Knapp) offers a radically different account: money is a creature of the state, created by law rather than emerging from market exchange.\nThe core argument: what makes an asset generally accepted is not its marketability but its legal status. When a state declares an asset legal tender and demands taxes be paid in it, it creates enormous demand for that asset across the entire population. Everyone with a tax obligation must acquire it. This legally-mandated demand is what turns paper into money.\nChartalism is not primarily trying to explain money’s first appearance, but why a particular currency becomes widely accepted across a large population. The debate between spontaneous-market and chartalist views resurfaces directly in modern discussions: cryptocurrencies attempt to create money without state backing; CBDCs represent state money in new digital form.\nIt is worth noting an important distinction between the two explanations. The spontaneous market account focuses on the economic origin and role of money — why certain goods are adopted as media of exchange through voluntary market processes. The chartalist theory focuses on the legal definition and status of money — why a particular asset is declared and enforced as the accepted means of payment by state authority. These are not mutually exclusive: both economic forces and legal institutions shape what functions as money in practice. But they do point to a real and unresolved tension: can an asset become genuine money — widely accepted, broadly used as a unit of account, reliably holding its value — purely through market adoption, without any legal backing? Or does money always ultimately rest on state authority? Cryptocurrencies are, at this moment, the live experiment testing that question.\n\n\nSix Stages in the History of Money\nMonetary history can be organized into six broad stages. Each stage reflects a different answer to the same underlying questions: who issues money, what backs it, and how is its supply constrained? The progression is not a smooth line of progress — each stage solved some problems while creating others, and the transitions between them were often forced by war, financial crisis, or technological change. The figure below summarizes the sequence; the discussion that follows explains what changed at each step and why.\n\n\n\n\n\n\nFigure 1.8: Six stages in the history of money. The first five are well-established; the sixth is unfolding now.\n\n\n\nStage 1 — Commodity Money. The earliest monetary systems used commodities directly. Shells, cattle, salt, copper, silver, and eventually gold served as money in different times and places. The key feature: the money itself has non-monetary value, which puts a natural limit on supply — you can only have as much gold money as you can mine and refine.\nStage 2 — Free Banking. As economies grew, carrying gold became impractical. Private banks began issuing paper certificates (banknotes) redeemable for a fixed weight of gold on demand. Multiple competing private banks issued their own notes, all convertible to gold. This era flourished in Scotland, parts of the US, Canada, and Australia during the 18th and 19th centuries. We examine it closely in Chapter 2.\nStage 3 — The Classical Gold Standard. By the late 19th century, most major economies converged on a system where national currencies were defined as a fixed weight of gold, and central bank notes were redeemable for gold on demand. It is important to be precise here: money was still gold itself. Central bank notes were gold substitutes — claims on gold held in reserve, analogous to the way a bank check is a claim on dollars, not a separate currency. This means there was no “exchange rate” between, say, a Bank of England note and a Banque de France note in the conventional sense: both were claims on the same underlying money (gold) at fixed weights, just as there is no exchange rate between a Wells Fargo check and a JPMorgan check if both are denominated in dollars. What the gold standard constrained was the ability of governments to expand the money supply beyond what their gold reserves could back. The result was remarkable long-run price stability — but also an inability to respond flexibly to financial crises, since injecting liquidity required acquiring more gold.\nStage 4 — The Bretton Woods System. The Classical Gold Standard collapsed with World War I, as nations abandoned convertibility to finance wartime spending. After World War II, a modified system was established at Bretton Woods (1944): the US dollar was pegged to gold at $35 per ounce, and other currencies were pegged to the dollar. Only foreign central banks could exchange dollars for gold. The IMF was established to support the system.\nStage 5 — Fiat Money. As the US ran persistent balance-of-payments deficits through the 1960s, foreign central banks increasingly sought to convert dollar holdings into gold. On August 15, 1971, President Nixon suspended dollar-gold convertibility — ending Bretton Woods. All major currencies became fiat money: money by government decree, backed by nothing but the state’s authority and public acceptance. The regression theorem still applies: fiat money derived its initial value from the gold-linked money it replaced, using those existing market prices as a reference on Day 1.\nStage 6 — The Future of Money. We’re living through Stage 6 now — a period of genuine experimentation. Two paths are opening: a return toward private money through cryptocurrencies, and a continuation of state money through Central Bank Digital Currencies. The next section previews both.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week01.html#the-price-of-money-and-inflation",
+    "href": "week01.html#the-price-of-money-and-inflation",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.5 The Price of Money and Inflation",
+    "text": "1.5 The Price of Money and Inflation\nSo far we’ve covered what money is and where it came from. Now we turn to something more immediately practical: how does the value of money change over time, and what drives those changes?\nThe short answer is that money, like any other good, has a price determined by supply and demand.\n\nThe Price of Money Is Its Purchasing Power\nThe price of a good is how much money you give up to get it. The price of money, then, is how much of everything else you can get in exchange for a unit of money — its purchasing power. If the price level is \\(P\\) (a weighted average of all goods’ prices), then the purchasing power of money is \\(\\frac{1}{P}\\).\nWhen the price level rises, the purchasing power of money falls: each dollar buys less. When the price level falls, purchasing power rises. Inflation is the rate at which the price level is continuously increasing — equivalently, the rate at which purchasing power is declining.\nA crucial clarification: inflation means a continuously rising price level, not merely a high price level. The diagram below makes this precise.\n\n\n\n\n\n\nFigure 1.9: What counts as inflation. A persistently high price level, or a one-time jump, is not inflation. Inflation is the ongoing, sustained upward movement in the price level over time. The level of prices doesn’t matter for inflation — only the rate of change does.\n\n\n\nThis framing is useful because it reminds us that inflation is not something that happens to goods — it’s something that happens to money. Goods don’t appear more expensive because they became more valuable; they appear more expensive because the money used to price them became less valuable.\n\n\nSupply, Demand, and the Price Level\nLike any market, the market for money has a supply and a demand, and equilibrium determines the price level.\nMoney demand is the desire to hold money balances — to keep some wealth in liquid form rather than in stocks or real estate. You hold money because you need it for transactions: you can’t pay for lunch with Apple stock. Money demand rises with income (more transactions needed) and falls when interest rates rise (higher opportunity cost of holding idle cash).\nThere is a fundamental accounting identity that connects money holding to real spending:\n\\[Y = C + M^D\\]\nYour income (\\(Y\\)) is divided between consumption (\\(C\\)) and the money balances you choose to hold (\\(M^D\\)). Rearranged:\n\\[C = Y - M^D\\]\nThis is more than bookkeeping — it’s an economic insight. When people choose to hold more money, they by definition spend less on consumption, holding income constant. When money demand falls and people want to hold less cash, consumption rises. This direct link gives monetary policy its macroeconomic power: changes in the willingness to hold money ripple through to changes in aggregate spending.\nMoney supply is determined in a modern fiat system primarily by the central bank through its control of the monetary base. The banking system then multiplies that base into a larger supply through lending — a process covered in detail in Chapter 2.\nThe equilibrium price level \\(P^*\\) is where money demand equals money supply. Changes in either shift equilibrium and change the value of money. This is the essence of the cash-balance approach to monetary theory: the price level adjusts until people are willing to hold exactly the amount of money the central bank has supplied. If the government supplies more money than people want to hold at current prices, people try to spend the excess — they buy goods, assets, anything to reduce their cash balances. This surge in spending bids up prices until the real value of money balances falls back into line with desired holdings. The price level rises. The reverse holds when the supply falls short of desired holdings: people try to rebuild their cash balances by spending less, demand falls, and the price level adjusts downward. Equilibrium is precisely where desired money holdings equal money supplied — and therefore where the price level is no longer moving. Inflation, from this perspective, is what happens when the central bank persistently supplies more money than the public wants to hold.\n\n\nWhat Causes Inflation?\nThe general price level \\(P\\) is a weighted average of all individual prices:\n\\[P = \\omega_1 p_1 + \\omega_2 p_2 + \\cdots + \\omega_n p_n\\]\nFor \\(P\\) to rise persistently, many prices must rise simultaneously and continuously. Why would they? It is worth being precise about what can and cannot produce inflation as we have defined it — a continuous increase in the price level, not a one-time jump.\nTwo things are sometimes confused with inflation but are not, properly understood:\n\nSupply shocks (e.g., an oil embargo) raise prices in one sector. But money diverted to oil must come from somewhere — spending on other goods falls, pulling their prices down. The overall price level may shift temporarily, but without an accompanying increase in money supply the effect is a relative price change, not a sustained rise across the board. Once the shock passes, prices tend to stabilize at the new level. Additionally, a supply shock is more likely to produce a one-time jump in the price level rather than a continuous increase. The initial shock raises prices, but without ongoing excess money creation, there is no mechanism to keep pushing prices up indefinitely.\nA fall in money demand: if people want to hold less cash, they spend more, and prices rise. But this is a one-time adjustment. Once people have rebalanced their portfolios, spending normalizes and the price level stabilizes. A shift in money demand moves the price level to a new plateau; it does not keep pushing it upward indefinitely.\n\nOnly one mechanism can produce sustained, continuously rising prices: an excess of money supply that keeps growing faster than the real economy. If the central bank continuously creates more money than people want to hold, people continuously try to spend the excess, and prices continuously rise. This is the only source of genuine, persistent inflation in the sense economists mean by the term. The conclusion is stark: sustained inflation requires sustained money growth — a claim confirmed by every serious historical episode of persistent inflation without exception.\n\n\nThe Equation of Exchange\nThe equation of exchange makes this relationship precise. It is an accounting identity — true by definition:\n\\[MV \\equiv Py\\]\nwhere \\(M\\) is the money supply, \\(V\\) is the velocity of money (average number of times a dollar is spent per period), \\(P\\) is the price level, and \\(y\\) is real output (real GDP).\nThe left side, \\(MV\\), is total nominal spending. The right side, \\(Py\\), is nominal GDP. They must be equal: every dollar spent on goods and services generates an equal dollar of income for someone.\nVelocity has a useful interpretation: it’s the inverse of money demand. When people want to hold less cash relative to income, each dollar turns over faster — high velocity. When money demand is high, velocity falls.\nIn growth-rate form:\n\\[\\dot{M} + \\dot{V} \\equiv \\pi + \\dot{y}\\]\nwhere \\(\\pi\\) denotes inflation and dots denote growth rates. Money supply growth plus velocity growth equals inflation plus real output growth.\n\n\n\n\n\n\nNoteKey Definition: Money Velocity\n\n\n\nVelocity (\\(V\\)) is the average number of times a unit of money changes hands in a given period. It is the inverse of money demand. When people want to hold more cash, velocity falls; when they spend more freely, velocity rises. Velocity is not directly controlled by the central bank — it depends on payment habits, financial innovation, and expectations about the future value of money.\n\n\n\n\nThe Quantity Theory of Money\nThe equation of exchange becomes a theory when we add three empirical assumptions:\n\nReal GDP growth is roughly stable (\\(\\dot{y} \\approx 0\\) in the short run)\nVelocity is roughly stable (\\(\\dot{V} \\approx 0\\))\nThe money supply is set by the central bank (\\(M\\) is exogenous)\n\nUnder these conditions:\n\\[\\dot{M} \\approx \\pi\\]\nInflation approximately equals money supply growth. This is Milton Friedman’s dictum: “Inflation is always and everywhere a monetary phenomenon.” Persistent, large-scale inflation requires a sustained increase in the money supply — no exceptions at the extremes.\nA real-world caveat: the assumption that velocity is stable has been challenged since the 1990s. M2 velocity in the US has trended downward since then, partly because a growing share of money flows into financial assets — stocks, bonds, real estate — rather than goods and services counted in GDP. This doesn’t overturn the Quantity Theory; it reminds us that the assumptions matter and that the link between broad money and inflation has become less mechanical over time.\n\n\n\n\n\n\nImportantKey Takeaway: The Root Cause of Inflation\n\n\n\nThe Quantity Theory tells us that sustained, large-scale inflation requires sustained money supply growth. Supply shocks can temporarily raise the price level, but only excess money creation can keep inflation elevated over the long run. This is why central bank independence — keeping money creation out of politicians’ hands — is considered so critical for price stability.\n\n\n\n\nWhy Inflation Is Costly\nEven moderate inflation imposes real costs.\nCantillon effects and distorted price signals. Prices don’t rise simultaneously or uniformly. Newly created money enters the economy at specific points — through government spending or bank lending — and spreads outward. First recipients spend it before prices have risen; later recipients get it after prices have adjusted. This uneven process, named after 18th-century economist Richard Cantillon, creates arbitrary redistributions with no relation to productive contribution.\nMore fundamentally, inflation corrupts the information content of prices. In a market economy, a rising price for a particular good signals genuine increased demand, guiding producers to shift resources accordingly. But when the overall price level is rising, a producer can’t easily distinguish whether their product is becoming more valuable or whether everything is just more expensive. This extraction signal problem leads to business overexpansion based on “fake” profits — profits that are really just inflation — which eventually must be unwound.\nWealth redistribution between lenders and borrowers. Consider a concrete example. John borrows $100,000 at 7% to open a pizza restaurant. The bank expects 2% inflation (\\(\\pi^E = 2\\%\\)), so it expects a real return of 5%. John must repay $107,000 a year later — $2,000 from higher pizza prices (inflation) and $5,000 from real profits.\nNow suppose actual inflation differs from what both parties expected:\n\n\n\nTable 1.2: Inflation and wealth redistribution. Only when actual inflation equals expected inflation does neither party gain or lose relative to their plan.\n\n\n\n\n\n\n\n\n\n\n\n\n\\(\\pi &lt; \\pi^E\\)\n\\(\\pi = \\pi^E\\)\n\\(\\pi &gt; \\pi^E\\)\n\n\n\n\nLender\nGains purchasing power\nUnaffected\nLoses purchasing power\n\n\nBorrower\nLoses purchasing power\nUnaffected\nGains purchasing power\n\n\n\n\n\n\nIf inflation comes in at 1% — below expectations — John must cover more of the $107,000 from real profits; the bank does better than planned. At 3%, John’s pizza prices rise more, reducing his real burden; the bank earns less in real terms. These gains and losses are purely redistributive — no new wealth is created, just shuffled between parties based on an unpredictable macroeconomic variable. Inflation uncertainty may be even more damaging than inflation itself, since it forces lenders to demand higher risk premiums on every long-term contract, raising borrowing costs throughout the economy.\nFiscal distortions. Inflation interacts perversely with tax systems based on nominal values. Suppose you buy a stock for $100 and sell it for $110 — a $10 nominal gain on which you owe capital gains tax. But if inflation was 15% over that period, your stock’s real value actually fell. You pay taxes on an economic loss. This was a serious problem during the high-inflation 1970s in the US and remains acute in high-inflation economies today.\nThe cost of stopping inflation. Perhaps the cruelest cost is that reducing embedded inflation requires accepting real economic pain. Once inflation expectations are built into wage negotiations and price-setting, slowing money supply creates a money shortage relative to expectations. Spending falls, output contracts, unemployment rises. The Federal Reserve’s 1980–82 disinflation under Paul Volcker pushed unemployment above 10% and triggered the deepest recession since the Great Depression. That’s the price of letting inflation become entrenched in the first place.\n\n\nHyperinflation: When Money Loses All Meaning\nInflation becomes hyperinflation when it spirals out of control. The standard quantitative threshold is a monthly inflation rate of at least 50% — roughly 13,000% annually. The qualitative definition may be more instructive: hyperinflation occurs when money velocity grows out of control.\nHyperinflations are nearly always triggered by large fiscal deficits financed by printing money. As the government prints, prices rise. As prices rise, people expect more inflation and rush to spend before money loses more value. This accelerates velocity — the same money stock chases goods faster and faster. Eventually the inflation rate exceeds the money supply growth rate:\n\\[\\pi &gt; \\dot{M} \\quad \\text{because} \\quad \\dot{V} &gt; 0\\]\nAt this point, the central bank has lost control. The only remedy is a dramatic institutional shock that credibly re-anchors expectations — a currency reform, a new monetary constitution, sometimes a foreign currency peg.\nThe historical record is sobering:\n\n\n\nTable 1.3: Selected hyperinflation episodes.\n\n\n\n\n\n\n\n\n\n\n\nCountry\nPeriod\nCumulative inflation\nMax monthly rate\n\n\n\n\nUnited States\n1777–1780\n2,707%\n1,342%\n\n\nGermany\n1919–1923\n500,000,000,000%\n3,250,000%\n\n\nGreece\n1941–1944\n160,000,000,000%\n8,500,000,000%\n\n\nHungary\n1945–1946\n1.3 × 10²⁴%\n4.19 × 10¹⁶%\n\n\nBolivia\n1984–1985\n97,282%\n196%\n\n\nNicaragua\n1986–1991\n12,000,000,000%\n261%\n\n\nYugoslavia\n1993–1994\n1.6 × 10⁹%\n5 × 10¹⁵%\n\n\nZimbabwe\n2001–2008\n8.53 × 10²³%\n7.96 × 10¹⁰%\n\n\n\n\n\n\n\n\n\n\n\n\nTipIntuition Builder: The Wheelbarrow Economy\n\n\n\nThe famous image of Weimar Germany is people bringing wheelbarrows full of currency to buy bread. This illustrates an economic logic, not just colorful history. When money loses value so fast that prices double within days, no one wants to hold it for even 24 hours. You get paid, immediately spend everything, come back tomorrow and repeat. Velocity approaches infinity. The economy retreats toward barter and foreign currencies. Savings are wiped out, long-term contracts become impossible, and economic calculation breaks down entirely.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week01.html#the-future-of-money",
+    "href": "week01.html#the-future-of-money",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.6 The Future of Money",
+    "text": "1.6 The Future of Money\nThe history traced in section 1.3 ended at Stage 5: fiat money issued by central banks. Over the past fifteen years, the landscape has started to shift again, and Stage 6 is taking shape. Two broad paths are visible — one toward private money free of state control, the other extending state money into new digital forms.\n\nBitcoin and the Cryptocurrency Experiment\nBitcoin launched in January 2009, during the global financial crisis — not a coincidence. Its pseudonymous creator, Satoshi Nakamoto, framed it explicitly as a response to the failures of both central banks and private banks: a peer-to-peer payment system requiring no trusted third party.\nThe core innovation is the blockchain: a decentralized, public ledger recording every transaction. Instead of a bank certifying payment validity, a network of “miners” — computers solving computationally difficult problems — verify transactions and add them to the ledger. Miners are compensated with newly created bitcoins.\nBitcoin’s supply is pre-programmed: total bitcoins will never exceed 21 million. This creates a hard supply cap built into the code — a monetary rule no central bank governor can override. In spirit, it mimics the scarcity discipline of a gold standard.\nDoes Bitcoin qualify as money under our definition? Not yet. Bitcoin is not a common means of exchange (very few merchants accept it for everyday purchases), and it is not widely used as a unit of account (prices are not quoted in bitcoin). It may store value for some holders — though extreme price volatility makes this debatable — but storing value alone doesn’t make it money.\nThe scalability problem reinforces this. Visa processes around 24,000 transactions per second; PayPal around 193; Bitcoin manages roughly 7. This reflects a fundamental trade-off in decentralized networks between speed and security — a constraint that is architectural, not easily patched.\n\n\nStablecoins and Their Risks\nStablecoins are cryptocurrencies designed to maintain a fixed value relative to a conventional currency, usually the US dollar. Tether (USDT) and USD Coin (USDC) are the largest examples.\nThe critical question is what backs them. If actual dollar reserves, the stablecoin is essentially a digital money certificate — conceptually identical to what Scottish free banks did with gold in the 18th century. The ancient risk remains: are the reserves actually there? The collapse of the TerraUSD algorithmic stablecoin in 2022 — which claimed to maintain its peg through a complex mechanism rather than reserves — wiped out tens of billions in investor wealth overnight, demonstrating that “stable” in the name is not a guarantee.\n\n\nCentral Bank Digital Currencies (CBDCs)\nCBDCs are digital money issued directly by central banks, available to the general public — in effect, a digital version of cash that is a direct central bank liability rather than a commercial bank deposit.\nMost major central banks are actively exploring CBDCs; China has already launched a significant pilot with its digital yuan (e-CNY). Potential advantages include faster and cheaper payments, greater financial inclusion, and new tools for monetary policy transmission.\nBut CBDCs raise serious concerns — most notably privacy. Unlike cash, which is anonymous, a CBDC would give the central bank (and potentially the government) a complete record of every transaction. The contrast with Bitcoin, where anonymity is a design goal, could not be sharper:\n\n\n\nTable 1.4: Cryptocurrencies vs. CBDCs: a structural comparison.\n\n\n\n\n\n\n\n\n\n\n\nCryptocurrencies\nCBDC\n\n\n\n\nIssuer\nDecentralized / private\nCentral bank (monopoly)\n\n\nFinancial privacy\nYes\nNo\n\n\nNetwork effects\nMust build from scratch\nInherits existing monetary network\n\n\nGeographic scope\nNo constraints\nMore geographic limitations\n\n\n\n\n\n\n\n\nHistory Coming Full Circle?\nThe crypto-vs.-CBDC debate maps onto the older debate between private money and state money. For most of the 19th century, private banks issued competing currencies. During the 20th century, the state consolidated control through central banking. Now, in the 21st century, technology is reopening the question.\nThe regression theorem suggests purely private digital money faces a bootstrapping problem: if Bitcoin has no non-monetary value, where does its initial value come from? The empirical answer seems to be: speculation, network effects, and the expectation that others will value it. Whether that constitutes a stable monetary foundation remains genuinely uncertain. What is certain is that the experiment is underway — and the conceptual tools developed in this course are exactly what you need to evaluate how it unfolds.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week01.html#key-takeaways",
+    "href": "week01.html#key-takeaways",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.7 Key Takeaways",
+    "text": "1.7 Key Takeaways\n\n\n\n\n\n\nImportantChapter 1 Summary\n\n\n\nWhat money is: Money is an asset generally accepted as a means of payment. It serves three functions — means of payment, unit of account, and store of value — but its definition rests on the first. The functions also measure money’s quality: money that performs all three well is high-quality money; money that fails on store of value is low-quality money. Money is not the same as wealth, income, or payment technology. Legal tender is the state’s formal designation of an asset as acceptable for settling debts — an important institutional support for money, but neither necessary nor sufficient for something to function as money economically.\nThe money supply: Money exists in a hierarchy from narrow (monetary base) to broad (M2). Base money is the foundation — currency and bank reserves, directly controlled by the central bank. Money substitutes, created by the banking system through lending, extend this into a much larger pool of liquid assets. Reserves are embedded in bank deposits and must not be double-counted when moving from MB to M1. The monetary base, M1, and M2 each answer a different question and are useful for different purposes.\nPayment technologies: Cash, checks, and electronic payments are mechanisms for moving money — the railroad, not the train. Improving payment technology makes transactions faster and cheaper but does not change the amount of money in the economy. Cash is the special case where the instrument and the carrier are the same object.\nHow money emerged: Money arose either spontaneously through market selection of marketable commodities (regression theorem — the economic origin) or through state decree and legal tender laws (chartalism — the legal definition). These explanations address different questions and are not mutually exclusive. The gold standard was a system of gold substitutes, not a fixed exchange rate system. Fiat money emerged from the final break with commodity backing in 1971 and derived its initial value from the gold-linked money it replaced.\nThe price of money: Purchasing power (\\(1/P\\)) is determined by money supply and demand. The cash-balance approach: if money supply exceeds desired holdings, people spend the excess, pushing prices up; if it falls short, people cut spending, pushing prices down. Inflation is a continuously rising price level. Supply shocks and shifts in money demand can move the price level once but cannot sustain continuous increases. Only persistent excess money growth produces persistent inflation.\nWhy inflation is costly: Cantillon effects create arbitrary redistribution as new money enters unevenly; distorted price signals lead to misallocation; lenders lose and borrowers gain when inflation exceeds expectations; fiscal systems interact perversely with nominal values; and disinflation requires real output losses. Hyperinflation occurs when velocity accelerates out of control and requires a credible institutional reset to stop.\nThe future: Cryptocurrencies and CBDCs represent two competing visions for Stage 6 of monetary history — private decentralized money versus state digital money. Neither has displaced the fiat system, but both are forcing a rethinking of what money is, who should control it, and what it should do.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  },
+  {
+    "objectID": "week01.html#how-much-money-is-there-the-money-supply",
+    "href": "week01.html#how-much-money-is-there-the-money-supply",
+    "title": "1  The Nature and Price of Money",
+    "section": "1.2 How Much Money Is There? The Money Supply",
+    "text": "1.2 How Much Money Is There? The Money Supply\nKnowing what money is immediately raises a follow-up question: how much of it is there? The answer turns out to be surprisingly slippery, because the money supply is not a single number — it’s a hierarchy of assets that shade from perfectly liquid to somewhat less liquid. Where you draw the line determines the number you get.\n\nBase Money and Money Substitutes\nTotal money has two broad components. Base money — also called the monetary base or high-powered money — is the narrow core: historically, gold and silver coin; today, currency issued by the central bank plus the reserves that commercial banks hold on deposit at the central bank. Base money is the foundation. It is either physically in your hands or held as an electronic claim directly on the central bank.\nMoney substitutes are assets that function like money for most practical purposes but are not themselves base money. A checking account balance is the clearest example: you can use it to pay for almost anything, it is denominated in dollars, and it is redeemable on demand — but it is a claim on a commercial bank, not on the central bank directly. Other money substitutes include savings accounts, money market funds, and short-term certificates of deposit. These are slightly less liquid — they may require a transfer step or a waiting period — but they are close enough to money that they belong in any serious accounting of the money supply.\n\n\n\n\n\n\nFigure 1.3: The conceptual structure of the money supply. Base money (commodity, fiat, or digital) is the narrow foundation. Money substitutes — bank deposits, money market funds, certificates of deposit — extend it into the broader economy. The dividing line between “narrow money” and “broad money” depends on how strictly you define general acceptance.\n\n\n\nThe key insight is that money substitutes are created by the banking system through lending, not by the central bank directly. When a bank makes a loan, it credits the borrower’s deposit account — creating a new money substitute “out of thin air,” backed by the borrower’s promise to repay. This process, called fractional reserve banking, is why the total money supply is always a multiple of the monetary base. We’ll examine the mechanics in detail in Chapter 2.\n\n\nThe Official Monetary Aggregates\nBecause the line between “money” and “near-money” is not sharp, economists track the money supply at several levels of breadth. The official U.S. measures, defined by the Federal Reserve, are organized from most to least liquid:\n\n\n\n\n\n\nFigure 1.4: The U.S. monetary aggregates. Each level includes everything inside it plus additional, slightly less liquid assets. The monetary base is the most narrow; M2 is the broadest standard measure.\n\n\n\n\nMonetary Base (MB): currency in circulation plus bank reserves held at the Federal Reserve. This is the portion of the money supply under direct Fed control. A dollar of monetary base is either physical cash or an electronic reserve balance — both are claims on the central bank itself.\nM1: currency in circulation plus demand deposits (checking accounts) plus other liquid deposits. This is “transaction money” — the assets you can spend directly, without any conversion step. Note that reserves are already embedded in the deposits that banks have created against them — adding reserves again when going from MB to M1 would double-count them. M1 picks up the currency held by the public and the deposit liabilities of banks, not the reserves backing those deposits.\nM2: M1 plus savings accounts, small-denomination time deposits (certificates of deposit under $100,000), and retail money market funds. These assets are liquid but require a small step to convert into spending power — you might need to initiate a transfer or wait a day.\n\nAs of July 2024, the U.S. monetary base stood at roughly $5.6 trillion, M1 at around $18 trillion, and M2 at roughly $21 trillion. The chart below shows the components of each aggregate in dollar terms.\n\n\n\n\n\n\nFigure 1.5: Components of U.S. monetary aggregates, March 2026 (billions of dollars).\nSource: Federal Reserve H.6 Release.\n\n\n\nThe gap between the monetary base and M2 is striking — M2 is nearly four times the size of the base. This multiplier reflects the banking system’s role in creating money substitutes through lending. A $1 increase in base money can generate several dollars of additional deposits as the same reserves circulate through multiple rounds of lending and redepositing. This is not magic, and it has limits: the multiplier depends on how much cash people want to hold and how much reserves banks choose to keep. But it means the Fed’s control over M2 is indirect — it controls the base directly, and M2 responds, with some lag and uncertainty.\n\n\n\n\n\n\nWarningCommon Mistake: Treating Any Single Aggregate as the “Real” Money Supply\n\n\n\nStudents sometimes ask: which aggregate is the “true” money supply? The answer is that they measure different things and are useful for different purposes. The monetary base is what the Fed directly controls. M1 is the best measure of money used in transactions. M2 is the best measure of the total stock of liquid assets held by the public. None is more “real” than the others — each answers a different question.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>The Nature and Price of Money</span>"
+    ]
+  }
+]

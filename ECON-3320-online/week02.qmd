@@ -1,0 +1,43 @@
+# How Banking Developed Before Central Banks {#sec-week02}
+
+::: {.callout-note appearance="minimal"}
+**Week 2** | Original topics: Commodity Money and Free Banking · Free Banking in Practice
+:::
+
+## Learning objectives
+
+By the end of this chapter, you should be able to:
+
+1. Explain how commodity money systems worked and their limitations
+2. Describe what free banking is and how it operated historically
+3. Analyze historical cases of free banking (Scotland, the US, and others)
+4. Evaluate the strengths and weaknesses of decentralized banking
+5. Understand why central banks emerged as a response to free banking systems
+
+---
+
+## Commodity money: gold, silver, and the origins of banking
+
+*Content to be drafted.*
+
+## What is free banking?
+
+*Content to be drafted.*
+
+## Free banking in practice: historical cases
+
+*Content to be drafted.*
+
+## Lessons from the free banking era
+
+*Content to be drafted.*
+
+---
+
+## Key terms
+
+*To be populated after drafting.*
+
+## Review questions
+
+*To be added after content is finalized.*
