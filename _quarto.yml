@@ -8,8 +8,7 @@ book:
   date: last-modified
   date-format: "MMMM YYYY"
   description: |
-    Course readings for ECON 3320 – Money and Banking.
-    University of Texas at El Paso.
+    Course readings for ECON 3320 – Money and Banking – The University of Texas at El Paso.
 
   sidebar:
     style: docked
@@ -37,7 +36,7 @@ format:
     theme:
       light: flatly
       dark: darkly
-    fontsize: 1.1em
+    fontsize: 1.2em
     mainfont: "Georgia, serif"
     highlight-style: github
     code-fold: false
