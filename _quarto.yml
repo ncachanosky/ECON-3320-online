@@ -26,7 +26,7 @@ book:
     - references.qmd
 
   page-footer:
-    left: "© Nicolas Cachanosky, UTEP"
+    left: "© Nicolas Cachanosky, The University of Texas at El Paso, Center for Free Enterprise"
     right:
       - icon: github
         href: https://github.com/ncachanosky/money-institutions-markets
