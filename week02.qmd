@@ -107,7 +107,7 @@ The standard free banking model has a precise structure. Gold functions as outsi
 
 ### The Balance Sheet of a Commercial Bank
 
-Before we can understand how banks multiply the money supply, we need to understand how a bank's balance sheet is structured — and how it differs from the central bank balance sheet we will encounter in Chapter 3. The figure below shows three stages in the life of a simple commercial bank, each illustrating a different step in the process of financial intermediation.
+What does a bank actually do with your deposit? The answer is visible in its balance sheet — and the balance sheet also explains why banks can be fragile. The figure below traces three stages in the life of a simple commercial bank, each revealing a different step in how financial intermediation works, and building toward the question of why any bank is vulnerable to a run.
 
 ::: {#fig-bank-balance-sheet}
 ![](figures/week02/bank_balance_sheet.png)

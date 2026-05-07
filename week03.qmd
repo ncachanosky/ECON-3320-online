@@ -176,13 +176,11 @@ The US spent most of its first century repeatedly experimenting with central ban
 
 ### Structure: Independence by Design
 
-The Federal Reserve's organizational structure is complex by deliberate design. The complexity is not bureaucratic accident — it is an attempt to distribute power broadly enough that no single political actor can easily capture or dominate the institution.
+The Federal Reserve's organizational structure is complex by deliberate design — and understanding *why* it is complex illuminates how the institution is meant to work. Every layer of the structure is an answer to a specific question: how do you build a central bank that is genuinely insulated from short-term political pressure, while remaining accountable to democratic oversight over the long run?
 
-The Fed has three overlapping governance bodies:
+At the center sits the **Board of Governors** in Washington, D.C. — seven members appointed by the President and confirmed by the Senate, each serving a staggered 14-year term. The staggered terms are the key feature: a new seat opens every two years, meaning no single president can appoint a majority in one term and a full replacement takes fourteen years. The Chair and two Vice-Chairs serve four-year renewable terms within their longer appointments. The Board sets reserve requirements, supervises the banking system, and governs the regional banks.
 
-**The Board of Governors** sits in Washington, D.C. and consists of seven members appointed by the President and confirmed by the Senate to staggered 14-year terms, with a new term beginning every two years. No two governors may come from the same Federal Reserve district. The staggered terms mean that no single president can appoint a majority of the Board in a single term; a full replacement of the Board takes 14 years. The Chair and two Vice-Chairs serve four-year renewable terms within their 14-year appointment. The Board sets reserve requirements, supervises and regulates the banking system, and governs the regional banks.
-
-**The 12 Regional Federal Reserve Banks** are distributed across the country — Boston, New York, Philadelphia, Cleveland, Richmond, Atlanta, Chicago, St. Louis, Minneapolis, Kansas City, Dallas, and San Francisco. Each regional bank has a nine-member board of directors: three representing commercial banks (appointed by member banks), three representing the public (appointed by commercial banks), and three representing the public (appointed by the Board of Governors). The regional bank presidents are elected by six of the nine directors for five-year terms. This structure embeds private-sector representation directly into the Fed's governance — an unusual arrangement that reflects both the Fed's origins and the political compromise required to pass the Federal Reserve Act.
+The **12 Regional Federal Reserve Banks** — distributed from Boston to San Francisco, with districts drawn to reflect the economic geography of 1913 rather than today — are the institution's eyes and ears. Each has a nine-member board of directors that mixes commercial bankers and public representatives, creating a direct channel between the Fed and regional business conditions. This structure embeds private-sector knowledge into the Fed's governance in a way that has no parallel among other major central banks, and it was the political price of passing the Federal Reserve Act: regional banking interests insisted on representation. The regional banks also perform a function the Board cannot: they collect the on-the-ground intelligence about local economic conditions that feeds into the Beige Book and, ultimately, FOMC deliberations.
 
 ::: {#fig-fed-map}
 ![](figures/week03/fed_map.png)
@@ -190,7 +188,7 @@ The Fed has three overlapping governance bodies:
 The 12 Federal Reserve Banks are distributed across the United States, each serving a specific district. This regional structure is designed to ensure that the central bank has access to local economic information and perspectives from across the country.
 :::
 
-**The Federal Open Market Committee (FOMC)** is the monetary policy-making body. It has 12 voting members: all 7 Board governors plus 5 of the 12 regional bank presidents. The New York Fed president is a permanent voting member (reflecting New York's dominance of financial markets); the other 11 regional presidents rotate through 4 remaining seats.
+Monetary policy itself is made by the **Federal Open Market Committee (FOMC)** — twelve voting members drawn from the Board of Governors (all seven) plus five of the twelve regional bank presidents on a rotating basis. The New York Fed holds a permanent voting seat, reflecting its role as the institution that actually executes the Committee's decisions in financial markets. The other eleven regional presidents rotate through the remaining four seats, ensuring that every district's perspective enters the room regularly, even in non-voting years.
 
 ### How the FOMC Actually Operates
 

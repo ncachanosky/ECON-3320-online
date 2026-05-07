@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Course readings for ECON 3320 – Money and Banking (7-week online section). The University of Texas at El Paso.">
+<meta name="description" content="Course readings for ECON 3320 – Money and Banking – The University of Texas at El Paso.">
 
 <title>7&nbsp; Managing Risk in Financial Markets – Money, Institutions, and Markets</title>
 <style>
@@ -45,9 +45,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-065a5179aebd64318d7ea99d77b64a9e.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-5578d1df2dcac65bfc473e6e2ccf628f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-5689c72b3412457534e9673e27cf50bd.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-5578d1df2dcac65bfc473e6e2ccf628f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-224b48a91c0f626bf087add3423f4096.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-8fba65ec5d79e9223d5579f32ee5f772.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-224b48a91c0f626bf087add3423f4096.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -77,7 +77,66 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<style>
+  /* Navigation sidebar and top navbar — Lato for compact sans-serif */
+  .sidebar, .navbar, #quarto-sidebar {
+    font-family: Lato, sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
 
+  /* EO brand: hyperlinks in Copper, no underline */
+  a {
+    color: #B87333;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #B87333;
+    text-decoration: underline;
+  }
+
+  /* EO brand: callout box accent colors */
+  .callout-note      { border-left-color: #5B9BD5; }
+  .callout-tip       { border-left-color: #87A96B; }
+  .callout-warning   { border-left-color: #D4745E; }
+  .callout-important { border-left-color: #B87333; }
+
+  /* EO brand: table header in Copper */
+  thead {
+    background-color: #B87333;
+    color: white;
+  }
+</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -303,7 +362,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week03.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Central Banks and the Macroeconomy</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Central Banks</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -346,13 +405,37 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link active" data-scroll-target="#learning-objectives"><span class="header-section-number">7.1</span> Learning objectives</a></li>
-  <li><a href="#risk-and-return" id="toc-risk-and-return" class="nav-link" data-scroll-target="#risk-and-return"><span class="header-section-number">7.2</span> 7.1 Risk and return</a></li>
-  <li><a href="#derivatives" id="toc-derivatives" class="nav-link" data-scroll-target="#derivatives"><span class="header-section-number">7.3</span> 7.2 Derivatives</a></li>
-  <li><a href="#financial-regulation" id="toc-financial-regulation" class="nav-link" data-scroll-target="#financial-regulation"><span class="header-section-number">7.4</span> 7.3 Financial regulation</a></li>
-  <li><a href="#the-foreign-exchange-market" id="toc-the-foreign-exchange-market" class="nav-link" data-scroll-target="#the-foreign-exchange-market"><span class="header-section-number">7.5</span> 7.4 The foreign exchange market</a></li>
-  <li><a href="#key-terms" id="toc-key-terms" class="nav-link" data-scroll-target="#key-terms"><span class="header-section-number">7.6</span> Key terms</a></li>
-  <li><a href="#review-questions" id="toc-review-questions" class="nav-link" data-scroll-target="#review-questions"><span class="header-section-number">7.7</span> Review questions</a></li>
+  <li><a href="#risk-and-return" id="toc-risk-and-return" class="nav-link active" data-scroll-target="#risk-and-return"><span class="header-section-number">7.1</span> Risk and Return</a>
+  <ul class="collapse">
+  <li><a href="#what-risk-means-economically" id="toc-what-risk-means-economically" class="nav-link" data-scroll-target="#what-risk-means-economically">What Risk Means Economically</a></li>
+  <li><a href="#measuring-risk-expected-value-variance-and-standard-deviation" id="toc-measuring-risk-expected-value-variance-and-standard-deviation" class="nav-link" data-scroll-target="#measuring-risk-expected-value-variance-and-standard-deviation">Measuring Risk: Expected Value, Variance, and Standard Deviation</a></li>
+  <li><a href="#idiosyncratic-vs.-systematic-risk" id="toc-idiosyncratic-vs.-systematic-risk" class="nav-link" data-scroll-target="#idiosyncratic-vs.-systematic-risk">Idiosyncratic vs.&nbsp;Systematic Risk</a></li>
+  <li><a href="#the-capital-asset-pricing-model" id="toc-the-capital-asset-pricing-model" class="nav-link" data-scroll-target="#the-capital-asset-pricing-model">The Capital Asset Pricing Model</a></li>
+  </ul></li>
+  <li><a href="#derivatives" id="toc-derivatives" class="nav-link" data-scroll-target="#derivatives"><span class="header-section-number">7.2</span> Derivatives</a>
+  <ul class="collapse">
+  <li><a href="#what-derivatives-are-and-why-they-exist" id="toc-what-derivatives-are-and-why-they-exist" class="nav-link" data-scroll-target="#what-derivatives-are-and-why-they-exist">What Derivatives Are and Why They Exist</a></li>
+  <li><a href="#forwards-and-futures" id="toc-forwards-and-futures" class="nav-link" data-scroll-target="#forwards-and-futures">Forwards and Futures</a></li>
+  <li><a href="#options" id="toc-options" class="nav-link" data-scroll-target="#options">Options</a></li>
+  <li><a href="#swaps" id="toc-swaps" class="nav-link" data-scroll-target="#swaps">Swaps</a></li>
+  <li><a href="#derivatives-and-systemic-risk-the-2008-lesson" id="toc-derivatives-and-systemic-risk-the-2008-lesson" class="nav-link" data-scroll-target="#derivatives-and-systemic-risk-the-2008-lesson">Derivatives and Systemic Risk: The 2008 Lesson</a></li>
+  </ul></li>
+  <li><a href="#financial-regulation" id="toc-financial-regulation" class="nav-link" data-scroll-target="#financial-regulation"><span class="header-section-number">7.3</span> Financial Regulation</a>
+  <ul class="collapse">
+  <li><a href="#why-regulation-exists" id="toc-why-regulation-exists" class="nav-link" data-scroll-target="#why-regulation-exists">Why Regulation Exists</a></li>
+  <li><a href="#a-brief-history-of-us-financial-regulation" id="toc-a-brief-history-of-us-financial-regulation" class="nav-link" data-scroll-target="#a-brief-history-of-us-financial-regulation">A Brief History of US Financial Regulation</a></li>
+  <li><a href="#the-regulatory-landscape-today" id="toc-the-regulatory-landscape-today" class="nav-link" data-scroll-target="#the-regulatory-landscape-today">The Regulatory Landscape Today</a></li>
+  </ul></li>
+  <li><a href="#the-foreign-exchange-market" id="toc-the-foreign-exchange-market" class="nav-link" data-scroll-target="#the-foreign-exchange-market"><span class="header-section-number">7.4</span> The Foreign Exchange Market</a>
+  <ul class="collapse">
+  <li><a href="#what-exchange-rates-are" id="toc-what-exchange-rates-are" class="nav-link" data-scroll-target="#what-exchange-rates-are">What Exchange Rates Are</a></li>
+  <li><a href="#exchange-rates-in-the-long-run-purchasing-power-parity" id="toc-exchange-rates-in-the-long-run-purchasing-power-parity" class="nav-link" data-scroll-target="#exchange-rates-in-the-long-run-purchasing-power-parity">Exchange Rates in the Long Run: Purchasing Power Parity</a></li>
+  <li><a href="#exchange-rates-in-the-short-run-interest-rate-parity" id="toc-exchange-rates-in-the-short-run-interest-rate-parity" class="nav-link" data-scroll-target="#exchange-rates-in-the-short-run-interest-rate-parity">Exchange Rates in the Short Run: Interest Rate Parity</a></li>
+  <li><a href="#exchange-rate-regimes-and-the-mundell-trilemma" id="toc-exchange-rate-regimes-and-the-mundell-trilemma" class="nav-link" data-scroll-target="#exchange-rate-regimes-and-the-mundell-trilemma">Exchange Rate Regimes and the Mundell Trilemma</a></li>
+  <li><a href="#how-monetary-policy-transmits-through-exchange-rates" id="toc-how-monetary-policy-transmits-through-exchange-rates" class="nav-link" data-scroll-target="#how-monetary-policy-transmits-through-exchange-rates">How Monetary Policy Transmits Through Exchange Rates</a></li>
+  </ul></li>
+  <li><a href="#where-this-course-ends-and-where-others-begin" id="toc-where-this-course-ends-and-where-others-begin" class="nav-link" data-scroll-target="#where-this-course-ends-and-where-others-begin"><span class="header-section-number">7.5</span> Where This Course Ends and Where Others Begin</a></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways"><span class="header-section-number">7.6</span> Key Takeaways</a></li>
   </ul>
 </nav>
     </div>
@@ -362,7 +445,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-week07" class="quarto-section-identifier"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Managing Risk in Financial Markets</span></span></h1>
+<h1 class="title"><span id="sec-ch07" class="quarto-section-identifier"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Managing Risk in Financial Markets</span></span></h1>
 </div>
 
 
@@ -379,52 +462,374 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="callout callout-style-simple callout-note no-icon">
-<div class="callout-body d-flex">
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
-<div class="callout-body-container">
-<p><strong>Week 7</strong> | Original topics: Risk · Derivatives · Financial Regulation · The Foreign Exchange Market</p>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Learning Objectives
 </div>
 </div>
+<div class="callout-body-container callout-body">
+<p>By the end of this chapter, you will be able to:</p>
+<ul>
+<li>Define risk in economic terms and explain the difference between idiosyncratic and systematic risk</li>
+<li>Calculate expected value, variance, and standard deviation as measures of risk</li>
+<li>Explain how diversification reduces idiosyncratic risk but cannot eliminate systematic risk</li>
+<li>Describe the Capital Asset Pricing Model conceptually and interpret beta as a measure of systematic risk</li>
+<li>Identify the main categories of derivatives and explain the economic function each serves</li>
+<li>Explain how futures and options can be used to hedge or to speculate, and describe the asymmetric payoff structure of options</li>
+<li>Trace the historical arc of US financial regulation and explain why the regulatory landscape is fragmented across multiple agencies</li>
+<li>Define the nominal and real exchange rate, apply purchasing power parity, and explain interest rate parity</li>
+<li>Explain the Mundell trilemma and use it to interpret exchange rate regime choices</li>
+<li>Describe how monetary policy transmits through the exchange rate channel</li>
+</ul>
 </div>
-<section id="learning-objectives" class="level2" data-number="7.1">
-<h2 data-number="7.1" class="anchored" data-anchor-id="learning-objectives"><span class="header-section-number">7.1</span> Learning objectives</h2>
-<p>By the end of this chapter, you should be able to:</p>
+</div>
+<section id="risk-and-return" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="risk-and-return"><span class="header-section-number">7.1</span> Risk and Return</h2>
+<section id="what-risk-means-economically" class="level3">
+<h3 class="anchored" data-anchor-id="what-risk-means-economically">What Risk Means Economically</h3>
+<p>Risk, in everyday language, means the possibility of something bad happening. In economics, the definition is more precise and more symmetric: <strong><a href="https://en.wikipedia.org/wiki/Risk">risk</a></strong> is uncertainty about future outcomes — the possibility that what actually happens will differ from what was expected, in either direction. An investment that might return 20% or might return -10% is risky; so is one that might return 5% or 15%, even though neither outcome is “bad” in absolute terms. What matters is the dispersion of outcomes around the expected value, not just the downside.</p>
+<p>This definition matters because it determines what investors demand as compensation. People are generally <strong>risk-averse</strong>: holding expected return constant, they prefer less uncertainty. This means risky investments must offer higher expected returns to attract investors — the <strong>risk-return tradeoff</strong> that runs through all of modern finance. Every yield spread in Chapter 6 — the term premium, the credit spread, the equity risk premium — is a concrete application of this principle.</p>
+</section>
+<section id="measuring-risk-expected-value-variance-and-standard-deviation" class="level3">
+<h3 class="anchored" data-anchor-id="measuring-risk-expected-value-variance-and-standard-deviation">Measuring Risk: Expected Value, Variance, and Standard Deviation</h3>
+<p>The formal tools for measuring risk start with the <strong><a href="https://en.wikipedia.org/wiki/Expected_value">expected value</a></strong> — the probability-weighted average of all possible outcomes. When you look at a stock’s historical price chart and see it swinging 20% in a month while another barely moves 2%, standard deviation is the formal measure of that difference in volatility — the same concept, applied rigorously. If an investment returns $1,400 with 50% probability and $700 with 50% probability:</p>
+<p><span class="math display">\[E[X] = 0.5 \times \$1,400 + 0.5 \times \$700 = \$1,050\]</span></p>
+<p>The expected value tells you the center of the distribution. Risk is about the spread around that center. The <strong>variance</strong> measures that spread:</p>
+<p><span class="math display">\[V[X] = E\left[(X_i - E[X])^2\right] = 0.5 \times (\$1,400 - \$1,050)^2 + 0.5 \times (\$700 - \$1,050)^2 = \$^2 122{,}500\]</span></p>
+<p>The squaring serves two purposes: it ensures that deviations above and below the mean both contribute positively (so they don’t cancel), and it penalizes large deviations more than small ones. The <strong><a href="https://en.wikipedia.org/wiki/Standard_deviation">standard deviation</a></strong> <span class="math inline">\(\sigma\)</span> is the square root of the variance, which restores the original units:</p>
+<p><span class="math display">\[\sigma = \sqrt{V[X]} = \sqrt{\$^2 122{,}500} = \$350\]</span></p>
+<p>Standard deviation is the most commonly used measure of risk in finance. An investment with a standard deviation of $350 around an expected value of $1,050 is more volatile — and therefore riskier — than one with a standard deviation of $100 around the same mean. A higher <span class="math inline">\(\sigma\)</span> means more dispersion of outcomes, which risk-averse investors require more expected return to accept.</p>
+</section>
+<section id="idiosyncratic-vs.-systematic-risk" class="level3">
+<h3 class="anchored" data-anchor-id="idiosyncratic-vs.-systematic-risk">Idiosyncratic vs.&nbsp;Systematic Risk</h3>
+<p>Not all risk is alike. The most important distinction in financial economics divides risk into two fundamentally different types.</p>
+<p><strong>Idiosyncratic risk</strong> (also called <strong>firm-specific</strong> or <strong>unsystematic risk</strong>) is risk that is specific to a particular firm or asset — a bad earnings report, a product recall, a management scandal, a factory fire. These events affect one company without necessarily affecting others. Crucially, idiosyncratic risks tend to be <em>uncorrelated</em> across companies: when one firm has a bad quarter, it doesn’t systematically cause another firm in a different industry to have a bad quarter.</p>
+<p><strong>Systematic risk</strong> (also called <strong>market risk</strong>) is risk that affects the entire economy simultaneously — a recession, a spike in inflation, a financial crisis, a global pandemic. These events move all asset prices in the same direction because they affect the underlying economic conditions that all firms depend on.</p>
+<p>The distinction matters because of <strong><a href="https://en.wikipedia.org/wiki/Diversification_(finance)">diversification</a></strong>: holding a portfolio of many assets rather than a single asset. When you hold 50 stocks from different industries and sectors, the idiosyncratic shocks tend to cancel out — a bad outcome for one firm is offset by a good outcome for another. The variance of the portfolio falls as you add uncorrelated assets, while the expected return stays the same. Diversification is, in this sense, a free lunch: you can reduce risk without sacrificing expected return, simply by spreading investments across many uncorrelated assets.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Intuition Builder: Diversification as Hedging
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Consider two companies: 3M (a diversified manufacturer) and Texaco (an oil company). Both have a 50% chance of returning $120 and a 50% chance of staying at $100. Suppose, importantly, that their outcomes are <em>uncorrelated</em> — a good year for 3M says nothing about Texaco’s year.</p>
+<p>If you invest $100 in 3M alone: expected value = $110, standard deviation = $10.</p>
+<p>If you invest $50 in each: there are now four possible outcomes — both up ($120), 3M up/Texaco flat ($110), 3M flat/Texaco up ($110), both flat ($100). The expected value is still $110, but because the bad outcomes for one firm are partially offset by good outcomes for the other, the standard deviation falls to $7.07.</p>
+<p>The same expected return, less risk. This is diversification working exactly as intended. Now imagine doing this with 500 stocks rather than 2 — the idiosyncratic risk approaches zero while the expected return is unchanged.</p>
+</div>
+</div>
+<p>But diversification has a limit. No matter how many stocks you hold, you cannot diversify away systematic risk. A recession reduces earnings across virtually all industries simultaneously; no portfolio of domestic stocks protects you from a market-wide decline. The systematic component of each stock’s risk remains in the portfolio regardless of how widely you diversify.</p>
+<p>This is why risk-averse investors can eliminate idiosyncratic risk for free (through diversification) but must be <em>compensated</em> for bearing systematic risk. The <strong>equity risk premium</strong> — the excess return of stocks over risk-free bonds — is compensation for the systematic risk inherent in equity ownership. It cannot be diversified away, so investors demand payment for bearing it.</p>
+</section>
+<section id="the-capital-asset-pricing-model" class="level3">
+<h3 class="anchored" data-anchor-id="the-capital-asset-pricing-model">The Capital Asset Pricing Model</h3>
+<p>The <a href="https://en.wikipedia.org/wiki/Capital_asset_pricing_model">Capital Asset Pricing Model</a> (CAPM), developed by <a href="https://en.wikipedia.org/wiki/William_F._Sharpe">William Sharpe</a> (Nobel Prize, 1990), formalizes the relationship between systematic risk and expected return. The key insight is that since only systematic risk is priced — idiosyncratic risk can be diversified away for free — the relevant measure of a stock’s risk is not its total volatility but its <em>correlation with the overall market</em>.</p>
+<p><strong>Beta</strong> (<span class="math inline">\(\beta\)</span>) measures this: it is the sensitivity of a stock’s return to the market’s return. A stock with <span class="math inline">\(\beta = 1\)</span> moves exactly with the market — when the market rises 10%, the stock tends to rise 10%. A stock with <span class="math inline">\(\beta = 2\)</span> moves twice as much — when the market rises 10%, the stock tends to rise 20%, and when the market falls 10%, the stock tends to fall 20%. A stock with <span class="math inline">\(\beta = 0.5\)</span> is half as sensitive as the market. A stock with <span class="math inline">\(\beta &lt; 0\)</span> — rare, but possible for certain assets like gold — tends to move against the market, which makes it particularly valuable for diversification.</p>
+<p>The CAPM then says the expected return on any asset equals the risk-free rate plus a premium proportional to its beta:</p>
+<p><span class="math display">\[E[r_i] = r_f + \beta_i \left(E[r_m] - r_f\right)\]</span></p>
+<p>where <span class="math inline">\(r_f\)</span> is the risk-free rate, <span class="math inline">\(E[r_m]\)</span> is the expected return on the overall market, and <span class="math inline">\((E[r_m] - r_f)\)</span> is the <strong>market risk premium</strong> — the extra return the market as a whole offers above the risk-free rate. This linear relationship between beta and expected return is called the <strong>security market line</strong>.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Key Definition: Beta and the Security Market Line
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Beta</strong> (<span class="math inline">\(\beta_i\)</span>) measures a stock’s systematic risk — its sensitivity to market-wide movements. <strong>The security market line</strong> plots the expected return of every asset as a linear function of its beta: <span class="math inline">\(E[r_i] = r_f + \beta_i(E[r_m] - r_f)\)</span>. An asset plotting above the line offers more return than its systematic risk warrants — it is underpriced and will be bid up. An asset plotting below the line offers less return than its systematic risk warrants — it is overpriced and will be sold down. In equilibrium, all assets lie on the security market line.</p>
+</div>
+</div>
+<p>The CAPM completes the circuit that Chapter 6 opened. The discount rate in the Gordon Growth Model and the required return on equity in the DDM are not arbitrary — they are determined by the risk-free rate and the stock’s beta. A high-beta technology stock has a higher required return than a low-beta utility stock even when the risk-free rate is the same, because it exposes its holder to more systematic risk that cannot be diversified away. This is why high-growth firms have high discount rates and therefore lower valuations relative to current earnings — not because the market is skeptical of their growth, but because their growth is more volatile and more correlated with the economic cycle.</p>
+<p>CAPM is a model — it makes simplifying assumptions (homogeneous expectations, no taxes or transaction costs, normally distributed returns) that are not fully satisfied in practice. The empirical evidence on whether beta alone explains cross-sectional differences in returns is mixed; the Fama-French three-factor model adds size and value factors as additional explanators. But CAPM remains the foundational framework for thinking about the risk-return tradeoff and the pricing of systematic risk, and it is the starting point for virtually all subsequent asset pricing theory.</p>
+<div id="fig-capm" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-capm-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/week07/risk_premium.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-capm-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7.1: The risk premium of a given stock is an addition to the risk-free rate that compensates investors for bearing the stock’s systematic risk. The higher the beta, the higher the risk premium, and therefore the higher the expected return required by investors to hold that stock. This is the essence of the risk-return tradeoff: more risk requires more expected return.
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="derivatives" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="derivatives"><span class="header-section-number">7.2</span> Derivatives</h2>
+<section id="what-derivatives-are-and-why-they-exist" class="level3">
+<h3 class="anchored" data-anchor-id="what-derivatives-are-and-why-they-exist">What Derivatives Are and Why They Exist</h3>
+<p>A <strong><a href="https://en.wikipedia.org/wiki/Derivative_(finance)">derivative</a></strong> is a financial contract whose value is derived from an underlying asset, index, or rate — not from a direct claim on cash flows. Derivatives do not create new wealth; they redistribute existing risk. This is their primary economic function: allowing parties who face unwanted risk to transfer it to parties who are willing to bear it, typically for a price.</p>
+<p>The analogy to insurance is exact. A farmer who has planted wheat is exposed to the risk that wheat prices will fall by harvest time. A food company that needs wheat is exposed to the risk that prices will rise. A futures contract that locks in a price today transfers the price risk from both parties to whoever is willing to speculate on future price movements. Both farmer and food company can now plan with certainty; the speculator earns a return for absorbing the price uncertainty they shed.</p>
+<p>Derivatives serve two broad purposes that are not mutually exclusive: <strong><a href="https://en.wikipedia.org/wiki/Hedge_(finance)">hedging</a></strong> (reducing risk you already face) and <strong>speculation</strong> (deliberately taking on risk in expectation of profit). The same instrument can serve either purpose depending on the position of the user. What makes derivatives powerful — and dangerous — is <strong><a href="https://en.wikipedia.org/wiki/Leverage_(finance)">leverage</a></strong>: a small initial outlay controls a large notional position, amplifying both gains and losses. A futures contract on $1 million of wheat might require only $50,000 in initial margin — a 20-to-1 leverage ratio that turns a 5% price move into a 100% gain or loss on the margin.</p>
+</section>
+<section id="forwards-and-futures" class="level3">
+<h3 class="anchored" data-anchor-id="forwards-and-futures">Forwards and Futures</h3>
+<p>A <strong><a href="https://en.wikipedia.org/wiki/Forward_contract">forward contract</a></strong> is a private agreement between two parties to buy or sell an asset at a specified price on a specified future date. The buyer of a forward agrees to purchase the asset at the forward price regardless of what the <a href="https://en.wikipedia.org/wiki/Spot_contract">spot price</a> is at delivery; the seller agrees to deliver at that price. Both parties are locked in — neither can walk away.</p>
+<p>The key features: forwards are customized (terms are negotiated between the two parties), traded over-the-counter (not on exchanges), and carry <strong>counterparty risk</strong> (if one party defaults before the delivery date, the other is exposed).</p>
+<p>A <strong><a href="https://en.wikipedia.org/wiki/Futures_contract">futures contract</a></strong> standardizes the forward contract and trades on an exchange. Standardization — specified contract size, delivery dates, and quality grades — makes futures easily tradable in secondary markets. Exchange trading eliminates counterparty risk through a <strong>clearinghouse</strong> that stands between buyer and seller, guaranteeing performance. Daily <strong>mark-to-market</strong> settlement means gains and losses are credited and debited daily rather than accumulated until expiration — which limits the buildup of counterparty exposure.</p>
+<p>Futures contracts are settled either by physical delivery (the commodity is actually delivered) or cash settlement (the difference between the futures price and the spot price at expiration is paid in cash). Most financial futures (on stock indices, interest rates, currencies) are cash-settled.</p>
+<div id="fig-forward" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-forward-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/week07/forward.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-forward-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7.2: In a forward or future contract, parties agree to exchange an asset at a future date for a price agreed upon today. The buyer of the contract is long the asset (benefits if the price rises), while the seller is short (benefits if the price falls). The contract’s value fluctuates with changes in the underlying asset’s price, and leverage amplifies these fluctuations.
+</figcaption>
+</figure>
+</div>
+<p><strong>Hedging with futures:</strong> a wheat farmer who sells a futures contract locks in today’s price, protecting against a price decline. If prices fall, the gain on the short futures position offsets the loss on the physical crop. If prices rise, the gain on the physical crop is offset by the loss on the futures — but the farmer’s goal was price certainty, not speculation. The food company that buys the futures contract is similarly hedged against a price increase.</p>
+<p><strong>Speculating with futures:</strong> a speculator with no underlying exposure can take a futures position as a bet on price direction. The leverage inherent in futures — small initial margin controls large notional positions — makes futures contracts attractive to speculators willing to accept the amplified risk.</p>
+</section>
+<section id="options" class="level3">
+<h3 class="anchored" data-anchor-id="options">Options</h3>
+<p>An <strong><a href="https://en.wikipedia.org/wiki/Option_(finance)">option</a></strong> gives the holder the <em>right but not the obligation</em> to buy or sell an underlying asset at a specified price (the <strong>strike price</strong>) on or before a specified date. This asymmetry — a right, not an obligation — is what makes options fundamentally different from futures, and is the source of their value.</p>
+<p>There are two basic types:</p>
+<p>A <strong>call option</strong> is the right to <em>buy</em> the underlying at the strike price. The buyer of a call benefits when the underlying price rises above the strike: they can buy at the strike and immediately sell at the higher market price, or simply sell the option which has now appreciated in value. If the underlying price stays below the strike, the call expires worthless — the buyer’s maximum loss is the <strong>premium</strong> paid to acquire the option.</p>
+<p>A <strong>put option</strong> is the right to <em>sell</em> the underlying at the strike price. The buyer of a put benefits when the underlying price falls below the strike: they can sell at the strike when the market price is lower. If the price stays above the strike, the put expires worthless and the buyer loses only the premium.</p>
+<p>The asymmetric payoff structure — unlimited upside (for a call), limited downside (to the premium paid) — is the defining feature of options. This asymmetry has a price: the option premium, which is higher when the underlying is more volatile (more chance of ending up in-the-money), when the time to expiration is longer (more time for the underlying to move favorably), and when the strike is closer to the current market price.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Intuition Builder: Options as Insurance
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Think of a put option as car insurance. You pay a premium today for the right to “sell” your car at a predetermined value (the strike price, analogous to the insurance payout) if its value falls (an accident). If nothing bad happens, the insurance expires worthless and you’ve lost the premium — but you were happy to pay for the protection. If something bad happens, the insurance pays off. The insurance company (the option seller) earns the premium in exchange for bearing the downside risk you don’t want.</p>
+<p>The call option is the mirror image: the right to buy at a fixed price if the value rises above it. This is how employee stock options work — you have the right to buy company stock at today’s price in five years. If the stock price rises, the option is valuable. If it falls, you simply don’t exercise it.</p>
+</div>
+</div>
+<p>Options can also be combined to create more complex risk profiles. Buying a call and selling a put at the same strike and expiration is equivalent to a long futures position. This “put-call parity” relationship — which must hold by arbitrage — illustrates how derivatives are not independent instruments but are deeply interconnected through the no-arbitrage principle.</p>
+<p>Options are classified by exercise timing: <strong>American options</strong> can be exercised at any time on or before expiration; <strong>European options</strong> can only be exercised at expiration. Most exchange-traded equity options are American; most index options and currency options are European.</p>
+</section>
+<section id="swaps" class="level3">
+<h3 class="anchored" data-anchor-id="swaps">Swaps</h3>
+<p>A <strong><a href="https://en.wikipedia.org/wiki/Swap_(finance)">swap</a></strong> is an agreement between two counterparties to exchange cash flow streams over a specified period. The most common type is the <strong>interest rate swap</strong>: one party pays a fixed interest rate on a notional principal; the other pays a floating rate. The notional principal itself never changes hands — only the interest payments are exchanged.</p>
+<p>Why would two parties want to exchange interest rate streams? Consider a commercial bank that has made a long-term fixed-rate loan to a business (earning a fixed cash flow) but has funded itself with floating-rate deposits (paying a variable cost). The bank faces <strong>interest rate risk</strong>: if rates rise, its funding costs rise while its loan income stays fixed. By entering a swap where it pays fixed and receives floating, the bank converts its fixed loan income into effectively floating income, matching its funding costs.</p>
+<p>Interest rate swaps are now among the largest financial markets in the world — the notional value of outstanding interest rate swaps runs to hundreds of trillions of dollars globally. This is not because the underlying economic risk is that large, but because the same notional principal can be used in many transactions simultaneously, and because many institutions with interest rate mismatches on their balance sheets use swaps to manage them.</p>
+<div id="fig-interest_rate_swap" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-interest_rate_swap-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/week07/interest_rate_swap.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-interest_rate_swap-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7.3: Interest rate swaps (IRS) allow parties to exchange fixed and floating interest payments, effectively transforming the risk profile of their cash flows. A bank with fixed-rate assets and floating-rate liabilities can use an IRS to convert its fixed income into floating income, reducing its exposure to rising interest rates. The swap market is a critical component of the financial system’s risk management infrastructure.
+</figcaption>
+</figure>
+</div>
+<p>The connection to monetary policy is direct. Interest rate swaps effectively allow participants to separate the duration risk of a long-term bond from its credit risk — a bank can hold a long-term bond (for its credit return) while swapping out the interest rate risk. The floor system discussed in Chapter 4, where the Fed pays IORB to anchor short-term rates, interacts directly with the swap market: movements in IORB affect the short end of the swap curve, which then propagates through the entire market for fixed-income instruments.</p>
+</section>
+<section id="derivatives-and-systemic-risk-the-2008-lesson" class="level3">
+<h3 class="anchored" data-anchor-id="derivatives-and-systemic-risk-the-2008-lesson">Derivatives and Systemic Risk: The 2008 Lesson</h3>
+<p>The first thing to understand about derivatives is that they do not make risk disappear. They <em>move</em> it — from parties who don’t want it to parties who are willing to bear it. This is their entire economic function. The question that the 2008 crisis answered brutally is: what happens when the parties absorbing the risk don’t actually have the capacity to bear it, and when they took on that risk partly because they expected to be rescued if things went wrong?</p>
+<p><strong>Credit default swaps (CDS)</strong> are derivatives in which the seller agrees to compensate the buyer if a specified borrower defaults. They function like insurance on bonds: a bank holding mortgage-backed securities could buy CDS protection against default, transferring the credit risk to the CDS seller. In principle, this is exactly what derivatives are supposed to do — transfer risk to parties better able to bear it.</p>
+<p>The problem was that CDS sellers — most prominently <a href="https://en.wikipedia.org/wiki/American_International_Group">AIG</a> — wrote enormous volumes of protection without holding adequate reserves. AIG had written over $440 billion in CDS protection by 2008, with almost no capital set aside to cover potential losses. This is not how insurance is supposed to work: an insurer that collects premiums without maintaining reserves is not transferring risk — it is concentrating it while pretending to diversify it.</p>
+<p>Why did AIG accumulate such exposure? The answer connects directly to the moral hazard discussion from Chapter 4. AIG was a systemically important institution — large enough, interconnected enough, that its failure would cascade through the entire financial system. Market participants understood this. AIG’s counterparties had little incentive to scrutinize its reserve adequacy because they implicitly expected that if AIG failed, the government would step in. AIG’s managers had limited incentive to maintain costly reserves because they too understood that the downside was socialized — any catastrophic loss would become a public problem, not just a private one. The TBTF implicit guarantee discussed in Chapter 4 distorted incentives not just for banks themselves but for the entire network of counterparties transacting with them. Derivatives moved the risk from banks’ balance sheets to AIG’s — but the underlying moral hazard meant the risk hadn’t truly been transferred to a party better able to bear it. It had been transferred to the implicit public guarantee.</p>
+<p>When the housing market collapsed and the mortgage-backed securities that CDS had been written on began defaulting en masse, AIG faced losses far exceeding its capital. Its failure would have triggered defaults across the entire financial system — every institution that had bought CDS protection from AIG would suddenly find itself unhedged. The US government intervened with an $85 billion rescue to prevent this cascade — confirming exactly the implicit guarantee that had enabled the risk accumulation in the first place.</p>
+<p>The AIG episode illustrates two principles that run through the entire course. First, derivatives move risk — they do not eliminate it. The question that matters is whether the party absorbing the risk is genuinely capable and willing to bear it, not whether a contract exists that appears to transfer it. Second, when systemically important institutions operate under an implicit government backstop, market discipline breaks down: counterparties stop monitoring, managers stop managing, and risk accumulates invisibly until it becomes a public crisis. The 2010 Dodd-Frank Act responded by requiring most standardized derivatives to be centrally cleared — moving them from bilateral over-the-counter contracts (where counterparty risk accumulates invisibly) to exchange-like clearinghouses (where it is visible, margined, and managed).</p>
+</section>
+</section>
+<section id="financial-regulation" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="financial-regulation"><span class="header-section-number">7.3</span> Financial Regulation</h2>
+<section id="why-regulation-exists" class="level3">
+<h3 class="anchored" data-anchor-id="why-regulation-exists">Why Regulation Exists</h3>
+<p>Chapter 5 established the three rationales for financial regulation: systemic externalities (a failing bank imposes costs on parties not involved in any transaction with it), asymmetric information (investors and depositors cannot fully evaluate the risk of the institutions they deal with), and market power (concentrated financial markets can extract rents from captive participants). These rationales have not changed since Chapter 5, but the historical record of US financial regulation illustrates how the regulatory response to each failure has evolved — and how deregulation has repeatedly set the stage for the next crisis.</p>
+</section>
+<section id="a-brief-history-of-us-financial-regulation" class="level3">
+<h3 class="anchored" data-anchor-id="a-brief-history-of-us-financial-regulation">A Brief History of US Financial Regulation</h3>
+<p>The pattern of US financial regulation follows a recurring arc: crisis → regulation → complacency → deregulation → crisis → re-regulation. Understanding this arc makes the current regulatory landscape intelligible rather than arbitrary.</p>
+<p><strong>The National Banking Acts (1863–1864).</strong> Chapter 2 established that the National Banking System created inelastic currency and concentrated risk through branching prohibitions and bond-backed reserve requirements. The acts themselves were regulatory responses to the perceived instability of the antebellum banking era — but that era’s instability was itself largely regulatory in origin. The “free banking” period of 1837–1862 was, in most states, not genuine free banking: it was banking under state-specific regulations of varying quality, some of which produced fragile institutions. The claim that it was characterized by rampant “wildcat banking” — reckless note issue by fly-by-night operators — is more myth than history. Research by economists Hugh Rockoff and Arthur Rolnick and Warren Weber found that the worst banking failures of the period were concentrated in states with specific regulatory defects, not evidence of unregulated competition failing systemically. The National Banking Acts responded to a problem that was partly real and partly manufactured, and in doing so created a new set of regulatory distortions — precisely the branching prohibitions and reserve requirements that produced the panics of 1873, 1884, 1893, and 1907. The lesson is the book’s recurring one: regulatory failures are attributed to markets, and the policy response extends government involvement rather than removing the original distortion.</p>
+<p><strong>The Federal Reserve Act (1913).</strong> As Chapter 3 established, the Fed was created as a political response to the Panic of 1907 — itself a product of the National Banking System’s distortions. The Fed was supposed to provide an elastic currency and a lender of last resort. Its failure to fulfill either function in 1929–1933 made the Great Depression a catastrophe rather than a severe recession.</p>
+<p><strong>Glass-Steagall and the FDIC (1933).</strong> The Banking Act of 1933 — better known by its authors, <a href="https://en.wikipedia.org/wiki/Carter_Glass">Carter Glass</a> and <a href="https://en.wikipedia.org/wiki/Henry_Steagall">Henry Steagall</a> — made two lasting changes. First, it created the <a href="https://en.wikipedia.org/wiki/Federal_Deposit_Insurance_Corporation">FDIC</a>, providing federal deposit insurance up to specified limits — solving the retail bank run problem discussed in Chapter 4 at the cost of the moral hazard also discussed there. Second, and more controversially, it separated <strong>commercial banking</strong> (taking deposits, making loans) from <strong>investment banking</strong> (underwriting securities, trading). The rationale was that commercial banks had used depositor funds to speculate in securities markets, and the resulting losses had contributed to the banking collapse. Glass-Steagall drew a hard regulatory wall between the two activities for over 60 years.</p>
+<p><strong>The Bretton Woods regulatory framework (1944).</strong> At the international level, Bretton Woods established the IMF and World Bank and created a system of fixed exchange rates under dollar-gold convertibility — as Chapter 2 described. It also implicitly endorsed capital controls: most countries restricted cross-border capital flows, which insulated domestic monetary policy from international pressure. This architecture held as long as the dollar’s gold convertibility was credible.</p>
+<p><strong>The S&amp;L Crisis and Deregulation (1980s).</strong> By the 1970s, inflation had eroded the profitability of savings and loan institutions (S&amp;Ls), which were locked into long-term fixed-rate mortgages while their funding costs rose with inflation. Congress responded with partial deregulation — allowing S&amp;Ls to expand into riskier commercial lending while maintaining federal deposit insurance. This created a classic moral hazard: S&amp;L managers, operating with insured deposits and limited supervision, took increasingly risky bets. When those bets failed, taxpayers absorbed losses eventually totaling over $130 billion — the largest financial bailout in US history to that point. The S&amp;L crisis is the canonical example of what happens when deposit insurance expands to cover riskier activities without a commensurate increase in supervision.</p>
+<p><strong>Gramm-Leach-Bliley (1999).</strong> The <a href="https://en.wikipedia.org/wiki/Gramm%E2%80%93Leach%E2%80%93Bliley_Act">Financial Services Modernization Act</a> of 1999 formally repealed Glass-Steagall’s separation of commercial and investment banking. Financial “supermarkets” — institutions combining banking, insurance, and securities activities — were now permitted. The stated rationale was that the separation had become outdated and that combining activities would produce efficiencies. Critics argued it would allow commercial banks to use insured deposits to fund investment banking risk — the same concern that motivated Glass-Steagall in 1933. The crisis of 2008 did not resolve this debate definitively, but it demonstrated that very large, diversified financial institutions could fail in ways that created exactly the systemic risk that Glass-Steagall had been designed to prevent.</p>
+<p><strong>Dodd-Frank (2010).</strong> The <a href="https://en.wikipedia.org/wiki/Dodd%E2%80%93Frank_Wall%E2%80%93Frank_Act">Dodd-Frank Wall Street Reform and Consumer Protection Act</a> was the most comprehensive financial regulatory overhaul since the 1930s. Its key provisions: the <strong>Volcker Rule</strong> restricts banks from proprietary trading (trading for their own account rather than for clients), echoing Glass-Steagall in a narrower form; the <strong>FSOC</strong> (Financial Stability Oversight Council) creates a cross-agency body to identify systemic risks; enhanced supervision and capital requirements for <strong>systemically important financial institutions (SIFIs)</strong>; mandatory central clearing for standardized derivatives; and the <strong>CFPB</strong> (Consumer Financial Protection Bureau) for retail financial consumer protection.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Key Takeaway: Regulation as Whack-a-Mole
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The history of US financial regulation reveals a recurring pattern: a crisis reveals a gap between the risks being taken and the safeguards in place → regulation is enacted to close the gap → the regulated industry adapts, finding new ways to take similar risks outside the regulatory perimeter → risk re-emerges in a new location → crisis → re-regulation. This is financial regulation played as whack-a-mole: every time risk is suppressed in one place, it pops up somewhere else.</p>
+<p>Glass-Steagall pushed risk out of commercial banking. It reappeared in investment banks and, eventually, the shadow banking system. Dodd-Frank pushed derivatives onto centralized clearinghouses. Risk migrated to money market funds and non-bank financial institutions outside the clearing mandate. This is not a failure of regulatory intent — it is a predictable consequence of trying to contain risk rather than to make it visible and tradeable.</p>
+<p>A more durable regulatory philosophy would focus not on prohibiting risk-taking but on <em>transparency</em>: ensuring that risk is visible, properly capitalized against, and allocated to parties who genuinely understand and can bear it. The goal is not to cage risk in a regulatory box but to ensure that when it moves — as it always will — it moves to parties who are pricing it correctly and holding adequate reserves. Capital requirements, margin requirements, and central clearing mandates all work in this direction. Prohibitions on specific activities (Glass-Steagall, the Volcker Rule) work against it: they relocate risk rather than price it.</p>
+</div>
+</div>
+</section>
+<section id="the-regulatory-landscape-today" class="level3">
+<h3 class="anchored" data-anchor-id="the-regulatory-landscape-today">The Regulatory Landscape Today</h3>
+<p>The post-Dodd-Frank regulatory landscape represents an attempt to address both problems simultaneously: the coordination failure exposed by 2008 (through FSOC) and the competitive benefits of regulatory pluralism (through the retained fragmentation). The result is a framework with multiple agencies, each with distinct jurisdiction:</p>
+<ul>
+<li>The <strong>Federal Reserve</strong> supervises bank holding companies and systemically important financial institutions; sets monetary policy; serves as LOLR</li>
+<li>The <strong>OCC</strong> (Office of the Comptroller of the Currency) charters and supervises nationally chartered banks</li>
+<li>The <strong>FDIC</strong> insures deposits and resolves failed banks</li>
+<li>The <strong>SEC</strong> regulates securities markets, investment advisors, and public company disclosure</li>
+<li>The <strong>CFTC</strong> regulates futures and derivatives markets</li>
+<li>The <strong>CFPB</strong> protects retail financial consumers</li>
+<li><strong>State banking regulators</strong> charter and supervise state-chartered banks</li>
+</ul>
+<p>Why so many? The fragmentation has costs: coordination failures (the 2008 shadow banking system fell between jurisdictions) and regulatory inconsistency (similar activities may be regulated differently depending on which agency has jurisdiction). But it also has a benefit that is easy to underestimate: <strong>regulatory competition</strong>. Finance is a dynamic, internationally competitive industry that changes faster than any single regulatory body can track. Multiple regulators create incentives for each agency to maintain competence and responsiveness — an agency that falls behind loses jurisdiction as regulated entities migrate to competitors. This is the same argument for competitive markets over monopoly applied to regulatory institutions: competition, even among regulators, tends to produce better outcomes than monopoly.</p>
+<p>The FSOC, created by Dodd-Frank, attempts to capture the coordination benefits of a unified regulator (sharing information, identifying systemic risks that cross jurisdictional lines) while preserving the competitive benefits of multiple agencies. Whether this architecture is sufficient to prevent the next crisis or merely to manage it more effectively remains the central open question in financial regulatory design.</p>
+</section>
+</section>
+<section id="the-foreign-exchange-market" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="the-foreign-exchange-market"><span class="header-section-number">7.4</span> The Foreign Exchange Market</h2>
+<section id="what-exchange-rates-are" class="level3">
+<h3 class="anchored" data-anchor-id="what-exchange-rates-are">What Exchange Rates Are</h3>
+<p>An <strong><a href="https://en.wikipedia.org/wiki/Exchange_rate">exchange rate</a></strong> is the price of one currency in terms of another. When we write <span class="math inline">\(e_{EUR} = \frac{\text{USD}}{\text{EUR}}\)</span>, we are quoting the number of US dollars required to purchase one euro. If <span class="math inline">\(e_{EUR} = 1.10\)</span>, one euro buys $1.10. When this rate rises — say from 1.10 to 1.20 — the euro has <em>appreciated</em> (it now buys more dollars) and the dollar has <em>depreciated</em> (each dollar now buys fewer euros). This directionality matters: students often confuse themselves by forgetting which currency is in the numerator.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Common Mistake: Which Way Does the Exchange Rate Move?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>When <span class="math inline">\(e_{EUR}\)</span> rises, it takes <em>more dollars</em> to buy a euro — the dollar is weaker, the euro is stronger. A rising <span class="math inline">\(e_{EUR}\)</span> means dollar depreciation, not appreciation. A useful check: if <span class="math inline">\(e_{EUR}\)</span> rises from 1.10 to 1.20, a European vacation that cost $11,000 now costs $12,000 — Americans are worse off. So a rising <span class="math inline">\(e_{EUR}\)</span> is bad for Americans: the dollar has depreciated.</p>
+</div>
+</div>
+<p>The <strong>nominal exchange rate</strong> is this direct currency price. The <strong>real exchange rate</strong> adjusts for relative price levels across countries:</p>
+<p><span class="math display">\[\text{RER} = e \cdot \frac{P_{\text{foreign}}}{P_{\text{domestic}}}\]</span></p>
+<p>The real exchange rate measures the relative price of a representative basket of goods across countries — how much of the domestic basket must be exchanged to get one unit of the foreign basket. It is the exchange rate that matters for trade competitiveness: a country with low inflation but a rising nominal exchange rate may have a stable or improving real exchange rate, meaning its exports remain competitively priced.</p>
+</section>
+<section id="exchange-rates-in-the-long-run-purchasing-power-parity" class="level3">
+<h3 class="anchored" data-anchor-id="exchange-rates-in-the-long-run-purchasing-power-parity">Exchange Rates in the Long Run: Purchasing Power Parity</h3>
+<p>In the long run, exchange rates are anchored by the <strong><a href="https://en.wikipedia.org/wiki/Law_of_one_price">law of one price (LOOP)</a></strong>: in competitive markets with no barriers to trade, the same good should sell for the same price everywhere when expressed in a common currency. If a commodity sells for $100 in the US and €80 in Europe, then the exchange rate must be <span class="math inline">\(e_{EUR} = \frac{100USD}{80EUR} = 1.25 \frac{USD}{EUR}\)</span> — otherwise arbitrageurs would profit by buying where it’s cheap and selling where it’s expensive until prices equalize.</p>
+<p><strong><a href="https://en.wikipedia.org/wiki/Purchasing_power_parity">Purchasing Power Parity (PPP)</a></strong> applies the law of one price to the general price level: the exchange rate should equal the ratio of the two countries’ price levels.</p>
+<p><span class="math display">\[e = \frac{P_{\text{USD}}}{P_{\text{EUR}}}\]</span></p>
+<p>In its <strong>relative</strong> form, PPP says that the <em>percentage change</em> in the exchange rate equals the inflation differential:</p>
+<p><span class="math display">\[\%\Delta e \approx \pi_{\text{USD}} - \pi_{\text{EUR}}\]</span></p>
+<p>If US inflation runs 3% and European inflation runs 1%, the dollar should depreciate by approximately 2% against the euro per year — otherwise US goods become progressively more expensive relative to European goods, which trade flows would eventually correct.</p>
+<p>PPP holds approximately in the long run but poorly in the short run. Non-tradable goods (haircuts, restaurant meals, real estate) don’t face international arbitrage and can have very different prices across countries. Transportation costs, tariffs, and quality differences all create wedges. But over horizons of 10–20 years, countries with systematically higher inflation do see their currencies depreciate, broadly consistent with PPP. The implication for Chapter 1’s inflation discussion: countries that inflate their currencies lose purchasing power not only domestically (the inflation tax) but also internationally (exchange rate depreciation).</p>
+</section>
+<section id="exchange-rates-in-the-short-run-interest-rate-parity" class="level3">
+<h3 class="anchored" data-anchor-id="exchange-rates-in-the-short-run-interest-rate-parity">Exchange Rates in the Short Run: Interest Rate Parity</h3>
+<p>If PPP cannot explain short-run exchange rate movements — and it demonstrably cannot, since exchange rates routinely move by several percent in a single day while price levels move by fractions of a percent over months — then what does?</p>
+<p>The answer requires a shift in perspective. PPP is a theory of exchange rates as relative <em>goods</em> prices: it asks where it is cheaper to buy a basket of commodities, and assumes trade flows will arbitrage away the difference. But in modern financial markets, the dominant force determining exchange rates is not the desire to buy foreign goods — it is the desire to buy foreign <em>financial assets</em>. An investor deciding whether to hold US Treasury bonds or German Bunds is not interested in the price of foreign restaurant meals. They are interested in which asset offers the better risk-adjusted return, once the cost of currency conversion is accounted for.</p>
+<p>In the short run, the exchange rate is determined by capital flows, not trade flows. Currencies are financial assets, and their prices respond to the same forces that drive all asset prices: expected returns, risk perceptions, and shifts in investor sentiment. When the Fed raises interest rates, dollar-denominated assets become more attractive to global investors, capital flows into the US, and the dollar appreciates — all within days, long before any trade flow adjustment could occur. The condition governing these capital flows is <strong><a href="https://en.wikipedia.org/wiki/Interest_rate_parity">interest rate parity</a></strong>: in equilibrium, the expected return from investing in any currency should be equal, once exchange rate movements are accounted for.</p>
+<p><strong>Covered Interest Rate Parity (CIP)</strong> is the arbitrage condition when investors can eliminate exchange rate risk using forward contracts. A US investor choosing between a US Treasury earning <span class="math inline">\(i_{USD}\)</span> and a euro-denominated bond earning <span class="math inline">\(i_{EUR}\)</span>, while locking in the future exchange rate using a forward contract, should be indifferent between the two:</p>
+<p><span class="math display">\[1 + i_{USD} = (1 + i_{EUR}) \cdot \frac{F}{e}\]</span></p>
+<p>where <span class="math inline">\(F\)</span> is the forward exchange rate and <span class="math inline">\(e\)</span> is the spot rate. Rearranging: the forward premium on the euro <span class="math inline">\(\frac{F - e}{e}\)</span> must equal the interest differential <span class="math inline">\(i_{USD} - i_{EUR}\)</span>. CIP is essentially a no-arbitrage condition: if it violated, investors could earn riskless profits by borrowing in the low-rate currency and investing in the high-rate currency while hedging with a forward contract. Until 2008, CIP held almost perfectly — deviations were tiny and short-lived. Since 2008, persistent CIP deviations have emerged, particularly in stress periods, reflecting regulatory constraints on banks’ balance sheets that limit their ability to engage in arbitrage.</p>
+<p><strong>Uncovered Interest Rate Parity (UIP)</strong> is the weaker, expectational version that doesn’t require a forward contract. An investor who is <em>willing to accept</em> exchange rate risk should also be indifferent between currencies:</p>
+<p><span class="math display">\[i_{USD} \approx i_{EUR} + \frac{\Delta e^e}{e}\]</span></p>
+<p>The interest differential between two countries equals the expected rate of depreciation of the high-interest-rate currency. If US rates are 2% above European rates, the dollar is expected to depreciate by 2% — otherwise investors would all rush into dollars, bidding up their price until the expected depreciation made them indifferent.</p>
+<p>UIP performs poorly empirically. High-interest-rate currencies tend to <em>appreciate</em> rather than depreciate in the short run — the opposite of what UIP predicts. This anomaly, the <strong><a href="https://en.wikipedia.org/wiki/Forward_premium_anomaly">forward premium puzzle</a></strong>, supports the <strong>carry trade</strong>: borrowing in low-interest-rate currencies (like the Japanese yen) and investing in high-interest-rate currencies (like the Australian dollar or emerging market currencies). The carry trade earns consistent profits in normal times but suffers sharp losses during crises — suggesting the excess return is compensation for crash risk rather than evidence against rational pricing.</p>
+</section>
+<section id="exchange-rate-regimes-and-the-mundell-trilemma" class="level3">
+<h3 class="anchored" data-anchor-id="exchange-rate-regimes-and-the-mundell-trilemma">Exchange Rate Regimes and the Mundell Trilemma</h3>
+<p>Countries choose how much to allow their exchange rates to float. The spectrum runs from fully flexible to fully fixed:</p>
+<p><strong>Free float:</strong> the exchange rate is determined entirely by market supply and demand; the central bank does not intervene. The US dollar, euro, Japanese yen, and British pound all operate roughly as free floats, though central banks occasionally intervene in exceptional circumstances.</p>
+<p><strong>Managed float (dirty float):</strong> the central bank allows the currency to float but intervenes occasionally to smooth excessive volatility or resist unwanted movements. Most major currencies operate this way in practice.</p>
+<p><strong>Crawling peg:</strong> the exchange rate is fixed but adjusted periodically according to a pre-announced formula, typically tied to inflation differentials.</p>
+<p><strong>Fixed peg:</strong> the exchange rate is fixed to an anchor currency (typically the US dollar or euro) at a specific rate. The central bank must buy or sell its own currency to maintain the peg, which requires adequate foreign reserves.</p>
+<p><strong>Currency board:</strong> the exchange rate is fixed and the entire monetary base is backed 100% by foreign currency reserves. Argentina operated a currency board tied to the dollar from 1991 to 2001. Hong Kong operates one today, successfully.</p>
+<p><strong>Monetary union / dollarization:</strong> countries adopt a common currency (the euro) or a foreign currency (the US dollar in Panama, Ecuador, El Salvador). No exchange rate exists within the union; monetary policy is fully ceded. Chapter 4 discusses dollarized economies in the context of the lender-of-last-resort function — the notable finding being that the absence of a domestic LOLR has not produced systemic instability in any of the three cases.</p>
+<div id="fig-fx_regimes" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-fx_regimes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/week07/fx_regimes.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fx_regimes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7.4: Exchange rate regimes can be ranked from more to less flexible. The more flexible the regime, the more the exchange rate can adjust to shocks, but the less monetary policy autonomy the country has. The more fixed the regime, the more stable the exchange rate, but the more vulnerable the country is to external shocks and speculative attacks.
+</figcaption>
+</figure>
+</div>
+<p>The choice among these regimes involves a fundamental constraint known as the <strong><a href="https://en.wikipedia.org/wiki/Impossible_trinity">Mundell trilemma</a></strong> (or the impossible trinity), developed by <a href="https://en.wikipedia.org/wiki/Robert_Mundell">Robert Mundell</a> (Nobel Prize, 1999). It states that a country cannot simultaneously achieve all three of:</p>
 <ol type="1">
-<li>Distinguish between systematic and idiosyncratic risk and explain diversification</li>
-<li>Describe the main types of derivatives and what purpose they serve</li>
-<li>Explain why financial regulation exists and what forms it takes</li>
-<li>Describe how exchange rates are determined and what drives them</li>
-<li>Connect exchange rate dynamics to monetary policy and the broader macroeconomy</li>
+<li><strong>Free capital flows</strong> — allowing money to move freely across borders</li>
+<li><strong>A fixed exchange rate</strong> — maintaining a stable currency value against another currency</li>
+<li><strong>Independent monetary policy</strong> — setting interest rates to suit domestic economic conditions</li>
 </ol>
-<hr>
+<p>Any two of the three are achievable; all three together are not.</p>
+<p>Here is why. Suppose a country wants both free capital flows and a fixed exchange rate, but its economy is in recession and it wants to cut interest rates. Lower domestic rates make the domestic currency less attractive — capital flows out, seeking higher returns elsewhere. The outflow puts downward pressure on the exchange rate. To maintain the peg, the central bank must intervene, selling foreign reserves to buy domestic currency. But this drains reserves. If reserves run out, the peg collapses. The only way to maintain the peg <em>and</em> free capital flows is to keep domestic interest rates aligned with the anchor country’s rates — surrendering independent monetary policy.</p>
+<div id="fig-trilemma" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-trilemma-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/week07/trilemma.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-trilemma-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7.5: The Mundell trilemma states that a country cannot simultaneously have free capital flows, a fixed exchange rate, and independent monetary policy. It must choose which corner of the trilemma to sacrifice. The eurozone sacrificed independent monetary policy; China sacrificed free capital flows; the US, UK, and eurozone as a whole sacrificed a fixed exchange rate.
+</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Intuition Builder: The Mundell Trilemma in Action
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The eurozone chose free capital flows + monetary union (fixed exchange rates among members) = no independent monetary policy for member states. This is exactly the “one monetary policy, many fiscal policies” problem discussed in Chapter 3.</p>
+<p>China for decades chose fixed exchange rate + independent monetary policy = capital controls. China maintained a managed peg to the dollar while restricting the free flow of capital across its borders, allowing it to set interest rates independently.</p>
+<p>The US, UK, and eurozone as a whole chose free capital flows + independent monetary policy = floating exchange rate. They set interest rates for domestic purposes and let their currencies find their own level.</p>
+<p>There is no free lunch: every exchange rate regime is a choice about which corner of the trilemma to sacrifice.</p>
+</div>
+</div>
+<p>The trilemma also explains <strong><a href="https://en.wikipedia.org/wiki/Speculative_attack">speculative attacks</a></strong> on fixed exchange rates. When a country with a peg faces capital outflows — perhaps because its inflation is higher than the anchor country’s, or because its economy is weakening — the central bank must use foreign reserves to defend the peg. If markets believe the reserves will run out before the macroeconomic imbalance is resolved, it becomes rational to attack: borrow the domestic currency, sell it for foreign currency, wait for the devaluation, then buy back the domestic currency cheaply and repay the loan. The 1997 Asian financial crisis and Argentina’s 2001 collapse followed this pattern — capital flows, in a world of free movement, can overwhelm central bank reserves in days.</p>
 </section>
-<section id="risk-and-return" class="level2" data-number="7.2">
-<h2 data-number="7.2" class="anchored" data-anchor-id="risk-and-return"><span class="header-section-number">7.2</span> 7.1 Risk and return</h2>
-<p><em>Content to be drafted.</em></p>
+<section id="how-monetary-policy-transmits-through-exchange-rates" class="level3">
+<h3 class="anchored" data-anchor-id="how-monetary-policy-transmits-through-exchange-rates">How Monetary Policy Transmits Through Exchange Rates</h3>
+<p>The exchange rate is one of the central bank’s most important transmission channels, particularly for open economies heavily dependent on trade. When the Fed raises interest rates, it attracts foreign capital seeking higher returns, appreciating the dollar. A stronger dollar makes US exports more expensive to foreigners and imports cheaper for Americans — net exports fall, reducing aggregate demand. This channel reinforces the domestic interest rate effect: tighter monetary policy simultaneously raises borrowing costs for domestic investment and reduces export demand through the stronger exchange rate.</p>
+<p>The connection runs in the other direction too. Chapter 4 discussed the Taylor Rule and how central banks respond to the inflation and output gaps. In an open economy, the exchange rate enters this picture: an unexpected depreciation is inflationary (imports become more expensive), prompting a tighter monetary response; an unexpected appreciation is deflationary, prompting an easier response. Central banks in small open economies — Canada, Australia, New Zealand — monitor exchange rate movements carefully precisely because the exchange rate transmits foreign monetary conditions into the domestic economy faster than any other channel.</p>
+<p>This is also why the “currency wars” debate matters. When the Fed eases monetary policy aggressively — as in 2008–2014 — the dollar depreciates, shifting demand toward US exports and away from foreign goods. Trading partners face an appreciation of their own currencies, weakening their exports. If they respond by easing their own monetary policy to resist appreciation, the result is a global monetary expansion that may go beyond what any individual country intended. The international monetary system has no equivalent of a central bank to coordinate these spillovers — which is why the IMF, the G20, and the Basel Committee on Banking Supervision exist, imperfectly, as coordination mechanisms.</p>
 </section>
-<section id="derivatives" class="level2" data-number="7.3">
-<h2 data-number="7.3" class="anchored" data-anchor-id="derivatives"><span class="header-section-number">7.3</span> 7.2 Derivatives</h2>
-<p><em>Content to be drafted.</em></p>
 </section>
-<section id="financial-regulation" class="level2" data-number="7.4">
-<h2 data-number="7.4" class="anchored" data-anchor-id="financial-regulation"><span class="header-section-number">7.4</span> 7.3 Financial regulation</h2>
-<p><em>Content to be drafted.</em></p>
+<section id="where-this-course-ends-and-where-others-begin" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="where-this-course-ends-and-where-others-begin"><span class="header-section-number">7.5</span> Where This Course Ends and Where Others Begin</h2>
+<p>Seven chapters ago, this book began with a question so basic it might seem trivial: what is money? The answer turned out not to be trivial at all. Money is not just a convenient substitute for barter — it is an institutional solution to a fundamental coordination problem. The properties that make something work as money, the mechanisms by which monetary systems emerged spontaneously or were imposed by governments, the way banking amplified the money supply and created both liquidity and fragility, the institutions that eventually centralized monetary control — all of these are not just historical curiosities. They are the foundations on which modern financial markets, monetary policy, and international finance are built.</p>
+<p>The book’s argument, stated plainly: understanding money and banking institutions is a prerequisite for understanding how the economy actually works. A central bank raising interest rates, a yield curve inverting, a currency crisis unfolding, a derivatives market seizing up — these are not random events. They are the outputs of institutional systems whose logic has been the subject of this course.</p>
+<p><strong>What you now know:</strong> You can explain why inflation is always and everywhere a monetary phenomenon — and when that statement requires qualification. You understand why free banking produced stability in Scotland and Canada and instability in the US — and why the difference was regulatory, not inherent. You know what central banks do, why they need independence, why independence alone is insufficient without accountability, and why the absence of a monetary anchor is the central challenge of fiat money. You understand why bond prices fall when yields rise, why the yield curve inverts before recessions, and what the equity risk premium is and why it exists. You know what derivatives do and what they can break when misused. You can read the Mundell trilemma and explain why the eurozone gave up independent monetary policy.</p>
+<p><strong>What you don’t yet know:</strong> This course has established foundations, not a complete edifice. The following courses take the frameworks developed here much further:</p>
+<p><strong>Intermediate Macroeconomics</strong> develops the IS-LM model — the framework for analyzing the joint determination of output and interest rates in a closed economy — and its open-economy extension, the Mundell-Fleming model, which formalizes the trilemma and the role of exchange rates in monetary transmission. It also develops the dynamics of inflation, unemployment, and the business cycle in much greater depth than was possible here.</p>
+<p><strong>Corporate Finance</strong> takes the Gordon Growth Model and present value framework and applies them to the full range of corporate financial decisions: how firms choose their capital structure (debt vs.&nbsp;equity), how they evaluate investment projects (net present value, internal rate of return), and how the cost of capital — which Chapter 7 derived from CAPM — governs those decisions. The weighted average cost of capital (WACC) is the corporate finance counterpart to the discount rate used throughout Chapters 5 and 6.</p>
+<p><strong>Investments and Portfolio Theory</strong> formalizes what this book introduced narratively: the CAPM derivation, Fama-French multi-factor models, mean-variance optimization, the efficient frontier, and the theory of portfolio construction. It also develops the empirical evidence on market efficiency and anomalies in much greater depth than Section 6.4 could.</p>
+<p><strong>International Finance and Open-Economy Macroeconomics</strong> goes deeply into exchange rate determination, balance of payments accounting, capital flow dynamics, and the causes and consequences of currency crises. The interest rate parity conditions introduced in Section 7.4 are the starting point; the full treatment involves models of exchange rate overshooting, sudden stops, and the architecture of the international monetary system.</p>
+<p><strong>Financial Institutions and Markets</strong> examines the regulatory framework, bank management, and financial stability from an institutional perspective. The historical arc of regulation in Section 7.3 is the prologue; the full course covers capital adequacy standards (Basel I, II, III), stress testing, resolution mechanisms, and the political economy of financial regulation.</p>
+<p><strong>Monetary Theory</strong> (typically a graduate course) returns to the questions of Chapters 1–4 with more formal tools: models of money demand, the quantity theory in dynamic settings, the theory of optimal monetary policy rules, and the frontier research on central bank communication, forward guidance, and unconventional monetary policy.</p>
+<p>One final observation. This course has been organized around institutions — the rules, norms, and organizations that structure economic activity — rather than around models. This was a deliberate choice. Models are powerful precisely because they abstract away from institutional detail, but institutions are precisely where monetary economics is most interesting and most consequential. The difference between Canada’s banking stability and the US banking panics of the 19th century was not a difference in economic fundamentals — it was a difference in regulatory institutions. The reason the euro area struggles with “one monetary policy, many fiscal policies” is not a failure of the CAPM or the Gordon Growth Model — it is an institutional design choice with profound macroeconomic consequences. The difference between a country that experiences hyperinflation and one that doesn’t is almost always a difference in monetary institutions — central bank independence, fiscal dominance, the credibility of the inflation anchor.</p>
+<p>The economy is not a machine governed by equations. It is a human institution — shaped by history, by politics, by the incentives that rules create and the ones they fail to create. The equations and models encountered in this course and the courses that follow are tools for understanding how those institutions work, not substitutes for that understanding. Use them accordingly.</p>
 </section>
-<section id="the-foreign-exchange-market" class="level2" data-number="7.5">
-<h2 data-number="7.5" class="anchored" data-anchor-id="the-foreign-exchange-market"><span class="header-section-number">7.5</span> 7.4 The foreign exchange market</h2>
-<p><em>Content to be drafted.</em></p>
-<hr>
-</section>
-<section id="key-terms" class="level2" data-number="7.6">
-<h2 data-number="7.6" class="anchored" data-anchor-id="key-terms"><span class="header-section-number">7.6</span> Key terms</h2>
-<p><em>To be populated after drafting.</em></p>
-</section>
-<section id="review-questions" class="level2" data-number="7.7">
-<h2 data-number="7.7" class="anchored" data-anchor-id="review-questions"><span class="header-section-number">7.7</span> Review questions</h2>
-<p><em>To be added after content is finalized.</em></p>
+<section id="key-takeaways" class="level2" data-number="7.6">
+<h2 data-number="7.6" class="anchored" data-anchor-id="key-takeaways"><span class="header-section-number">7.6</span> Key Takeaways</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Chapter 7 Summary
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Risk and return:</strong> Risk is uncertainty about future outcomes, measured by standard deviation. Idiosyncratic risk is firm-specific and diversifiable — holding many uncorrelated assets drives it toward zero without sacrificing expected return. Systematic risk is market-wide and cannot be diversified away — investors demand compensation for bearing it. The equity risk premium and credit spreads from Chapter 6 are both compensation for systematic risk. CAPM formalizes this: expected return equals the risk-free rate plus beta times the market risk premium. Beta measures systematic risk exposure; assets are priced on the security market line in equilibrium.</p>
+<p><strong>Derivatives:</strong> Derivatives transfer risk from parties who don’t want it to parties who do. Forwards and futures lock in future prices; futures are standardized, exchange-traded, and cleared, eliminating counterparty risk. Options give the right but not the obligation to buy (call) or sell (put) at a strike price — the asymmetric payoff structure is worth a premium. Swaps exchange cash flow streams; interest rate swaps are among the largest financial markets globally. Derivatives can amplify rather than transfer risk when used without adequate reserves — the AIG/CDS episode in 2008 is the canonical example. Dodd-Frank responded by requiring central clearing of standardized derivatives.</p>
+<p><strong>Financial regulation:</strong> US regulation follows a recurring crisis → regulation → deregulation → crisis cycle. Key landmarks: Glass-Steagall (1933) separated commercial and investment banking and created deposit insurance; its repeal via Gramm-Leach-Bliley (1999) allowed financial supermarkets; Dodd-Frank (2010) responded to 2008 with the Volcker Rule, SIFI designation, FSOC, and mandatory derivatives clearing. The fragmented US regulatory landscape (Fed, OCC, FDIC, SEC, CFTC, CFPB) creates coordination challenges but also regulatory competition — multiple agencies have incentives to remain competent in a dynamic, international industry.</p>
+<p><strong>Foreign exchange:</strong> The nominal exchange rate is the price of one currency in terms of another; the real exchange rate adjusts for relative price levels. In the long run, PPP anchors exchange rates to inflation differentials: countries with higher inflation see their currencies depreciate. In the short run, capital flows dominate — exchange rates are asset prices, not goods prices, and they respond to expected returns within days. Covered interest rate parity (CIP) is a near-arbitrage condition linking interest differentials to forward premia; uncovered interest rate parity (UIP) links them to expected exchange rate changes. The carry trade — borrowing in low-rate currencies to invest in high-rate currencies — is a persistent UIP violation that earns returns in normal times but suffers crash risk. <strong>The Mundell trilemma</strong> states that free capital flows, a fixed exchange rate, and independent monetary policy cannot coexist — every regime must sacrifice one: the eurozone sacrificed monetary independence, China sacrificed capital mobility, the US sacrificed exchange rate stability. Monetary policy transmits to the real economy through the exchange rate channel: higher rates attract capital inflows, appreciate the currency, and reduce net exports.</p>
+<p><strong>The course in retrospect:</strong> This book has traced money from its origins as a spontaneous market institution through the development of banking, the emergence and design of central banks, the mechanics of monetary policy, the structure of financial markets, the pricing of financial assets, and the management and regulation of risk across borders. The institutions encountered throughout — from Scottish free banking to the FOMC to the Mundell trilemma — are imperfect human constructions, shaped by history and politics as much as by economic theory. The models and frameworks developed here are tools for understanding those institutions, not substitutes for engaging with them directly.</p>
+</div>
+</div>
 
 
 </section>
@@ -859,7 +1264,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© Nicolas Cachanosky, UTEP, Center for Free Enterprise</p>
+<p>© Nicolas Cachanosky, The University of Texas at El Paso, Center for Free Enterprise</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

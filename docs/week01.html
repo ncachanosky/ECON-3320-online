@@ -76,6 +76,9 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <style>
   /* Navigation sidebar and top navbar — Lato for compact sans-serif */
@@ -83,6 +86,28 @@ ul.task-list li input[type="checkbox"] {
     font-family: Lato, sans-serif;
     font-size: 0.95rem;
     line-height: 1.6;
+  }
+
+  /* EO brand: hyperlinks in Copper, no underline */
+  a {
+    color: #B87333;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #B87333;
+    text-decoration: underline;
+  }
+
+  /* EO brand: callout box accent colors */
+  .callout-note      { border-left-color: #5B9BD5; }
+  .callout-tip       { border-left-color: #87A96B; }
+  .callout-warning   { border-left-color: #D4745E; }
+  .callout-important { border-left-color: #B87333; }
+
+  /* EO brand: table header in Copper */
+  thead {
+    background-color: #B87333;
+    color: white;
   }
 </style>
 
@@ -340,7 +365,7 @@ window.Quarto = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./week03.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Central Banks and the Macroeconomy</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Central Banks</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -422,7 +447,8 @@ window.Quarto = {
   <li><a href="#central-bank-digital-currencies-cbdcs" id="toc-central-bank-digital-currencies-cbdcs" class="nav-link" data-scroll-target="#central-bank-digital-currencies-cbdcs">Central Bank Digital Currencies (CBDCs)</a></li>
   <li><a href="#history-coming-full-circle" id="toc-history-coming-full-circle" class="nav-link" data-scroll-target="#history-coming-full-circle">History Coming Full Circle?</a></li>
   </ul></li>
-  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways"><span class="header-section-number">1.7</span> Key Takeaways</a></li>
+  <li><a href="#from-money-to-banking" id="toc-from-money-to-banking" class="nav-link" data-scroll-target="#from-money-to-banking"><span class="header-section-number">1.7</span> From Money to Banking</a></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways"><span class="header-section-number">1.8</span> Key Takeaways</a></li>
   </ul>
 </nav>
     </div>
@@ -753,6 +779,48 @@ Figure&nbsp;1.7: Barter economy and the problem of <em>double-coincidence of wan
 <p>The Austrian economist <a href="https://en.wikipedia.org/wiki/Carl_Menger">Carl Menger</a> provided the classic account in the late 19th century, later formalized by <a href="https://en.wikipedia.org/wiki/Ludwig_von_Mises">Ludwig von Mises</a> as the <strong>regression theorem</strong>. In a barter economy, some goods are more salable than others — more widely desired, more divisible, more durable. A smart trader realizes that even if the person offering salt doesn’t want what the trader has, acquiring salt is still useful because it can be traded with almost anyone later. Salt becomes a medium of exchange before it becomes money, simply through its high marketability.</p>
 <p>As more traders adopt this strategy, salt’s value increases: it acquires both its consumption value and a monetary premium. This self-reinforcing process can elevate a commodity to the status of a general medium of exchange.</p>
 <p>The regression theorem’s critical point: for a good to first serve as money, it must already have an established value from non-monetary uses. When adopted as money, people use yesterday’s non-monetary prices as a reference. Trace this logic backward and you always arrive at a good that had value <em>before</em> it was money. This means purely fiat money — with no non-monetary value — cannot emerge spontaneously from barter. It can only arise as an outgrowth of a prior commodity money system.</p>
+<div id="fig-regression-theorem" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-regression-theorem-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    A["🪙 Commodity Value\n(non-monetary origin)"]
+    B["Early Monetary Use"]
+    C["Established Money"]
+    D["Gold Standard /\nBretton Woods"]
+    E["Present Value"]
+
+    A --&gt;|anchors| B
+    B --&gt;|anchors| C
+    C --&gt;|anchors| D
+    D --&gt;|anchors| E
+
+    D --&gt;|"inherits value from predecessor"| F["Fiat Money\n(post-1971)"]
+    D --&gt;|"no commodity anchor —\nvalue from expectations alone?"| G["Bitcoin / Crypto"]
+
+    style A fill:#B87333,color:#fff,stroke:#36454F
+    style B fill:#5B9BD5,color:#fff,stroke:#36454F
+    style C fill:#5B9BD5,color:#fff,stroke:#36454F
+    style D fill:#5B9BD5,color:#fff,stroke:#36454F
+    style E fill:#5B9BD5,color:#fff,stroke:#36454F
+    style F fill:#87A96B,color:#fff,stroke:#36454F
+    style G fill:#D4745E,color:#fff,stroke:#36454F
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-regression-theorem-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.8: The regression theorem traces monetary value backward through time: each period’s acceptance of money as payment is grounded in its value in the prior period, with the chain terminating at a non-monetary commodity origin. Fiat money extended the chain by inheriting value from the gold-linked money it replaced. Bitcoin and other cryptocurrencies face a bootstrapping problem — with no commodity anchor, initial monetary value must emerge from expectations alone.
+</figcaption>
+</figure>
+</div>
 <p>What kinds of goods ended up as money? History gives a consistent answer: <strong>precious metals</strong> — durable (they don’t rot or rust), divisible (meltable into any denomination), portable (high value in small volume), and relatively scarce.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -783,7 +851,7 @@ Figure&nbsp;1.7: Barter economy and the problem of <em>double-coincidence of wan
 <img src="figures/week01/history_of_money.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-history-of-money-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.8: Six stages in the history of money. The first five are well-established; the sixth is unfolding now.
+Figure&nbsp;1.9: Six stages in the history of money. The first five are well-established; the sixth is unfolding now.
 </figcaption>
 </figure>
 </div>
@@ -811,7 +879,7 @@ Figure&nbsp;1.8: Six stages in the history of money. The first five are well-est
 <img src="figures/week01/inflation.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-inflation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1.9: What counts as inflation. A persistently high price level, or a one-time jump, is <em>not</em> inflation. Inflation is the ongoing, sustained upward movement in the price level over time. The level of prices doesn’t matter for inflation — only the rate of change does.
+Figure&nbsp;1.10: What counts as inflation. A persistently high price level, or a one-time jump, is <em>not</em> inflation. Inflation is the ongoing, sustained upward movement in the price level over time. The level of prices doesn’t matter for inflation — only the rate of change does.
 </figcaption>
 </figure>
 </div>
@@ -1110,11 +1178,16 @@ Table&nbsp;1.4: Cryptocurrencies vs.&nbsp;CBDCs: a structural comparison.
 <h3 class="anchored" data-anchor-id="history-coming-full-circle">History Coming Full Circle?</h3>
 <p>The crypto-vs.-CBDC debate maps onto the older debate between private money and state money. For most of the 19th century, private banks issued competing currencies. During the 20th century, the state consolidated control through central banking. Now, in the 21st century, technology is reopening the question.</p>
 <p>The regression theorem suggests purely private digital money faces a bootstrapping problem: if Bitcoin has no non-monetary value, where does its initial value come from? The empirical answer seems to be: speculation, network effects, and the expectation that others will value it. Whether that constitutes a stable monetary foundation remains genuinely uncertain. What is certain is that the experiment is underway — and the conceptual tools developed in this course are exactly what you need to evaluate how it unfolds.</p>
+</section>
+</section>
+<section id="from-money-to-banking" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="from-money-to-banking"><span class="header-section-number">1.7</span> From Money to Banking</h2>
+<p>The debate between private money and state money — which today takes the form of cryptocurrencies versus CBDCs — is not new. It has been running for centuries, and it has been resolved before, in different ways and with different results. To evaluate where it is heading now, we need to understand where it has already been.</p>
+<p>Chapter 1 has given you the conceptual vocabulary: what money is, how its supply is structured, how the price level is determined, and why the quality of monetary institutions matters for economic outcomes. Chapter 2 uses that vocabulary to examine a specific historical question: how did banking actually work in the era <em>before</em> central banks, when private institutions competed to issue money under a commodity standard? The answer will challenge several things you probably think you know about financial history — and it will establish the baseline against which central bank performance should be judged.</p>
 <hr>
 </section>
-</section>
-<section id="key-takeaways" class="level2" data-number="1.7">
-<h2 data-number="1.7" class="anchored" data-anchor-id="key-takeaways"><span class="header-section-number">1.7</span> Key Takeaways</h2>
+<section id="key-takeaways" class="level2" data-number="1.8">
+<h2 data-number="1.8" class="anchored" data-anchor-id="key-takeaways"><span class="header-section-number">1.8</span> Key Takeaways</h2>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -1568,7 +1641,7 @@ Table&nbsp;1.4: Cryptocurrencies vs.&nbsp;CBDCs: a structural comparison.
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© Nicolas Cachanosky, UTEP</p>
+<p>© Nicolas Cachanosky, The University of Texas at El Paso, Center for Free Enterprise</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

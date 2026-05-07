@@ -311,9 +311,11 @@ Think of it like driving a car in neutral: you can rev the engine (raise or lowe
 
 ### Other Tools
 
-**Reserve requirements** set the minimum fraction of deposits that banks must hold as reserves. In March 2020, the Fed reduced reserve requirements to zero — a recognition that in a floor system, reserve requirements are not needed to control the money supply and simply impose a cost on banks.
+Two additional tools complete the picture, though neither plays a central role in modern US monetary policy.
 
-**The discount window** provides direct central bank lending to commercial banks against eligible collateral at the discount rate. The stigma associated with using the discount window — markets may interpret borrowing from the Fed as a sign of distress — limits its effectiveness as a liquidity backstop.
+**Reserve requirements** — the minimum fraction of deposits banks must hold as reserves — were once a key instrument for controlling the money supply. In a world of scarce reserves, raising the required ratio reduced the money multiplier and tightened credit; lowering it expanded both. In the floor system, this lever has lost most of its relevance: with abundant reserves already sitting at the Fed, a legal minimum is neither binding nor particularly meaningful. In March 2020, the Fed acknowledged this by reducing reserve requirements to zero. They remain on the books, but as policy instruments they are effectively retired.
+
+**The discount window** is the Fed's direct lending facility — banks can borrow against eligible collateral at the discount rate, in principle making it the LOLR backstop that Bagehot described. In practice it is underused, for an ironic reason: borrowing from the discount window signals to the market that the bank could not fund itself in normal channels, which raises questions about its health and can trigger the very confidence problems the borrowing was meant to prevent. This **stigma problem** has been a persistent frustration for the Fed, which has tried various reforms — including the confidential borrowing facilities introduced during 2008 and 2020 — to encourage banks to use the window before they are in crisis rather than only when they have no alternative.
 
 ## Bank Runs and the Lender of Last Resort
 

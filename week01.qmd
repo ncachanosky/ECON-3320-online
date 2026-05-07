@@ -229,6 +229,35 @@ As more traders adopt this strategy, salt's value increases: it acquires both it
 
 The regression theorem's critical point: for a good to first serve as money, it must already have an established value from non-monetary uses. When adopted as money, people use yesterday's non-monetary prices as a reference. Trace this logic backward and you always arrive at a good that had value *before* it was money. This means purely fiat money — with no non-monetary value — cannot emerge spontaneously from barter. It can only arise as an outgrowth of a prior commodity money system.
 
+::: {#fig-regression-theorem}
+```{mermaid}
+flowchart LR
+    A["🪙 Commodity Value\n(non-monetary origin)"]
+    B["Early Monetary Use"]
+    C["Established Money"]
+    D["Gold Standard /\nBretton Woods"]
+    E["Present Value"]
+
+    A -->|anchors| B
+    B -->|anchors| C
+    C -->|anchors| D
+    D -->|anchors| E
+
+    D -->|"inherits value from predecessor"| F["Fiat Money\n(post-1971)"]
+    D -->|"no commodity anchor —\nvalue from expectations alone?"| G["Bitcoin / Crypto"]
+
+    style A fill:#B87333,color:#fff,stroke:#36454F
+    style B fill:#5B9BD5,color:#fff,stroke:#36454F
+    style C fill:#5B9BD5,color:#fff,stroke:#36454F
+    style D fill:#5B9BD5,color:#fff,stroke:#36454F
+    style E fill:#5B9BD5,color:#fff,stroke:#36454F
+    style F fill:#87A96B,color:#fff,stroke:#36454F
+    style G fill:#D4745E,color:#fff,stroke:#36454F
+```
+
+The regression theorem traces monetary value backward through time: each period's acceptance of money as payment is grounded in its value in the prior period, with the chain terminating at a non-monetary commodity origin. Fiat money extended the chain by inheriting value from the gold-linked money it replaced. Bitcoin and other cryptocurrencies face a bootstrapping problem — with no commodity anchor, initial monetary value must emerge from expectations alone.
+:::
+
 What kinds of goods ended up as money? History gives a consistent answer: **precious metals** — durable (they don't rot or rust), divisible (meltable into any denomination), portable (high value in small volume), and relatively scarce.
 
 ::: {.callout-tip}
@@ -480,6 +509,12 @@ But CBDCs raise serious concerns — most notably privacy. Unlike cash, which is
 The crypto-vs.-CBDC debate maps onto the older debate between private money and state money. For most of the 19th century, private banks issued competing currencies. During the 20th century, the state consolidated control through central banking. Now, in the 21st century, technology is reopening the question.
 
 The regression theorem suggests purely private digital money faces a bootstrapping problem: if Bitcoin has no non-monetary value, where does its initial value come from? The empirical answer seems to be: speculation, network effects, and the expectation that others will value it. Whether that constitutes a stable monetary foundation remains genuinely uncertain. What is certain is that the experiment is underway — and the conceptual tools developed in this course are exactly what you need to evaluate how it unfolds.
+
+## From Money to Banking
+
+The debate between private money and state money — which today takes the form of cryptocurrencies versus CBDCs — is not new. It has been running for centuries, and it has been resolved before, in different ways and with different results. To evaluate where it is heading now, we need to understand where it has already been.
+
+Chapter 1 has given you the conceptual vocabulary: what money is, how its supply is structured, how the price level is determined, and why the quality of monetary institutions matters for economic outcomes. Chapter 2 uses that vocabulary to examine a specific historical question: how did banking actually work in the era *before* central banks, when private institutions competed to issue money under a commodity standard? The answer will challenge several things you probably think you know about financial history — and it will establish the baseline against which central bank performance should be judged.
 
 ---
 

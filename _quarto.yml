@@ -57,6 +57,28 @@ format:
             font-size: 0.95rem;
             line-height: 1.6;
           }
+
+          /* EO brand: hyperlinks in Copper, no underline */
+          a {
+            color: #B87333;
+            text-decoration: none;
+          }
+          a:hover {
+            color: #B87333;
+            text-decoration: underline;
+          }
+
+          /* EO brand: callout box accent colors */
+          .callout-note      { border-left-color: #5B9BD5; }
+          .callout-tip       { border-left-color: #87A96B; }
+          .callout-warning   { border-left-color: #D4745E; }
+          .callout-important { border-left-color: #B87333; }
+
+          /* EO brand: table header in Copper */
+          thead {
+            background-color: #B87333;
+            color: white;
+          }
         </style>
 
 bibliography: references.bib

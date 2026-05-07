@@ -84,6 +84,28 @@ ul.task-list li input[type="checkbox"] {
     font-size: 0.95rem;
     line-height: 1.6;
   }
+
+  /* EO brand: hyperlinks in Copper, no underline */
+  a {
+    color: #B87333;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #B87333;
+    text-decoration: underline;
+  }
+
+  /* EO brand: callout box accent colors */
+  .callout-note      { border-left-color: #5B9BD5; }
+  .callout-tip       { border-left-color: #87A96B; }
+  .callout-warning   { border-left-color: #D4745E; }
+  .callout-important { border-left-color: #B87333; }
+
+  /* EO brand: table header in Copper */
+  thead {
+    background-color: #B87333;
+    color: white;
+  }
 </style>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -397,8 +419,9 @@ window.Quarto = {
   <li><a href="#why-different-maturities-have-different-yields-the-term-structure" id="toc-why-different-maturities-have-different-yields-the-term-structure" class="nav-link" data-scroll-target="#why-different-maturities-have-different-yields-the-term-structure">Why Different Maturities Have Different Yields: The Term Structure</a></li>
   <li><a href="#the-expectations-hypothesis" id="toc-the-expectations-hypothesis" class="nav-link" data-scroll-target="#the-expectations-hypothesis">The Expectations Hypothesis</a></li>
   <li><a href="#the-term-premium" id="toc-the-term-premium" class="nav-link" data-scroll-target="#the-term-premium">The Term Premium</a></li>
-  <li><a href="#the-inverted-yield-curve-as-a-recession-indicator" id="toc-the-inverted-yield-curve-as-a-recession-indicator" class="nav-link" data-scroll-target="#the-inverted-yield-curve-as-a-recession-indicator">The Inverted Yield Curve as a Recession Indicator</a></li>
+  <li><a href="#the-zero-coupon-yield-curve-and-spot-rates" id="toc-the-zero-coupon-yield-curve-and-spot-rates" class="nav-link" data-scroll-target="#the-zero-coupon-yield-curve-and-spot-rates">The Zero-Coupon Yield Curve and Spot Rates</a></li>
   <li><a href="#country-risk-and-sovereign-spreads" id="toc-country-risk-and-sovereign-spreads" class="nav-link" data-scroll-target="#country-risk-and-sovereign-spreads">Country Risk and Sovereign Spreads</a></li>
+  <li><a href="#the-inverted-yield-curve-as-a-recession-indicator" id="toc-the-inverted-yield-curve-as-a-recession-indicator" class="nav-link" data-scroll-target="#the-inverted-yield-curve-as-a-recession-indicator">The Inverted Yield Curve as a Recession Indicator</a></li>
   </ul></li>
   <li><a href="#stock-valuation" id="toc-stock-valuation" class="nav-link" data-scroll-target="#stock-valuation"><span class="header-section-number">6.3</span> Stock Valuation</a>
   <ul class="collapse">
@@ -415,7 +438,8 @@ window.Quarto = {
   <li><a href="#the-case-for-passive-investing" id="toc-the-case-for-passive-investing" class="nav-link" data-scroll-target="#the-case-for-passive-investing">The Case for Passive Investing</a></li>
   <li><a href="#anomalies-and-behavioral-finance" id="toc-anomalies-and-behavioral-finance" class="nav-link" data-scroll-target="#anomalies-and-behavioral-finance">Anomalies and Behavioral Finance</a></li>
   </ul></li>
-  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways"><span class="header-section-number">6.5</span> Key Takeaways</a></li>
+  <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead"><span class="header-section-number">6.5</span> Looking Ahead</a></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways"><span class="header-section-number">6.6</span> Key Takeaways</a></li>
   </ul>
 </nav>
     </div>
@@ -541,6 +565,12 @@ window.Quarto = {
 <p><strong>Default (credit) risk</strong> is the risk that the issuer fails to make the promised payments — whether partial or total. Default risk is the primary concern for most bondholders. Quantifying it requires navigating complex financial statements, hidden liabilities, and uncertain future economic conditions. This information problem — a classic case of the asymmetric information discussed in Chapter 5 — is addressed by <strong>credit rating agencies</strong>: <a href="https://en.wikipedia.org/wiki/Moody%27s_Ratings">Moody’s Ratings</a>, <a href="https://en.wikipedia.org/wiki/S%26P_Global_Ratings">S&amp;P Global Ratings</a>, and <a href="https://en.wikipedia.org/wiki/Fitch_Ratings">Fitch Ratings</a>. These agencies specialize in evaluating issuers and assigning standardized ratings that compress complex credit analysis into a single signal.</p>
 <p>The three agencies use a similar grading scale:</p>
 <table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 13%">
+<col style="width: 18%">
+<col style="width: 37%">
+</colgroup>
 <thead>
 <tr class="header">
 <th>Grade</th>
@@ -656,7 +686,7 @@ Figure&nbsp;6.1: Duration as a balance point. A 5-year bond with $3 annual coupo
 <div id="fig-yield-curve-shapes" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-yield-curve-shapes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/week06/yield_curve.png" class="img-fluid figure-img">
+<img src="figures/week06/typical_yield_curves.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-yield-curve-shapes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;6.2: Three common shapes of the yield curve. An <strong>upward-sloping</strong> (normal) curve — short rates below long rates — is the most common configuration, reflecting positive term premiums and/or expectations that rates will rise. A <strong>flat</strong> curve signals uncertainty or transition. An <strong>inverted</strong> curve — short rates above long rates — is the most informative: it signals that markets expect rates to fall, typically because they expect economic slowdown.
@@ -704,6 +734,31 @@ Figure&nbsp;6.2: Three common shapes of the yield curve. An <strong>upward-slopi
 <p><span class="math display">\[i_{nt} \approx \frac{i_{1t} + i_{1t+1}^e + \cdots + i_{1t+(n-1)}^e}{n} + \phi_t\]</span></p>
 <p>The observed long-term yield has two components: the average of expected future short rates (the pure expectations component) and the term premium. This is why the yield curve is upward-sloping on average even when investors don’t expect rates to rise: the term premium alone tilts the curve upward.</p>
 <p>The term premium also explains why a <strong>flat yield curve</strong> is already informative — it suggests that expectations of <em>falling</em> short rates are roughly offsetting the positive term premium. And it explains why an <strong><a href="https://en.wikipedia.org/wiki/Inverted_yield_curve">inverted yield curve</a></strong> is a particularly strong signal: to invert, the expected-rate-decline component must be large enough to overcome both the term premium and any remaining upward expectations effect.</p>
+</section>
+<section id="the-zero-coupon-yield-curve-and-spot-rates" class="level3">
+<h3 class="anchored" data-anchor-id="the-zero-coupon-yield-curve-and-spot-rates">The Zero-Coupon Yield Curve and Spot Rates</h3>
+<p>The yield curve plotted from standard coupon bonds — the Treasury yield curve you see quoted daily — is actually a composite. Each point on that curve is the yield to maturity of a coupon-paying bond, and YTM, as noted in §6.1, is an internal rate of return that averages across all of the bond’s cash flows. A 10-year Treasury bond paying semi-annual coupons does not produce a clean measure of the market’s required return for the 10-year horizon specifically — some of those coupons arrive in years 1, 2, 3, and so on, each implicitly discounted at rates appropriate for their own maturities. The YTM blends all of those discount rates together.</p>
+<p>For many analytical purposes — pricing derivatives, valuing complex instruments, testing the expectations hypothesis precisely — economists and practitioners want a purer measure: the <strong>spot rate</strong> <span class="math inline">\(s_T\)</span>, which is the market’s required return for a single cash flow received exactly <span class="math inline">\(T\)</span> years from today, with no intervening payments. Spot rates eliminate the averaging problem entirely.</p>
+<p>Zero-coupon bonds provide the cleanest path to spot rates. Because a zero-coupon bond pays nothing until maturity, its yield to maturity <em>is</em> the spot rate for that maturity — there are no intermediate cash flows to complicate the picture. The relationship is direct:</p>
+<p><span class="math display">\[s_T = \left(\frac{F}{p}\right)^{1/T} - 1\]</span></p>
+<p>where <span class="math inline">\(F\)</span> is the face value and <span class="math inline">\(p\)</span> is today’s price. No averaging, no blending — just the single required return for the single horizon <span class="math inline">\(T\)</span>. And notice that for a zero-coupon bond, duration equals maturity exactly (<span class="math inline">\(D = T\)</span>), a property established in §6.1. This is not a coincidence: it reflects the same underlying logic. YTM equals the spot rate for zero-coupon bonds precisely <em>because</em> there is only one cash flow and therefore only one horizon to discount — the absence of intermediate payments makes duration and maturity collapse to the same number.</p>
+<p>In practice, the US Treasury does not issue zero-coupon bonds directly, but the Treasury’s <a href="https://en.wikipedia.org/wiki/United_States_Treasury_security#STRIPS">STRIPS</a> program — introduced in Chapter 5 — creates them synthetically. Stripping a 10-year Treasury bond produces 21 separate zero-coupon instruments: 20 semi-annual coupon strips and one principal strip, each maturing on a different date. The market prices of these strips give direct observations of spot rates at each of those 21 maturities. Connecting them produces the <strong>zero-coupon yield curve</strong> (also called the <strong>spot rate curve</strong>), which is the term structure of interest rates in its purest form.</p>
+<p>The par yield curve (constructed from coupon bonds trading at par) and the spot rate curve generally have similar shapes but differ in level — the spot rate curve is slightly steeper when the par curve is upward-sloping, because the longer maturities contain cash flows that are discounted at successively higher rates. When the par curve is inverted, the spot curve tends to invert more sharply. These differences matter when pricing instruments precisely, though for the broad intuitions developed in this course — reading the yield curve shape, understanding the expectations hypothesis, identifying inversions — the par curve and the spot curve tell the same story.</p>
+</section>
+<section id="country-risk-and-sovereign-spreads" class="level3">
+<h3 class="anchored" data-anchor-id="country-risk-and-sovereign-spreads">Country Risk and Sovereign Spreads</h3>
+<p>The yield curve analysis above applies to bonds of a single issuer. When comparing bonds across countries, an additional factor enters: <strong>country risk</strong>, also called sovereign risk. A bond issued by the Greek government carries default risk that a German government bond does not — both are euro-denominated, but Greece’s fiscal position and institutional framework make default more plausible. The difference in yield between Greek and German bonds of the same maturity is the <strong>credit spread</strong>, and it measures the market’s assessment of Greek sovereign risk relative to Germany.</p>
+<div id="fig-country_risk" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-country_risk-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/week06/country_risk.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-country_risk-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.3: Country risk and sovereign spreads. The spread between the yields of a risk-free reference country and a riskier country reflects the market’s assessment of default risk for a given maturity. Wider spreads signal greater perceived risk.
+</figcaption>
+</figure>
+</div>
+<p>During the European sovereign debt crisis of 2010–2012, discussed in Chapter 3, Greek 10-year yields reached over 25% while German yields were below 2% — a spread of over 23 percentage points reflecting the market’s near-certain assessment of a Greek default. Country risk spreads are the bond market’s real-time verdict on fiscal sustainability, and they move faster than any credit rating agency.</p>
 </section>
 <section id="the-inverted-yield-curve-as-a-recession-indicator" class="level3">
 <h3 class="anchored" data-anchor-id="the-inverted-yield-curve-as-a-recession-indicator">The Inverted Yield Curve as a Recession Indicator</h3>
@@ -772,10 +827,6 @@ Figure&nbsp;6.2: Three common shapes of the yield curve. An <strong>upward-slopi
 <p>The mechanism runs through monetary policy and expectations. An inverted curve typically occurs when the Fed has raised short-term rates aggressively (to fight inflation) while long-term rates remain lower, reflecting market expectations that the rate hikes will eventually cause a slowdown — forcing the Fed to reverse course and cut rates. Investors rush to lock in current long-term rates before rates fall, bidding up long bond prices and pushing long yields below short yields. In essence, the inverted curve reflects markets pricing in the Fed’s future easing — because they anticipate an imminent recession.</p>
 <p>The Fed’s aggressive rate hikes of 2022–2023 produced the deepest yield curve inversion in decades, with the 3-month Treasury bill yielding more than 5% while the 10-year Treasury yielded less than 4%. The recession the inversion was predicting had not materialized as of early 2025, making this episode one of the most-watched tests of the yield curve’s forecasting reliability in recent memory.</p>
 </section>
-<section id="country-risk-and-sovereign-spreads" class="level3">
-<h3 class="anchored" data-anchor-id="country-risk-and-sovereign-spreads">Country Risk and Sovereign Spreads</h3>
-<p>The yield curve analysis above applies to sovereign bonds of a single issuer. When comparing bonds across countries, an additional factor enters: <strong>country risk</strong>, also called sovereign risk. A bond issued by the Greek government carries default risk that a German government bond does not — both are euro-denominated, but Greece’s fiscal position and institutional framework make default more plausible. The difference in yield between Greek and German bonds of the same maturity is the <strong>credit spread</strong>, and it measures the market’s assessment of Greek sovereign risk relative to Germany. During the European sovereign debt crisis of 2010–2012, discussed in Chapter 3, Greek 10-year yields reached over 25% while German yields were below 2% — a spread of over 23 percentage points reflecting the market’s near-certain assessment of a Greek default.</p>
-</section>
 </section>
 <section id="stock-valuation" class="level2" data-number="6.3">
 <h2 data-number="6.3" class="anchored" data-anchor-id="stock-valuation"><span class="header-section-number">6.3</span> Stock Valuation</h2>
@@ -812,6 +863,8 @@ Figure&nbsp;6.2: Three common shapes of the yield curve. An <strong>upward-slopi
 <p>The discount rate <span class="math inline">\(i\)</span> in stock valuation is not the Treasury yield or the federal funds rate. It is the <strong>required return on equity</strong> — the return investors demand for bearing the specific risk of this stock. Required return on equity equals the risk-free rate <em>plus</em> a risk premium that compensates for the stock’s exposure to market-wide risk. A risky startup and a stable utility company have very different required returns, even when the risk-free rate is the same. Chapter 7 develops the theory of how this risk premium is determined — it is one of the central questions of asset pricing. For now, the key point is that the discount rate in the DDM embeds a risk premium that must be estimated, not simply looked up.</p>
 </div>
 </div>
+<p>What does that risk premium look like in practice? The most comprehensive long-run evidence comes from <a href="https://en.wikipedia.org/wiki/Equity_premium_puzzle">Dimson, Marsh, and Staunton</a>, who assembled stock and bond return data across 35 countries going back to 1900. For the United States, the historical <strong>equity risk premium</strong> — the average annual return on equities above the return on government bills — has been approximately 5–7% per year depending on the measurement period and whether returns are measured arithmetically or geometrically. Other developed markets show similar but slightly lower premia, typically in the 3–6% range. This premium is not guaranteed: there have been decade-long stretches — most notably the 1970s and the 2000s — where US equities underperformed Treasury bonds significantly. But over horizons of 20 years or more, equities have historically rewarded investors for bearing the additional risk.</p>
+<p>For a Gordon Growth Model application, this empirical anchor is useful. If the current 10-year Treasury yield is 4% (the risk-free rate) and the equity risk premium is roughly 5%, then the required return on a broad equity index is approximately 9%. That is the <span class="math inline">\(i\)</span> to plug into <span class="math inline">\(p = D/(i-g)\)</span>. Whether the Gordon Growth Model’s output is plausible depends heavily on whether these inputs — especially the long-run dividend growth rate <span class="math inline">\(g\)</span> — are realistic. The model’s sensitivity to small input changes, noted above, is precisely why analysts treat the ERP estimate as a calibration anchor rather than a precise forecast.</p>
 </section>
 <section id="price-earnings-ratios" class="level3">
 <h3 class="anchored" data-anchor-id="price-earnings-ratios">Price-Earnings Ratios</h3>
@@ -825,7 +878,7 @@ Figure&nbsp;6.2: Three common shapes of the yield curve. An <strong>upward-slopi
 </section>
 <section id="stock-market-indices" class="level3">
 <h3 class="anchored" data-anchor-id="stock-market-indices">Stock Market Indices</h3>
-<p>A <strong>stock market index</strong> tracks the aggregate performance of a selected group of stocks, providing a single number that summarizes the state of a broad market or sector. Indices serve several functions: they give investors a benchmark against which to compare portfolio performance, they allow passive investors to replicate “the market” through a single instrument, and they serve as an economic indicator — a rising market generally reflects improving expectations about corporate earnings and economic growth.</p>
+<p>A <strong><a href="https://en.wikipedia.org/wiki/Stock_market_index">stock market index</a></strong> tracks the aggregate performance of a selected group of stocks, providing a single number that summarizes the state of a broad market or sector. Indices serve several functions: they give investors a benchmark against which to compare portfolio performance, they allow passive investors to replicate “the market” through a single instrument, and they serve as an economic indicator — a rising market generally reflects improving expectations about corporate earnings and economic growth.</p>
 <p>The main US indices differ in their construction and scope:</p>
 <p>The <strong><a href="https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average">Dow Jones Industrial Average</a></strong> (DJIA) is the oldest and most widely cited US index, tracking 30 large blue-chip companies. It is <strong>price-weighted</strong>: each stock’s influence on the index is proportional to its share price, not its market capitalization. This means a $500 stock affects the Dow five times as much as a $100 stock, regardless of how large either company is — a peculiarity that makes the DJIA less theoretically satisfying than other indices, though its long history (dating to 1896) gives it cultural and historical significance.</p>
 <p>The <strong><a href="https://en.wikipedia.org/wiki/S%26P_500">S&amp;P 500</a></strong> tracks 500 large US companies and is the standard professional benchmark. It is <strong>market capitalization-weighted</strong>: each stock’s influence is proportional to its total market value (share price × shares outstanding). This construction means the largest companies — Apple, Microsoft, Amazon, Alphabet — have the most influence on the index. The S&amp;P 500 covers roughly 80% of total US equity market capitalization, making it a better representation of “the US stock market” than the Dow.</p>
@@ -854,14 +907,14 @@ Figure&nbsp;6.2: Three common shapes of the yield curve. An <strong>upward-slopi
 <div id="fig-malkiel-monkey" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-malkiel-monkey-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="figures/week06/malkiel_monkey.jpg" class="img-fluid figure-img">
+<p><img src="figures/week06/malkiel_monkey.jpg" class="img-fluid figure-img"></p>
+<p><a href="https://en.wikipedia.org/wiki/Burton_Malkiel">Burton Malkiel</a>, in his influential book <em>A Random Walk Down Wall Street</em>, argued that a blindfolded monkey throwing darts at a newspaper’s financial pages could select a portfolio that would do just as well as one carefully selected by experts. This is not a criticism of analysts’ intelligence — it is a statement about market structure.</p>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-malkiel-monkey-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;6.3: <a href="https://en.wikipedia.org/wiki/Burton_Malkiel">Burton Malkiel</a>, in his influential book <em>A Random Walk Down Wall Street</em>, argued that a blindfolded monkey throwing darts at a newspaper’s financial pages could select a portfolio that would do just as well as one carefully selected by experts. This is not a criticism of analysts’ intelligence — it is a statement about market structure.
+Figure&nbsp;6.4: The <strong>Efficient Market Hypothesis</strong> (EMH) provides the theoretical explanation for this puzzle. But before we get there, notice something about the monkey itself: the dart-throwing monkey is not just lucky. By throwing darts randomly at a full list of stocks, the monkey is — by construction — <strong>diversifying</strong>. A portfolio assembled by throwing enough darts will hold many stocks across many sectors, approximating the composition of the market index. This is not a coincidence. It is precisely what index funds do deliberately. The monkey’s “strategy” produces market-like returns at zero cost because random selection across a broad universe is functionally equivalent to indexing. The real puzzle is not why the monkey does well — it is why professional managers, with all their research and expertise, cannot consistently do better than the monkey once fees are accounted for.
 </figcaption>
 </figure>
 </div>
-<p>The <strong>Efficient Market Hypothesis</strong> (EMH) provides the theoretical explanation for this puzzle.</p>
 </section>
 <section id="what-emh-claims" class="level3">
 <h3 class="anchored" data-anchor-id="what-emh-claims">What EMH Claims</h3>
@@ -920,8 +973,13 @@ Figure&nbsp;6.3: <a href="https://en.wikipedia.org/wiki/Burton_Malkiel">Burton M
 </div>
 </section>
 </section>
-<section id="key-takeaways" class="level2" data-number="6.5">
-<h2 data-number="6.5" class="anchored" data-anchor-id="key-takeaways"><span class="header-section-number">6.5</span> Key Takeaways</h2>
+<section id="looking-ahead" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="looking-ahead"><span class="header-section-number">6.5</span> Looking Ahead</h2>
+<p>This chapter has valued bonds and stocks as present value problems and examined what market prices tell us about expectations — for future interest rates, economic growth, and firm performance. But one important input has appeared repeatedly without being fully explained: the <strong>discount rate</strong>. For bonds, the relevant discount rate is the market yield, which we decomposed into the risk-free rate, the term premium, and the credit spread. For stocks, the relevant discount rate is the required return on equity, which equals the risk-free rate plus an equity risk premium. In both cases, the premium above the risk-free rate is compensation for bearing risk — but what risk, exactly, and how much compensation does the market demand for it?</p>
+<p>These questions are the subject of Chapter 7. It develops the theory of risk and return: how to measure risk, how the market prices it, and how investors can manage it through diversification and derivatives. The equity risk premium embedded in every stock valuation, the credit spread embedded in every corporate bond yield, and the term premium embedded in every long-term rate all find their theoretical foundations there. Pricing financial assets, as this chapter has shown, is straightforward once you know the discount rate. Chapter 7 explains where that discount rate comes from.</p>
+</section>
+<section id="key-takeaways" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="key-takeaways"><span class="header-section-number">6.6</span> Key Takeaways</h2>
 <div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -936,7 +994,7 @@ Figure&nbsp;6.3: <a href="https://en.wikipedia.org/wiki/Burton_Malkiel">Burton M
 <p><strong>Bond risks:</strong> Default risk is addressed by credit rating agencies — which exist as a solution to the asymmetric information problem in bond markets. Interest rate risk is the risk that market rates rise after purchase, reducing the bond’s market value. Inflation risk is the erosion of fixed cash flows’ real value. Duration — specifically Macaulay duration — quantifies interest rate sensitivity: a bond with duration <span class="math inline">\(D\)</span> loses approximately <span class="math inline">\(D\%\)</span> of its value for each 1 percentage point rise in yields. Duration is always less than maturity for coupon bonds; it equals maturity only for zero-coupon bonds.</p>
 <p><strong>The yield curve:</strong> The term structure of interest rates reflects three forces: risk at longer maturities, expected future rate changes, and inflation uncertainty. The expectations hypothesis derives long rates as averages of expected future short rates; it explains why rates tend to move together but cannot explain the systematic upward slope of the yield curve. The term premium — extra compensation for duration and inflation risk — provides the missing piece. An inverted yield curve (short rates above long rates) signals that rate-decline expectations have overwhelmed the term premium, and has preceded every US recession since 1970 with a lead time of 6–17 months.</p>
 <p><strong>Stock valuation:</strong> Equity is a residual claim with no contractual cash flows. Unlike bonds — which investors buy to secure predictable future payments — stocks are primarily purchased for capital gains: the investor is speculating on the future price, not locking in a cash flow. This makes equity valuation fundamentally harder. The Gordon Growth Model prices a stock as the present value of expected dividends plus expected selling price; under constant dividend growth, <span class="math inline">\(p = D/(i-g)\)</span>. The model’s practical value is information compression: instead of forecasting an infinite dividend stream, analysts estimate just two parameters — the growth rate <span class="math inline">\(g\)</span> and the required return <span class="math inline">\(i\)</span>. Small changes in either, however, produce large changes in price. P/E ratios are a shortcut that embeds implicit growth and risk assumptions; high P/E is not necessarily overvaluation but may reflect high growth expectations or low required returns. Stock market indices (Dow Jones, S&amp;P 500, Wilshire 5000, NASDAQ) aggregate individual valuations into benchmarks; the S&amp;P 500 is the standard professional benchmark. Passive investing through index funds replicates the index at minimal cost — the practical application of the EMH logic in §6.4.</p>
-<p><strong>The Efficient Market Hypothesis:</strong> EMH holds that prices quickly incorporate all available information, making consistent excess returns impossible using that information. Weak form: past prices are already reflected — technical analysis cannot beat the market. Semi-strong form: all public information is reflected — fundamental analysis cannot consistently beat the market. Strong form (generally rejected): even private information is reflected. Prices change because new information arrives — not because of predictable patterns. The practical implication is that passive index investing outperforms active management on average after fees, because active managers’ aggregate return before fees equals the market return, and fees reduce it below. Behavioral anomalies (momentum, value premium, size effect) exist but are either risk-based premia or are difficult to exploit after transaction costs. Markets are approximately efficient most of the time.</p>
+<p><strong>The Efficient Market Hypothesis:</strong> EMH holds that prices quickly incorporate all available information, making consistent excess returns impossible using that information. Weak form: past prices are already reflected — technical analysis cannot beat the market. Semi-strong form: all public information is reflected — fundamental analysis cannot consistently beat the market. Strong form (generally rejected): even private information is reflected. Prices change because new information arrives — not because of predictable patterns. The dart-throwing monkey does well by construction: random selection across a broad stock universe produces a diversified, market-like portfolio at zero cost — which is functionally equivalent to indexing. The practical implication is that passive index investing outperforms active management on average after fees. Behavioral anomalies (momentum, value premium, size effect) exist but are either risk-based premia or are difficult to exploit after transaction costs. Markets are approximately efficient most of the time.</p>
 </div>
 </div>
 
