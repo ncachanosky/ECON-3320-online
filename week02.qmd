@@ -22,6 +22,12 @@ By the end of this chapter, you will be able to:
 - Describe how the Bretton Woods system worked, explain the Triffin dilemma, and trace how the system's collapse set the stage for the modern debate between fixed and flexible exchange rates
 :::
 
+::: {.callout-important}
+## Why this chapter matters
+
+This chapter is the empirical foundation of the course. Before evaluating central banks — their design, their tools, their performance — we need to know what they replaced and whether the replacement was an improvement. The historical evidence assembled here is not background material. It is the baseline against which everything in Chapters 3 and 4 should be judged.
+:::
+
 ## Commodity Money
 
 Chapter 1 traced the broad arc of monetary history in six stages, from commodity money through free banking, the gold standard, Bretton Woods, fiat money, and the present digital era. This chapter zooms in on the first three stages — the ones that unfolded before central banks existed — and asks a more precise question: how did banking actually work when there was no lender of last resort, no deposit insurance, and no monetary authority to bail out a failing bank? The answer is more interesting, and more reassuring, than most people expect.

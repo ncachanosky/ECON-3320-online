@@ -1,3 +1,22 @@
+---
+author:
+  - name: Nicolas Cachanosky
+    url: https://www.ncachanosky.com
+    affiliation: The University of Texas at El Paso, Center for Free Enterprise
+    affiliation-url: https://www.utep.edu/c4fe
+
+date: 2025-01-01
+
+citation:
+  type: book
+  title: "Money, Institutions, and Markets"
+  author: Nicolas Cachanosky
+  url: https://ncachanosky.github.io/ECON-3320-online/
+  issued: 2025
+
+license: "CC BY-NC 4.0"
+---
+
 # Preface {.unnumbered}
 
 Welcome to *Money, Institutions, and Markets*, the reading companion for ECON 3320 – Money and Banking at the University of Texas at El Paso.

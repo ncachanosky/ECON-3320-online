@@ -335,10 +335,15 @@ footer {
   font-size: 0.82rem;
   color: #36454F;
   border-top: none;
-  margin-top: 0.8rem;
-  padding-top: 0.4rem;
-  padding-bottom: 1rem;
+  margin-top: 0 !important;
+  padding-top: 0.45rem;
+  padding-bottom: 0 !important;
   opacity: 0.75;
+}
+
+#quarto-document-content {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 
