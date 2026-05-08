@@ -10,7 +10,7 @@ book:
   description: |
     Course readings for ECON 3320 – Money and Banking – The University of Texas at El Paso.
   repo-url: https://github.com/ncachanosky/ECON-3320-online
-  repo-actions: [edit, issue]
+  repo-actions: [issue]
   repo-branch: main
 
   site-url: https://ncachanosky.github.io/ECON-3320-online
