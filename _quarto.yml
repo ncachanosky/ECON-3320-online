@@ -45,13 +45,16 @@ book:
     - week05.qmd
     - week06.qmd
     - week07.qmd
-    - references.qmd
 
   page-footer:
     left: "© Nicolas Cachanosky, The University of Texas at El Paso, Center for Free Enterprise"
     right:
       - icon: github
         href: https://github.com/ncachanosky/ECON-3320-online
+      - icon: linkedin
+        href: https://www.linkedin.com/in/ncachanosky
+      - icon: twitter-x
+        href: https://twitter.com/n_cachanosky
 
 format:
   html:

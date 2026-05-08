@@ -134,14 +134,17 @@ main a:hover {
   border-color: rgba(255, 255, 255, 0.12);
 }
 
-#quarto-sidebar .form-control,
-#quarto-sidebar input[type="search"] {
-  background-color: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  color: #FFFFFF;
-  font-family: Lato, sans-serif;
-  font-size: 0.84rem;
-  border-radius: 4px;
+#quarto-search .form-control,
+#quarto-search input[type="search"],
+.quarto-search input {
+  color: #B87333 !important;
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  caret-color: #B87333;
+}
+
+#quarto-search input::placeholder,
+.quarto-search input::placeholder {
+  color: rgba(255, 255, 255, 0.4) !important;
 }
 
 #quarto-sidebar .form-control::placeholder {
