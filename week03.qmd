@@ -1,3 +1,8 @@
+---
+abstract: |
+  Central banks did not emerge because competitive banking failed — they emerged because governments needed revenue and fiscal control. This chapter examines the origins and design of modern central banks, focusing on two problems that fiat money creates once the automatic discipline of gold is removed: the monetary anchor problem and the independence problem. The Federal Reserve and the European Central Bank illustrate how institutional design attempts to solve these problems, imperfectly but deliberately.
+---
+
 # Central Banks {#sec-ch03}
 
 ::: {.callout-note}

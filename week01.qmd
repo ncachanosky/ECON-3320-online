@@ -1,3 +1,8 @@
+---
+abstract: |
+  Money is not just a medium of exchange — it is an institution that solves a fundamental coordination problem. This chapter establishes the conceptual foundations for the entire course: what money is, how its supply is structured, how the price level is determined, and why the quality of monetary institutions shapes economic outcomes. The regression theorem explains why money cannot be created by decree from nothing, a constraint that bears directly on modern debates about cryptocurrencies and central bank digital currencies.
+---
+
 # The Nature and Price of Money {#sec-ch01}
 
 ::: {.callout-note}

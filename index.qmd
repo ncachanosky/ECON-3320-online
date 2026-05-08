@@ -17,15 +17,78 @@ Read actively. If a concept isn't clicking, the charts and examples are there to
 
 ## Course structure
 
-| Week | Chapter                                        |
-|------|------------------------------------------------|
-| 1    | The Nature and Price of Money                  |
-| 2    | How Banking Developed Before Central Banks     |
-| 3    | Central Banks and the Macroeconomy             |
-| 4    | How Central Banks Operate — and Why It Matters |
-| 5    | How Financial Markets Work                     |
-| 6    | Pricing Financial Assets                       |
-| 7    | Managing Risk in Financial Markets             |
+| Week | Chapter                                        | Words  |
+|:----:|------------------------------------------------|-------:|
+| 1    | The Nature and Price of Money                  | 9,434  |
+| 2    | How Banking Developed Before Central Banks     | 11,356 |
+| 3    | Central Banks and the Macroeconomy             | 9,355  |
+| 4    | How Central Banks Operate — and Why It Matters | 10,732 |
+| 5    | How Financial Markets Work                     | 8,283  |
+| 6    | Pricing Financial Assets                       | 8,187  |
+| 7    | Managing Risk in Financial Markets             | 8,990  |
+
+**Chapter 1 — The Nature and Price of Money**
+
+- Functions of money; the money supply hierarchy from monetary base to M2
+- Payment technologies: cash, checks, and electronic payments
+- How money emerged: the regression theorem and chartalism
+- Monetary history in six stages, from commodity money to digital currency
+- The price level, inflation, and the quantity theory
+- Cryptocurrencies and central bank digital currencies
+
+**Chapter 2 — How Banking Developed Before Central Banks**
+
+- Commodity money; inside and outside money; seigniorage and debasement
+- Free banking theory and the adverse clearing mechanism
+- Free banking in practice: Scotland, Canada, and Australia
+- The US National Banking era — not genuine free banking
+- The classical gold standard
+- Bretton Woods and the transition to floating exchange rates
+
+**Chapter 3 — Central Banks and the Macroeconomy**
+
+- Why central banks exist: fiscal origins and the stability rationale
+- The monetary anchor problem and the independence problem
+- Fiscal dominance; seigniorage and the inflation tax
+- The Federal Reserve: origins, structure, and how the FOMC operates
+- The European Central Bank: structure, mandate, and the sovereign debt crisis
+- The central bank balance sheet as a window into monetary policy
+
+**Chapter 4 — How Central Banks Operate — and Why It Matters**
+
+- Rules vs. discretion; the time-inconsistency problem
+- Monetary policy frameworks: Friedman's k-percent rule, NGDP targeting, the Taylor Rule, and inflation targeting
+- Nominal vs. real shocks: what monetary policy can and cannot fix
+- Open market operations; corridor and floor systems; quantitative easing
+- Bank runs and maturity transformation; the Diamond-Dybvig model
+- The lender of last resort and Bagehot's rule
+
+**Chapter 5 — How Financial Markets Work**
+
+- Interest rates as the price of time, not the price of money
+- Real vs. nominal rates and the Fisher equation
+- Future value, present value, and duration
+- Bond structures: coupon bonds, zero-coupon bonds, perpetuities, and sinking funds
+- The financial system: direct and indirect finance, primary and secondary markets
+- Asymmetric information: adverse selection and moral hazard
+
+**Chapter 6 — Pricing Financial Assets**
+
+- Bond valuation: present value of cash flows, yield to maturity, and yield measures
+- Duration and modified duration; interest rate risk
+- The yield curve: expectations hypothesis, term premium, and inversions
+- The zero-coupon yield curve and spot rates
+- Stock valuation: the Gordon Growth Model and price-earnings ratios
+- The Efficient Market Hypothesis and the case for passive investing
+
+**Chapter 7 — Managing Risk in Financial Markets**
+
+- Risk and return; idiosyncratic vs. systematic risk; diversification
+- The Capital Asset Pricing Model and the security market line
+- Derivatives: forwards, futures, options, and interest rate swaps
+- Financial regulation: a brief US history from Glass-Steagall to Dodd-Frank
+- Exchange rates: purchasing power parity, exchange rate regimes
+- The Mundell trilemma and open-economy monetary policy
 
 ## A note on prerequisites
 

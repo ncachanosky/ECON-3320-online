@@ -9,10 +9,32 @@ book:
   date-format: "MMMM YYYY"
   description: |
     Course readings for ECON 3320 – Money and Banking – The University of Texas at El Paso.
+  repo-url: https://github.com/ncachanosky/ECON-3320-online
+  repo-actions: [edit, issue]
+  repo-branch: main
+
+  site-url: https://ncachanosky.github.io/ECON-3320-online
+
+  open-graph:
+    title: "Money, Institutions, and Markets"
+    description: "Course readings for ECON 3320 – Money and Banking – The University of Texas at El Paso. An institutions-first treatment of monetary and financial economics."
+    image: assets/logo.png
+
+  twitter-card:
+    title: "Money, Institutions, and Markets"
+    description: "Course readings for ECON 3320 – Money and Banking – The University of Texas at El Paso. An institutions-first treatment of monetary and financial economics."
+    image: assets/logo.png
+    card-style: summary
+    creator: "@n_cachanosky"
 
   sidebar:
     style: docked
     search: true
+    logo: assets/logo.png
+
+  # ── Favicon ───────────────────────────────────────────────────────────────
+  # Run favicon_generator.py once to produce favicon.ico, then uncomment:
+  favicon: favicon.png
 
   chapters:
     - index.qmd
@@ -29,13 +51,14 @@ book:
     left: "© Nicolas Cachanosky, The University of Texas at El Paso, Center for Free Enterprise"
     right:
       - icon: github
-        href: https://github.com/ncachanosky/money-institutions-markets
+        href: https://github.com/ncachanosky/ECON-3320-online
 
 format:
   html:
     theme:
       light: flatly
-      dark: darkly
+      dark:  darkly
+    css: styles.css
     fontsize: 1.2em
     mainfont: "Georgia, serif"
     highlight-style: github
@@ -50,36 +73,6 @@ format:
     include-in-header:
       text: |
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-        <style>
-          /* Navigation sidebar and top navbar — Lato for compact sans-serif */
-          .sidebar, .navbar, #quarto-sidebar {
-            font-family: Lato, sans-serif;
-            font-size: 0.95rem;
-            line-height: 1.6;
-          }
-
-          /* EO brand: hyperlinks in Copper, no underline */
-          a {
-            color: #B87333;
-            text-decoration: none;
-          }
-          a:hover {
-            color: #B87333;
-            text-decoration: underline;
-          }
-
-          /* EO brand: callout box accent colors */
-          .callout-note      { border-left-color: #5B9BD5; }
-          .callout-tip       { border-left-color: #87A96B; }
-          .callout-warning   { border-left-color: #D4745E; }
-          .callout-important { border-left-color: #B87333; }
-
-          /* EO brand: table header in Copper */
-          thead {
-            background-color: #B87333;
-            color: white;
-          }
-        </style>
 
 bibliography: references.bib
 # csl: chicago-author-date.csl

@@ -1,3 +1,8 @@
+---
+abstract: |
+  Risk is not something to be eliminated — it is something to be measured, allocated, and priced. This chapter develops the framework for doing that, from the distinction between idiosyncratic and systematic risk through the Capital Asset Pricing Model and into the derivatives markets that allow specific risks to be transferred to those best able to bear them. It closes with financial regulation and the foreign exchange market, connecting the tools of financial economics back to the monetary institutions and policy frameworks developed in the first half of the course.
+---
+
 # Managing Risk in Financial Markets {#sec-ch07}
 
 ::: {.callout-note}

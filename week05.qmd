@@ -1,3 +1,8 @@
+---
+abstract: |
+  Financial markets are markets for time. Interest rates are the price of borrowing purchasing power today against repayment tomorrow, not the price of money. This chapter develops the analytical tools — present value, duration, the Fisher equation — that make it possible to price any financial asset, and places them in the institutional context of the financial system. It closes with the information problems that make financial markets different from ordinary goods markets: adverse selection and moral hazard explain why financial intermediaries exist and why they take the forms they do.
+---
+
 # How Financial Markets Work {#sec-ch05}
 
 ::: {.callout-note}

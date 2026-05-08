@@ -1,3 +1,8 @@
+---
+abstract: |
+  Every financial asset is a stream of future cash flows discounted to the present. This chapter applies that principle to bonds and stocks, developing the pricing formulas that practitioners use daily and the concepts — yield to maturity, duration, the yield curve, the Gordon Growth Model — that give those formulas analytical meaning. The chapter also examines the Efficient Market Hypothesis: not as a claim that markets are perfect, but as a claim about how quickly prices incorporate available information, with direct implications for how investors should behave.
+---
+
 # Pricing Financial Assets {#sec-ch06}
 
 ::: {.callout-note}

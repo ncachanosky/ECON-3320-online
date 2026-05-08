@@ -1,3 +1,8 @@
+---
+abstract: |
+  This chapter establishes the empirical baseline against which central bank performance is evaluated throughout the rest of the course. The historical record from genuinely competitive banking systems — Scotland, Canada, and the pre-Fed United States — challenges the standard market-failure justification for central banking. Banking crises, it turns out, were more often products of regulatory distortion than of unregulated competition. Understanding what worked, what failed, and why is the foundation for everything that follows.
+---
+
 # How Banking Developed Before Central Banks {#sec-ch02}
 
 ::: {.callout-note}

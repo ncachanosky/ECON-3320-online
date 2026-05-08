@@ -1,3 +1,8 @@
+---
+abstract: |
+  Good intentions are not enough for good monetary policy — the institutional framework matters as much as the policymaker's objectives. This chapter examines why rules outperform discretion over time, how different monetary policy frameworks anchor expectations, and what monetary policy can and cannot fix. It then connects monetary theory to financial stability: bank runs are not random accidents but predictable consequences of maturity transformation, and the lender-of-last-resort function is the institutional response that free banking achieved automatically through the adverse clearing mechanism.
+---
+
 # How Central Banks Operate — and Why It Matters {#sec-ch04}
 
 ::: {.callout-note}
