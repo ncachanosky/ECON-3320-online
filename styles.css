@@ -321,22 +321,24 @@ tbody tr:hover {
    10. PAGE FOOTER
 ============================================================================= */
 
+/* ── Tighten prev/next navigation spacing ─────────────────────────────────── */
+.page-navigation {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* ── Footer — flush with nav buttons, no floating gap ────────────────────── */
 .nav-footer,
 footer {
   font-family: Lato, sans-serif;
   font-size: 0.82rem;
   color: #36454F;
-  border-top: 1px solid #d0d8dc;
-  padding-top: 0.8em;
-}
-
-.nav-footer a {
-  color: #B87333 !important;
-  text-decoration: none;
-}
-
-.nav-footer a:hover {
-  text-decoration: underline;
+  border-top: none;
+  margin-top: 0.8rem;
+  padding-top: 0.4rem;
+  padding-bottom: 1rem;
+  opacity: 0.75;
 }
 
 
