@@ -139,7 +139,7 @@ This is not hypothetical. The Federal Reserve's rapid rate increases in 2022–2
 The quasi-fiscal deficit matters because it illustrates the budget constraint that central banks operate under even without a gold standard. A central bank that persistently pays more on its liabilities than it earns on its assets is either eroding its capital or relying on government recapitalization — which creates exactly the fiscal-monetary entanglement that independent central banking is designed to prevent.
 
 ::: {#fig-fed-remittances}
-![](figures/week03/fed_remittances.png)
+![](figures/chapter_03/fed_remittances.png)
 
 Federal Reserve remittances to the US Treasury (millions of US dollars). The sharp drop in 2022–2023 reflects the quasi-fiscal deficit produced by rapid rate increases while the Fed still held a large portfolio of low-yielding assets acquired during quantitative easing.  
 Source: Board of Governors of the Federal Reserve, [H.4.1 Factors Affecting Reserve Balances](https://fred.stlouisfed.org/series/RESPPLLOPNWW).
@@ -148,7 +148,7 @@ Source: Board of Governors of the Federal Reserve, [H.4.1 Factors Affecting Rese
 ## The Federal Reserve
 
 ::: {#fig-fed-remittances}
-![](figures/week03/fed_building.jpg)
+![](figures/chapter_03/fed_building.jpg)
 
 The Federal Reserve System is headquartered at the Eccles Building in Washington, D.C.
 :::
@@ -188,7 +188,7 @@ At the center sits the **Board of Governors** in Washington, D.C. — seven memb
 The **12 Regional Federal Reserve Banks** — distributed from Boston to San Francisco, with districts drawn to reflect the economic geography of 1913 rather than today — are the institution's eyes and ears. Each has a nine-member board of directors that mixes commercial bankers and public representatives, creating a direct channel between the Fed and regional business conditions. This structure embeds private-sector knowledge into the Fed's governance in a way that has no parallel among other major central banks, and it was the political price of passing the Federal Reserve Act: regional banking interests insisted on representation. The regional banks also perform a function the Board cannot: they collect the on-the-ground intelligence about local economic conditions that feeds into the Beige Book and, ultimately, FOMC deliberations.
 
 ::: {#fig-fed-map}
-![](figures/week03/fed_map.png)
+![](figures/chapter_03/fed_map.png)
 
 The 12 Federal Reserve Banks are distributed across the United States, each serving a specific district. This regional structure is designed to ensure that the central bank has access to local economic information and perspectives from across the country.
 :::
@@ -230,7 +230,7 @@ The press conference serves a function the written statement cannot. Monetary po
 Beyond the minutes, the Fed publishes economic projections — the Summary of Economic Projections, sometimes called the "dot plot" — four times per year, showing each participant's forecast for growth, inflation, unemployment, and the appropriate path of interest rates. Individual forecasts in the dot plot are anonymous, which allows participants to reveal their genuine views without creating a public commitment that would constrain their future votes.
 
 ::: {#fig-fed-chairs}
-![](figures/week03/fed_governors.png)
+![](figures/chapter_03/fed_governors.png)
 
 Federal Reserve Chairs since 1979. The length of tenure and the economic eras each chair navigated illustrate how much the institution's character depends on individual leadership within a common structural framework.
 :::
@@ -238,7 +238,7 @@ Federal Reserve Chairs since 1979. The length of tenure and the economic eras ea
 Why does all this structural complexity matter? Because each layer creates a different constituency with a different set of interests and a different information source. The regional banks bring local economic intelligence and perspectives from outside Washington. The rotating FOMC membership distributes influence over time. The staggered terms insulate the Board from short-term political cycles. The dinner allows informal consensus to form before the formal vote. The Beige Book aggregates knowledge the national statistics miss. And the New York Fed's execution role connects the committee's decisions to actual financial markets through a reliable institutional channel. The result is an institution that is genuinely difficult to capture quickly — and one whose decisions, when they are made, reflect a more diverse information base than a single committee voting in isolation could achieve.
 
 ::: {#fig-fed-fomc-meeting}
-![](figures/week03/fed_fomc_meeting.jpg)
+![](figures/chapter_03/fed_fomc_meeting.jpg)
 
 Meeting of the Federal Open Market Committee in the Board Room of the [Eccles Building](https://en.wikipedia.org/wiki/Eccles_Building).
 :::
@@ -256,7 +256,7 @@ The tension within the dual mandate is one of the central themes of monetary pol
 ## The European Central Bank
 
 ::: {#fig-ecb-building}
-![](figures/week03/ecb_building.jpg)
+![](figures/chapter_03/ecb_building.jpg)
 
 The European Central Bank is headquartered in Frankfurt, Germany. Its unique structure and mandate reflect the political and economic complexities of managing a common currency across multiple sovereign nations.
 :::
@@ -344,7 +344,7 @@ This matters beyond accounting convention. It reflects the same regression theor
 - **Government deposits:** the Treasury's account at the Fed. When the government collects taxes, funds flow into this account; when it spends, funds flow out into the banking system.
 
 ::: {#fig-cb-balance-sheet}
-![](figures/week03/central_bank_balance_sheet.png){width=80%}
+![](figures/chapter_03/central_bank_balance_sheet.png){width=80%}
 
 The general balance sheet structure of a central bank. Assets are what the central bank owns; liabilities are what it owes (or, in the case of fiat currency, the accounting legacy of what it once owed).
 :::
@@ -354,7 +354,7 @@ The general balance sheet structure of a central bank. Assets are what the centr
 The Federal Reserve's balance sheet as of late 2024 is a particularly instructive snapshot because it still captures significant legacy effects from a decade of post-2008 quantitative easing, partially offset by the QT (quantitative tightening) program that began in 2022.
 
 ::: {#fig-fed-balance-sheet-data}
-![](figures/week03/central_bank_balance_sheet_data.png)
+![](figures/chapter_03/central_bank_balance_sheet_data.png)
 
 Federal Reserve balance sheet (millions of dollars). The dominance of securities on the asset side and reserve deposits on the liability side reflects the legacy of post-2008 quantitative easing programs. Chapter 4 explains how these positions were built up and what they mean for monetary policy.
 :::

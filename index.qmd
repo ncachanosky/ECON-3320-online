@@ -1,4 +1,6 @@
 ---
+Title: "Money, Institutions, and Markets"
+
 author:
   - name: Nicolas Cachanosky
     url: https://www.ncachanosky.com
@@ -12,7 +14,7 @@ citation:
   title: "Money, Institutions, and Markets"
   author: Nicolas Cachanosky
   url: https://ncachanosky.github.io/ECON-3320-online/
-  issued: 2025
+  issued: 2026
 
 license: "CC BY-NC 4.0"
 ---
@@ -21,7 +23,7 @@ license: "CC BY-NC 4.0"
 
 Welcome to *Money, Institutions, and Markets*, the reading companion for ECON 3320 – Money and Banking at the University of Texas at El Paso.
 
-This book was designed for the fully online, accelerated version of the course. It covers the same core ideas as the in-person version, condensed into seven weeks of focused, readable chapters. Each chapter combines economic theory with real-world examples and live data — the goal is not just to understand how money and financial markets work in the abstract, but to be able to look at the actual world and make sense of what you see.
+This book was designed for the fully online, accelerated version of the course (7 weeks). It covers the same core ideas as the in-person version, condensed into seven weeks of focused, readable chapters. Each chapter combines economic theory with real-world examples and live data — the goal is not just to understand how money and financial markets work in the abstract, but to be able to look at the actual world and make sense of what you see.
 
 ## How to use this book
 

@@ -49,7 +49,7 @@ Time preference varies across people. Some people are very impatient — they hi
 The credit market works exactly like any other market, with time as the good being traded. The **supply of credit** comes from savers — households and firms willing to lend purchasing power today in exchange for repayment with interest tomorrow. Higher interest rates attract more saving: as the return to waiting rises, more agents choose to defer consumption. The **demand for credit** comes from borrowers — households wanting to consume before they have the income, firms wanting to invest before they have the profits, governments wanting to spend before they have the tax revenue. Lower interest rates attract more borrowing: as the cost of accessing resources now falls, more agents choose to borrow. The equilibrium interest rate $i^*$ clears this market — equating the total amount that savers are willing to lend with the total amount that borrowers want to access. This equilibrium is determined by the underlying time preferences of all agents in the economy, by the productivity of capital (which determines the return to investment and therefore the demand for credit), and by the supply of saving.
 
 ::: {#fig-demand_and_supply}
-![](figures/week05/demand_and_supply.png)
+![](figures/chapter_05/demand_and_supply.png)
 
 The market for loans. The supply of loans ($S$) slopes upward: higher interest rates attract more lenders willing to defer consumption. The demand for loans ($D$) slopes downward: lower rates attract more borrowers. The equilibrium rate $i^*$ clears the market. Monetary policy shifts the supply curve — expansionary policy increases the supply of loanable funds, pushing the rate below $i^*$; contractionary policy reduces supply, pushing it above.
 :::
@@ -121,7 +121,7 @@ The correspondence is: $y = FV_n$ (the outcome), $a = PV$ (the initial value, wh
 :::
 
 ::: {#fig-compounding}
-![](figures/week05/compounding.png){width=50%}
+![](figures/chapter_05/compounding.png){width=50%}
 
 The exponential growth of a sum invested at a constant interest rate over time. Growth is slow at first and accelerates as the interest base expands — each period's interest becomes the base for the next period's interest. This is the mathematical signature of compounding.
 :::
@@ -203,7 +203,7 @@ With the analytical tools of time preference, present value, and duration in han
 The financial system has six broad components, each serving a distinct function:
 
 ::: {#fig-financial-functions}
-![](figures/week05/financial_functions.png)
+![](figures/chapter_05/financial_functions.png)
 
 The six components of the financial system. Each layer performs a distinct function: money and payment technologies enable exchange; financial instruments transfer resources and risk; financial markets provide the venues for trading those instruments; financial institutions provide access, information, and services; regulators oversee the system; and central banks monitor institutions and stabilize the macroeconomy.
 :::
@@ -227,7 +227,7 @@ Resources move from savers to borrowers through two broad channels:
 Financial intermediaries share a common balance sheet structure that reflects their intermediary role:
 
 ::: {#fig-balance-sheet}
-![](figures/week05/balance_sheet.png){width=70%}
+![](figures/chapter_05/balance_sheet.png){width=70%}
 
 The balance sheet of a financial intermediary. Assets (left) are ordered from more liquid to less liquid: cash, stocks, bonds, loans, real estate. Liabilities (right) are the claims of depositors, policyholders, and other creditors. Equity is the residual owned by shareholders. Financial intermediaries profit from the spread between the return on assets and the cost of liabilities — but this structure creates the maturity mismatch that makes them fragile, as Chapter 4 discussed.
 :::

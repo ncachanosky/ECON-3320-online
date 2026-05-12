@@ -134,7 +134,7 @@ $$D = \frac{\displaystyle\sum_{t=1}^{T} t \cdot \frac{CF_t}{(1+i)^t}}{p}$$
 where the numerator is the sum of each cash flow's present value weighted by its time, and the denominator is the bond's price (the sum of all discounted cash flows). Duration is measured in years and represents the effective maturity of the bond — the center of gravity of its cash flow stream.
 
 ::: {#fig-duration}
-![](figures/week06/duration.png)
+![](figures/chapter_06/duration.png)
 
 Duration as a balance point. A 5-year bond with \$3 annual coupons and \$103 at maturity has a Macaulay duration of 4.99 years — nearly the full maturity, because most of the value is in the final payment. A high-coupon bond would have a shorter duration because relatively more value is received early. Duration is the fulcrum that balances the bond's cash flows in time.
 :::
@@ -166,7 +166,7 @@ Maturity is the date of the last payment. Duration is the effective time-weighte
 The **[yield curve](https://en.wikipedia.org/wiki/Yield_curve)** plots the yields of otherwise identical bonds against their maturities. "Otherwise identical" means same issuer, same credit quality, same currency — the only thing varying is time to maturity. The US Treasury yield curve is the benchmark: it shows the yield on Treasury securities from 1 month to 30 years, all free of default risk, and the shape of that curve contains important information about expectations for interest rates and the economy.
 
 ::: {#fig-yield-curve-shapes}
-![](figures/week06/typical_yield_curves.png)
+![](figures/chapter_06/typical_yield_curves.png)
 
 Three common shapes of the yield curve. An **upward-sloping** (normal) curve — short rates below long rates — is the most common configuration, reflecting positive term premiums and/or expectations that rates will rise. A **flat** curve signals uncertainty or transition. An **inverted** curve — short rates above long rates — is the most informative: it signals that markets expect rates to fall, typically because they expect economic slowdown.
 :::
@@ -242,7 +242,7 @@ The par yield curve (constructed from coupon bonds trading at par) and the spot 
 The yield curve analysis above applies to bonds of a single issuer. When comparing bonds across countries, an additional factor enters: **country risk**, also called sovereign risk. A bond issued by the Greek government carries default risk that a German government bond does not — both are euro-denominated, but Greece's fiscal position and institutional framework make default more plausible. The difference in yield between Greek and German bonds of the same maturity is the **credit spread**, and it measures the market's assessment of Greek sovereign risk relative to Germany.
 
 ::: {#fig-country_risk}
-![](figures/week06/country_risk.png)
+![](figures/chapter_06/country_risk.png)
 
 Country risk and sovereign spreads. The spread between the yields of a risk-free reference country and a riskier country reflects the market's assessment of default risk for a given maturity. Wider spreads signal greater perceived risk.
 :::
@@ -359,7 +359,7 @@ When financial advisors recommend "investing in the market," they typically mean
 The financial industry employs thousands of highly paid analysts, portfolio managers, and traders whose job is to identify mispriced securities and generate returns above the market average. The puzzle is: evidence consistently shows that most actively managed funds *underperform* their benchmark indexes after fees. Not occasionally, not temporarily — systematically, over long periods, across most market conditions.
 
 ::: {#fig-malkiel-monkey}
-![](figures/week06/malkiel_monkey.jpg){}
+![](figures/chapter_06/malkiel_monkey.jpg)
 
 [Burton Malkiel](https://en.wikipedia.org/wiki/Burton_Malkiel), in his influential book *A Random Walk Down Wall Street*, argued that a blindfolded monkey throwing darts at a newspaper's financial pages could select a portfolio that would do just as well as one carefully selected by experts. This is not a criticism of analysts' intelligence — it is a statement about market structure.  
 

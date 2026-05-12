@@ -33,7 +33,7 @@ This chapter is the empirical foundation of the course. Before evaluating centra
 Chapter 1 traced the broad arc of monetary history in six stages, from commodity money through free banking, the gold standard, Bretton Woods, fiat money, and the present digital era. This chapter zooms in on the first three stages — the ones that unfolded before central banks existed — and asks a more precise question: how did banking actually work when there was no lender of last resort, no deposit insurance, and no monetary authority to bail out a failing bank? The answer is more interesting, and more reassuring, than most people expect.
 
 ::: {#fig-history-of-money}
-![](figures/week01/history_of_money.png)
+![](figures/chapter_01/history_of_money.png)
 
 Six stages in the history of money. The first five are well-established; the sixth is unfolding now.
 :::
@@ -121,7 +121,7 @@ The standard free banking model has a precise structure. Gold functions as outsi
 What does a bank actually do with your deposit? The answer is visible in its balance sheet — and the balance sheet also explains why banks can be fragile. The figure below traces three stages in the life of a simple commercial bank, each revealing a different step in how financial intermediation works, and building toward the question of why any bank is vulnerable to a run.
 
 ::: {#fig-bank-balance-sheet}
-![](figures/week02/bank_balance_sheet.png)
+![](figures/chapter_02/bank_balance_sheet.png)
 
 Three stages of a commercial bank's balance sheet. Left: the bank has just received deposits and holds them entirely as reserves. Centre: the bank has deployed its excess reserves into securities. Right: the mature free banking balance sheet — the bank holds reserves, securities, and loans, and has issued both deposits and banknotes as liabilities.
 :::
@@ -153,7 +153,7 @@ Under free banking, banks hold only a fraction of their gold deposits as reserve
 The mechanics of money creation work as follows. Suppose a gold miner deposits 100 grams of gold at Bank A. Bank A keeps 10g as reserves and lends out 90g. The borrower deposits the 90g loan at Bank B. Bank B keeps 9g as reserves and lends out 81g.
 
 ::: {#fig-money_multiplier}
-![](figures/week02/money_multiplier.png)
+![](figures/chapter_02/money_multiplier.png)
 
 The money multiplier process is a sequence of deposits and loans through the banking system. Even if this is an endless process, total money supply converges to a finite number.
 :::
@@ -165,7 +165,7 @@ $$D = \frac{100}{0.10} = 1000 \text{ grams}$$
 assuming a 10% reserve ratio. The original 100g of gold base money has supported 1,000g of deposits — a tenfold multiplication. The lower the reserve ratio, the higher the multiplier. With a 5% reserve ratio, the multiplier would be 20; with a 20% reserve ratio, it would be 5. In every case, total money supply is a finite number determined by the reserve ratio and the initial gold base — banks cannot create money out of thin air; they can only create it through the process of accepting deposits and making loans, which is constrained by their reserve holdings.
 
 ::: {#fig-money_supply_convergence}
-![](figures/week02/money_supply_convergence.png)
+![](figures/chapter_02/money_supply_convergence.png)
 
 The reserve ratio defines the level of secondary money creation, which is constrained by the amount of outside money deposits.
 :::
@@ -193,7 +193,7 @@ There is also a more subtle case: **concerted over-expansion**, where all banks 
 In practice, free banking systems developed a coordination institution: the **clearing house**. A clearing house is an association of banks that agree to net their mutual claims on a regular basis. At the end of each day, Bank A's claims on Bank B, Bank B's claims on Bank C, and so on, are all totaled and offset, with only the net balance settled in gold. This dramatically reduces the gold movement required to settle transactions, making the system more efficient.
 
 ::: {#fig-free_banking_clearing}
-![](figures/week02/free_banking_clearing.png)
+![](figures/chapter_02/free_banking_clearing.png)
 
 The adverse clearing mechanism. When Bank A over-issues notes, they circulate through the economy and are deposited at other banks. Those banks present them for redemption at the clearing house, draining Bank A's reserves. Bank A must contract its issuance or face insolvency.
 :::
@@ -247,7 +247,7 @@ Third — and this is more accurately a **shortcoming of governments than of the
 If the gold standard was genuinely good, why did it go away? The answer is World War I. Every major belligerent suspended convertibility to finance unprecedented military spending that no gold reserve could back. When the war ended, attempts to restore the gold standard in the 1920s were poorly managed — countries returned to prewar parities at exchange rates that did not reflect wartime inflation, generating deflationary pressure that deepened the Great Depression. The gold standard did not fail on its own terms; it was suspended by governments facing exceptional fiscal pressure, then restored badly, and finally abandoned. As we saw in Chapter 1, Bretton Woods tried to preserve some of its discipline while addressing its inflexibility, and failed; the fully fiat era began in 1971.
 
 ::: {#fig-convertible_dollar}
-![](figures/week02/convertible_dollar.jpg)
+![](figures/chapter_02/convertible_dollar.jpg)
 
 A US dollar note convertible to gold. Under the gold standard, all major currencies were convertible to fixed weights of gold, making them effectively different names for the same money.
 :::
@@ -351,7 +351,7 @@ The historical record examined in this chapter supports conclusions that extend 
 **The evidence scales across countries and time.** The lessons from Scotland, Canada, Australia, and the US are not idiosyncratic to those cases.
 
 ::: {#fig-banking_crises}
-![](figures/week02/banking_crises.png)
+![](figures/chapter_02/banking_crises.png)
 
 Banking crises were more frequent and more severe under regulated banking regimes than under free banking regimes. The pattern holds across countries and time periods, suggesting the result is not specific to any particular historical episode.
 :::

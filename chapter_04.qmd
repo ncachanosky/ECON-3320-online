@@ -58,7 +58,7 @@ The case for rules rests on two countervailing observations. First, monetary pol
 The intuition behind the rules argument is captured in the figure below. Good monetary policy does not eliminate business cycles — it smooths them, keeping the economy closer to its potential path. Bad monetary policy — whether through discretion, poor timing, or systematic bias — can amplify cycles rather than dampen them.
 
 ::: {#fig-good-monetary-policy}
-![](figures/week04/good_monetary_policy.png){widthh=80%}
+![](figures/chapter_04/good_monetary_policy.png){widthh=80%}
 
 Good monetary policy (dashed copper) keeps the economy closer to its potential growth path (black) than unmanaged fluctuations. The goal is not to eliminate all cycles — that is not possible — but to avoid adding monetary instability on top of real economic fluctuations.
 :::
@@ -222,13 +222,13 @@ The Federal Reserve's primary tool is **[open market operations (OMOs)](https://
 OMOs do not take place in the open market in the sense of posting on a public exchange. As Chapter 3 described, all open market operations flow through the Fed's **primary dealers** — the approximately 24 designated large banks and broker-dealers that are required to participate in Treasury auctions and to transact directly with the New York Fed's Open Market Desk. When the Fed wants to expand reserves, it buys securities from primary dealers, crediting their reserve accounts; the primary dealers then have additional liquidity to lend to the rest of the financial sector. When the Fed wants to contract reserves, it sells securities to primary dealers, debiting their accounts; the primary dealers have less liquidity to lend. The effect ripples outward from the primary dealers to the broader financial system and eventually to the real economy.
 
 ::: {#fig-omo-expansion}
-![](figures/week04/OMO_expansion.png)
+![](figures/chapter_04/OMO_expansion.png)
 
 A **monetary expansion** through open market purchases. The Fed buys securities from primary dealers, crediting their reserve accounts with US dollars. Primary dealers now hold more reserves and less securities, and extend more lending to the rest of the market. The money supply expands.
 :::
 
 ::: {#fig-omo-contraction}
-![](figures/week04/OMO_contraction.png)
+![](figures/chapter_04/OMO_contraction.png)
 
 A **monetary contraction** through open market sales. The Fed sells securities to primary dealers in exchange for US dollars, debiting their reserve accounts. Primary dealers now hold less reserves and more securities, and extend less lending to the rest of the market. The money supply contracts.
 :::
@@ -242,13 +242,13 @@ Before the 2008 financial crisis, the Fed operated a **corridor system** for imp
 The figures below illustrate the corridor mechanism. Banks hold reserves (shown as the bottom portion of each bar) and other assets (top). The dashed line shows desired reserves. When the federal funds rate is too high (left figure), some banks hold more reserves than they desire — they are willing to lend them at a lower rate, pushing the funds rate down. When the funds rate is too low (right figure), banks are short of desired reserves — they bid up the funds rate to attract more. The Fed responds to each situation by adjusting reserve supply through OMOs until the funds rate is on target.
 
 ::: {#fig-ffr-high}
-![](figures/week04/reserves_FFR_high.png)
+![](figures/chapter_04/reserves_FFR_high.png)
 
 When the federal funds rate is too high, banks collectively hold more reserves than desired. Banks with excess reserves are willing to lend at a lower rate, pushing the funds rate down. The Fed can accelerate this by buying securities (injecting reserves), immediately increasing supply in the overnight market.
 :::
 
 ::: {#fig-ffr-low}
-![](figures/week04/reserves_FFR_low.png)
+![](figures/chapter_04/reserves_FFR_low.png)
 
 When the federal funds rate is too low, banks collectively hold fewer reserves than desired. Banks short of reserves bid up the funds rate to attract lending. The Fed can counter this by selling securities (draining reserves), reducing supply in the overnight market.
 :::
@@ -261,7 +261,7 @@ The corridor itself was defined by two administered rates:
 Small, daily OMOs were sufficient to keep the rate on target, and the Fed's balance sheet remained compact — roughly \$900 billion before 2008.
 
 ::: {#fig-system-corridor}
-![](figures/week04/system_corridor.png){width=50%}
+![](figures/chapter_04/system_corridor.png){width=50%}
 
 The corridor system. The federal funds rate is kept between the discount rate (ceiling) and the interest rate on reserves (floor) by adjusting the scarce supply of reserves through open market operations. In the pre-2008 system, the floor rate was zero since the Fed paid no interest on reserves.
 :::
@@ -277,7 +277,7 @@ The flood of reserves overwhelmed the corridor mechanism. Banks were suddenly ho
 The transition to abundant reserves required a new implementation framework: the **floor system**. Instead of controlling the *quantity* of reserves to influence the federal funds rate, the Fed now directly sets the interest rate it pays on reserve balances — the **Interest on Reserve Balances (IORB)**.
 
 ::: {#fig-ior-general}
-![](figures/week04/IOR_general.png){width=50%}
+![](figures/chapter_04/IOR_general.png){width=50%}
 
 The structure of interest on reserves. Before July 2021, the Fed paid separate rates on required reserves (IORR) and excess reserves (IOER). In July 2021, these were unified into a single Interest on Reserve Balances (IORB) rate, simplifying the floor system.
 :::
@@ -294,7 +294,7 @@ The brief history of interest on reserves in the US:
 Under the floor system, the Fed adjusts IORB to hit its federal funds rate target: raise IORB to tighten, lower it to ease. No reserve quantity adjustment is required.
 
 ::: {#fig-system-floor}
-![](figures/week04/system_floor.png){width=50}
+![](figures/chapter_04/system_floor.png){width=50}
 
 The floor system. With abundant reserves, the federal funds rate is anchored at the IORB floor rather than being controlled by the marginal supply of scarce reserves. The Fed sets the rate directly by adjusting IORB, without needing to fine-tune reserve quantities daily.
 :::
@@ -425,7 +425,7 @@ The short answer is: through interest rates. The federal funds rate is the rate 
 The transmission from the federal funds rate to these economically significant rates is not automatic or instantaneous. It runs through financial markets — through expectations about where short-term rates will be in the future, through risk premiums investors demand for longer-maturity or riskier instruments, and through the pricing of financial assets that reflects all of this simultaneously. The figure below makes this chain visible: a change in the short-term interest rate works its way through long-term rates, then lending conditions, then economic activity, and finally output and unemployment. Each step takes time — the full effect unfolds over 12 to 18 months or longer. This is Friedman's "long and variable lags" translated into institutional mechanics.
 
 ::: {#fig-interest-rate-channel}
-![](figures/week04/interest_rate_channel.png)
+![](figures/chapter_04/interest_rate_channel.png)
 
 The interest rate transmission channel. Monetary policy reaches the real economy through a chain of financial market responses, each operating with its own lag. The gap between the Fed's decision and its full economic effect is why rules advocates argue that discretion tends to amplify rather than dampen cycles — by the time the policy works through the chain, the situation it was designed to address may have already changed.
 :::

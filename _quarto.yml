@@ -38,13 +38,13 @@ book:
 
   chapters:
     - index.qmd
-    - week01.qmd
-    - week02.qmd
-    - week03.qmd
-    - week04.qmd
-    - week05.qmd
-    - week06.qmd
-    - week07.qmd
+    - chapter_01.qmd
+    - chapter_02.qmd
+    - chapter_03.qmd
+    - chapter_04.qmd
+    - chapter_05.qmd
+    - chapter_06.qmd
+    - chapter_07.qmd
 
   page-footer:
     left: "© Nicolas Cachanosky, The University of Texas at El Paso, Center for Free Enterprise"
@@ -61,7 +61,8 @@ format:
     theme:
       light: flatly
       dark:  darkly
-    css: styles.css
+    # css: styles.css
+    css: https://raw.github.com/ncachanosky/EO-styles/main/styles.css
     fontsize: 1.2em
     mainfont: "Georgia, serif"
     highlight-style: github

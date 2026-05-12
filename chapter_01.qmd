@@ -54,7 +54,7 @@ Money is not the only store of value — stocks, bonds, real estate, and even fi
 It is worth pausing to distinguish the *definition* of money from its *functions*. The definition — a generally accepted means of payment — tells us what money *is*. The three functions tell us what money *does*, and they also give us a way to evaluate money's **quality**. Money that performs all three functions well is high-quality money: it is widely accepted, prices are reliably quoted in it, and it holds its value over time. Money that performs them poorly is low-quality money. The Argentine peso, for instance, qualifies as money by definition — it is the accepted means of payment within Argentina — but it performs poorly as a store of value due to persistent inflation, making it low-quality money by the three-function standard. This quality dimension matters for policy: a central bank that destroys the store-of-value function through excessive money creation does not stop producing money, it just produces worse money.
 
 ::: {#fig-functions-of-money}
-![](figures/week01/functions_of_money.png){width="80%"}
+![](figures/chapter_01/functions_of_money.png){width="80%"}
 
 Functions of money; do not confuse with the **definition** of money.
 :::
@@ -82,7 +82,7 @@ Money is just one item on the asset side — and often a small one. Consider two
 **Money is not the same as payment technologies.** The technology used to transfer money is not money itself. When you pay with a debit card, the card is not money — your bank deposit is. The card is just a tool to move it. This is the subject of the next section.
 
 ::: {#fig-balance-composition}
-![](figures/week01/balance_composition.png)
+![](figures/chapter_01/balance_composition.png)
 
 Wealth is composed of money plus other assets, minus liabilities. Having cash and being wealthy are not the same thing.
 :::
@@ -114,7 +114,7 @@ Total money has two broad components. **Base money** — also called the monetar
 **Money substitutes** are assets that function like money for most practical purposes but are not themselves base money. A checking account balance is the clearest example: you can use it to pay for almost anything, it is denominated in dollars, and it is redeemable on demand — but it is a claim on a commercial bank, not on the central bank directly. Other money substitutes include savings accounts, money market funds, and short-term certificates of deposit. These are slightly less liquid — they may require a transfer step or a waiting period — but they are close enough to money that they belong in any serious accounting of the money supply.
 
 ::: {#fig-money-composition}
-![](figures/week01/money_composition.png)
+![](figures/chapter_01/money_composition.png)
 
 The conceptual structure of the money supply. Base money (commodity, fiat, or digital) is the narrow foundation. Money substitutes — bank deposits, money market funds, certificates of deposit — extend it into the broader economy. The dividing line between "narrow money" and "broad money" depends on how strictly you define general acceptance.
 :::
@@ -126,7 +126,7 @@ The key insight is that money substitutes are created by the banking system thro
 Because the line between "money" and "near-money" is not sharp, economists track the money supply at several levels of breadth. The official U.S. measures, defined by the [Federal Reserve](https://www.federalreserve.gov/releases/h6/), are organized from most to least liquid:
 
 ::: {#fig-money-aggregates}
-![](figures/week01/money_aggregates.png){width="80%"}
+![](figures/chapter_01/money_aggregates.png){width="80%"}
 
 The U.S. monetary aggregates. Each level includes everything inside it plus additional, slightly less liquid assets. The monetary base is the most narrow; M2 is the broadest standard measure.
 :::
@@ -138,7 +138,7 @@ The U.S. monetary aggregates. Each level includes everything inside it plus addi
 As of July 2024, the U.S. monetary base stood at roughly \$5.6 trillion, M1 at around \$18 trillion, and M2 at roughly \$21 trillion. The chart below shows the components of each aggregate in dollar terms.
 
 ::: {#fig-monetary-aggregates-values}
-![](figures/week01/money_aggregates_values.png){width="80%"}
+![](figures/chapter_01/money_aggregates_values.png){width="80%"}
 
 Components of U.S. monetary aggregates, March 2026 (billions of dollars).  
 Source: [Federal Reserve H.6 Release](https://www.federalreserve.gov/releases/h6/20260428/).
@@ -178,7 +178,7 @@ Three types of money can circulate as cash:
 A check is not money. It is an instruction — an order from you to your bank to transfer funds to someone else's account. The paper itself has no intrinsic value; it is a claim on the deposit behind it.
 
 ::: {#fig-check}
-![](figures/week01/check.jpg)
+![](figures/chapter_01/check.jpg)
 
 A check is a payment instruction, not money itself. Its design incorporates multiple security features: an authorized signature acting as a password, a MICR line encoding routing and account numbers, and intricate graphic patterns that make counterfeiting difficult..
 :::
@@ -214,7 +214,7 @@ Money is one of humanity's great institutional inventions. But unlike the steam 
 Imagine a world without money. You're a farmer with a surplus of apples. You want bananas. Across town, someone has bananas but wants salt. Somewhere else, a third person has salt but wants apples.
 
 ::: {#fig-barter}
-![](figures/week01/barter.png){width="35%"}
+![](figures/chapter_01/barter.png){width="35%"}
 
 Barter economy and the problem of *double-coincidence of wants*.
 :::
@@ -288,7 +288,7 @@ But the regression theorem makes a specific claim that goes beyond origin: it sa
 Monetary history can be organized into six broad stages. Each stage reflects a different answer to the same underlying questions: who issues money, what backs it, and how is its supply constrained? The progression is not a smooth line of progress — each stage solved some problems while creating others, and the transitions between them were often forced by war, financial crisis, or technological change. The figure below summarizes the sequence; the discussion that follows explains what changed at each step and why.
 
 ::: {#fig-history-of-money}
-![](figures/week01/history_of_money.png)
+![](figures/chapter_01/history_of_money.png)
 
 Six stages in the history of money. The first five are well-established; the sixth is unfolding now.
 :::
@@ -324,7 +324,7 @@ When the price level rises, the purchasing power of money falls: each dollar buy
 A crucial clarification: inflation means a **continuously rising** price level, not merely a *high* price level. The diagram below makes this precise.
 
 ::: {#fig-inflation}
-![](figures/week01/inflation.png)
+![](figures/chapter_01/inflation.png)
 
 What counts as inflation. A persistently high price level, or a one-time jump, is *not* inflation. Inflation is the ongoing, sustained upward movement in the price level over time. The level of prices doesn't matter for inflation — only the rate of change does.
 :::

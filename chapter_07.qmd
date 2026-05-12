@@ -95,7 +95,7 @@ The CAPM completes the circuit that Chapter 6 opened. The discount rate in the G
 CAPM is a model — it makes simplifying assumptions (homogeneous expectations, no taxes or transaction costs, normally distributed returns) that are not fully satisfied in practice. The empirical evidence on whether beta alone explains cross-sectional differences in returns is mixed; the Fama-French three-factor model adds size and value factors as additional explanators. But CAPM remains the foundational framework for thinking about the risk-return tradeoff and the pricing of systematic risk, and it is the starting point for virtually all subsequent asset pricing theory.
 
 ::: {#fig-capm}
-![](figures/week07/risk_premium.png)
+![](figures/chapter_07/risk_premium.png)
 
 The risk premium of a given stock is an addition to the risk-free rate that compensates investors for bearing the stock's systematic risk. The higher the beta, the higher the risk premium, and therefore the higher the expected return required by investors to hold that stock. This is the essence of the risk-return tradeoff: more risk requires more expected return.
 :::
@@ -121,7 +121,7 @@ A **[futures contract](https://en.wikipedia.org/wiki/Futures_contract)** standar
 Futures contracts are settled either by physical delivery (the commodity is actually delivered) or cash settlement (the difference between the futures price and the spot price at expiration is paid in cash). Most financial futures (on stock indices, interest rates, currencies) are cash-settled.
 
 ::: {#fig-forward}
-![](figures/week07/forward.png)
+![](figures/chapter_07/forward.png)
 
 In a forward or future contract, parties agree to exchange an asset at a future date for a price agreed upon today. The buyer of the contract is long the asset (benefits if the price rises), while the seller is short (benefits if the price falls). The contract's value fluctuates with changes in the underlying asset's price, and leverage amplifies these fluctuations.
 :::
@@ -163,7 +163,7 @@ Why would two parties want to exchange interest rate streams? Consider a commerc
 Interest rate swaps are now among the largest financial markets in the world — the notional value of outstanding interest rate swaps runs to hundreds of trillions of dollars globally. This is not because the underlying economic risk is that large, but because the same notional principal can be used in many transactions simultaneously, and because many institutions with interest rate mismatches on their balance sheets use swaps to manage them.
 
 ::: {#fig-interest_rate_swap}
-![](figures/week07/interest_rate_swap.png)
+![](figures/chapter_07/interest_rate_swap.png)
 
 Interest rate swaps (IRS) allow parties to exchange fixed and floating interest payments, effectively transforming the risk profile of their cash flows. A bank with fixed-rate assets and floating-rate liabilities can use an IRS to convert its fixed income into floating income, reducing its exposure to rising interest rates. The swap market is a critical component of the financial system's risk management infrastructure.
 :::
@@ -307,7 +307,7 @@ Countries choose how much to allow their exchange rates to float. The spectrum r
 **Monetary union / dollarization:** countries adopt a common currency (the euro) or a foreign currency (the US dollar in Panama, Ecuador, El Salvador). No exchange rate exists within the union; monetary policy is fully ceded. Chapter 4 discusses dollarized economies in the context of the lender-of-last-resort function — the notable finding being that the absence of a domestic LOLR has not produced systemic instability in any of the three cases.
 
 ::: {#fig-fx_regimes}
-![](figures/week07/fx_regimes.png)
+![](figures/chapter_07/fx_regimes.png)
 
 Exchange rate regimes can be ranked from more to less flexible. The more flexible the regime, the more the exchange rate can adjust to shocks, but the less monetary policy autonomy the country has. The more fixed the regime, the more stable the exchange rate, but the more vulnerable the country is to external shocks and speculative attacks.
 :::
@@ -324,7 +324,7 @@ Any two of the three are achievable; all three together are not.
 Here is why. Suppose a country wants both free capital flows and a fixed exchange rate, but its economy is in recession and it wants to cut interest rates. Lower domestic rates make the domestic currency less attractive — capital flows out, seeking higher returns elsewhere. The outflow puts downward pressure on the exchange rate. To maintain the peg, the central bank must intervene, selling foreign reserves to buy domestic currency. But this drains reserves. If reserves run out, the peg collapses. The only way to maintain the peg *and* free capital flows is to keep domestic interest rates aligned with the anchor country's rates — surrendering independent monetary policy.
 
 ::: {#fig-trilemma}
-![](figures/week07/trilemma.png)
+![](figures/chapter_07/trilemma.png)
 
 The Mundell trilemma states that a country cannot simultaneously have free capital flows, a fixed exchange rate, and independent monetary policy. It must choose which corner of the trilemma to sacrifice. The eurozone sacrificed independent monetary policy; China sacrificed free capital flows; the US, UK, and eurozone as a whole sacrificed a fixed exchange rate.
 :::

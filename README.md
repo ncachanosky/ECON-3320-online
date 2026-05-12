@@ -1,6 +1,6 @@
 # Money, Institutions, and Markets
 
-Course readings for **ECON 3320 – Money and Banking**  
+Course readings for a 7-week **Money and Banking** course  
 The University of Texas at El Paso · Center for Free Enterprise
 
 📖 **[Read the book →](https://ncachanosky.github.io/ECON-3320-online/)**
@@ -37,12 +37,13 @@ quarto preview    # local preview with live reload
 
 ## Contributing
 
-Found a typo or unclear passage? Use the **Report an issue** link at the bottom of any chapter, or open a [GitHub issue](https://github.com/ncachanosky/ECON-3320-online/issues) directly. Students in ECON 3320 may receive extra credit for substantive feedback.
+Found a typo or unclear passage? Use the **Report an issue** link at the bottom of any chapter, or open a [GitHub issue](https://github.com/ncachanosky/ECON-3320-online/issues) directly.
 
 ## Author
 
 **[Nicolas Cachanosky, PhD](https://www.ncachanosky.com/)**  
-Center for Free Enterprise · Department of Economics and Finance  
+Director · Center for Free Enterprise  
+Associate Professor of Economics · Department of Economics and Finance  
 The University of Texas at El Paso  
 [ncachanosky@utep.edu](mailto:ncachanosky@utep.edu)
 
