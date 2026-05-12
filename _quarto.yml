@@ -61,8 +61,8 @@ format:
     theme:
       light: flatly
       dark:  darkly
-    # css: styles.css
-    css: https://github.com/ncachanosky/EO-styles/blob/e01d07b628f4b0dc15740f40a3b4131240a1eaf7/styles.css
+    css: styles.css
+    # ss: https://github.com/ncachanosky/EO-styles/blob/e01d07b628f4b0dc15740f40a3b4131240a1eaf7/styles.css
     fontsize: 1.2em
     mainfont: "Georgia, serif"
     highlight-style: github
