@@ -31,7 +31,7 @@ body {
 }
 
 .content, .chapter, p, li, td {
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: 'Palatino Linotype', "Times New Roman", serif;
   line-height: 1.78;
 }
 
