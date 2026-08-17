@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Course readings for ECON 3320 – Money and Banking – The University of Texas at El Paso.">
+
+<title>6&nbsp; Pricing Financial Assets – Money, Institutions, and Markets</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./chapter_07.html" rel="next">
+<link href="./chapter_05.html" rel="prev">
+<link href="./favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-59898bd1c6b9d2bb783127feaa000c76.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d329e753491efaeac79c98c4b193a686.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-59898bd1c6b9d2bb783127feaa000c76.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-a85ebc0699499b942797964cd7e7e0b0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-f3a59b040a9154f9807748a60e6bd056.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a85ebc0699499b942797964cd7e7e0b0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Money, Institutions, and Markets">
+<meta property="og:description" content="Course readings for ECON 3320 – Money and Banking – The University of Texas at El Paso. An institutions-first treatment of monetary and financial economics.">
+<meta property="og:image" content="https://ncachanosky.github.io/ECON-3320-online/assets/logo.png">
+<meta property="og:site_name" content="Money, Institutions, and Markets">
+<meta property="og:image:height" content="1687">
+<meta property="og:image:width" content="1687">
+<meta name="twitter:title" content="Money, Institutions, and Markets">
+<meta name="twitter:description" content="Course readings for ECON 3320 – Money and Banking – The University of Texas at El Paso. An institutions-first treatment of monetary and financial economics.">
+<meta name="twitter:image" content="https://ncachanosky.github.io/ECON-3320-online/assets/logo.png">
+<meta name="twitter:creator" content="@n_cachanosky">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image-height" content="1687">
+<meta name="twitter:image-width" content="1687">
+</head>
+
+<body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter_06.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Pricing Financial Assets</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./assets/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Money, Institutions, and Markets</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/ncachanosky/ECON-3320-online" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Nature and Price of Money</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">How Banking Developed Before Central Banks</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Central Banks</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">How Central Banks Operate — and Why It Matters</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">How Financial Markets Work</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_06.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Pricing Financial Assets</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Managing Risk in Financial Markets</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#bond-valuation" id="toc-bond-valuation" class="nav-link active" data-scroll-target="#bond-valuation"><span class="header-section-number">6.1</span> Bond Valuation</a>
+  <ul class="collapse">
+  <li><a href="#what-a-bond-is" id="toc-what-a-bond-is" class="nav-link" data-scroll-target="#what-a-bond-is">What a Bond Is</a></li>
+  <li><a href="#pricing-a-bond-present-value-of-future-cash-flows" id="toc-pricing-a-bond-present-value-of-future-cash-flows" class="nav-link" data-scroll-target="#pricing-a-bond-present-value-of-future-cash-flows">Pricing a Bond: Present Value of Future Cash Flows</a></li>
+  <li><a href="#bond-yields-three-measures" id="toc-bond-yields-three-measures" class="nav-link" data-scroll-target="#bond-yields-three-measures">Bond Yields: Three Measures</a></li>
+  <li><a href="#bond-risks" id="toc-bond-risks" class="nav-link" data-scroll-target="#bond-risks">Bond Risks</a></li>
+  <li><a href="#duration-quantifying-interest-rate-sensitivity" id="toc-duration-quantifying-interest-rate-sensitivity" class="nav-link" data-scroll-target="#duration-quantifying-interest-rate-sensitivity">Duration: Quantifying Interest Rate Sensitivity</a></li>
+  </ul></li>
+  <li><a href="#the-yield-curve" id="toc-the-yield-curve" class="nav-link" data-scroll-target="#the-yield-curve"><span class="header-section-number">6.2</span> The Yield Curve</a>
+  <ul class="collapse">
+  <li><a href="#what-the-yield-curve-is" id="toc-what-the-yield-curve-is" class="nav-link" data-scroll-target="#what-the-yield-curve-is">What the Yield Curve Is</a></li>
+  <li><a href="#why-different-maturities-have-different-yields-the-term-structure" id="toc-why-different-maturities-have-different-yields-the-term-structure" class="nav-link" data-scroll-target="#why-different-maturities-have-different-yields-the-term-structure">Why Different Maturities Have Different Yields: The Term Structure</a></li>
+  <li><a href="#the-expectations-hypothesis" id="toc-the-expectations-hypothesis" class="nav-link" data-scroll-target="#the-expectations-hypothesis">The Expectations Hypothesis</a></li>
+  <li><a href="#the-term-premium" id="toc-the-term-premium" class="nav-link" data-scroll-target="#the-term-premium">The Term Premium</a></li>
+  <li><a href="#the-zero-coupon-yield-curve-and-spot-rates" id="toc-the-zero-coupon-yield-curve-and-spot-rates" class="nav-link" data-scroll-target="#the-zero-coupon-yield-curve-and-spot-rates">The Zero-Coupon Yield Curve and Spot Rates</a></li>
+  <li><a href="#country-risk-and-sovereign-spreads" id="toc-country-risk-and-sovereign-spreads" class="nav-link" data-scroll-target="#country-risk-and-sovereign-spreads">Country Risk and Sovereign Spreads</a></li>
+  <li><a href="#the-inverted-yield-curve-as-a-recession-indicator" id="toc-the-inverted-yield-curve-as-a-recession-indicator" class="nav-link" data-scroll-target="#the-inverted-yield-curve-as-a-recession-indicator">The Inverted Yield Curve as a Recession Indicator</a></li>
+  </ul></li>
+  <li><a href="#stock-valuation" id="toc-stock-valuation" class="nav-link" data-scroll-target="#stock-valuation"><span class="header-section-number">6.3</span> Stock Valuation</a>
+  <ul class="collapse">
+  <li><a href="#what-equity-is-and-why-its-harder-to-value-than-debt" id="toc-what-equity-is-and-why-its-harder-to-value-than-debt" class="nav-link" data-scroll-target="#what-equity-is-and-why-its-harder-to-value-than-debt">What Equity Is — and Why It’s Harder to Value Than Debt</a></li>
+  <li><a href="#the-gordon-growth-model" id="toc-the-gordon-growth-model" class="nav-link" data-scroll-target="#the-gordon-growth-model">The Gordon Growth Model</a></li>
+  <li><a href="#price-earnings-ratios" id="toc-price-earnings-ratios" class="nav-link" data-scroll-target="#price-earnings-ratios">Price-Earnings Ratios</a></li>
+  <li><a href="#stock-market-indices" id="toc-stock-market-indices" class="nav-link" data-scroll-target="#stock-market-indices">Stock Market Indices</a></li>
+  </ul></li>
+  <li><a href="#the-efficient-market-hypothesis" id="toc-the-efficient-market-hypothesis" class="nav-link" data-scroll-target="#the-efficient-market-hypothesis"><span class="header-section-number">6.4</span> The Efficient Market Hypothesis</a>
+  <ul class="collapse">
+  <li><a href="#the-puzzle-of-active-vs.-passive-management" id="toc-the-puzzle-of-active-vs.-passive-management" class="nav-link" data-scroll-target="#the-puzzle-of-active-vs.-passive-management">The Puzzle of Active vs.&nbsp;Passive Management</a></li>
+  <li><a href="#what-emh-claims" id="toc-what-emh-claims" class="nav-link" data-scroll-target="#what-emh-claims">What EMH Claims</a></li>
+  <li><a href="#why-do-prices-change-if-all-information-is-already-incorporated" id="toc-why-do-prices-change-if-all-information-is-already-incorporated" class="nav-link" data-scroll-target="#why-do-prices-change-if-all-information-is-already-incorporated">Why Do Prices Change If All Information Is Already Incorporated?</a></li>
+  <li><a href="#the-case-for-passive-investing" id="toc-the-case-for-passive-investing" class="nav-link" data-scroll-target="#the-case-for-passive-investing">The Case for Passive Investing</a></li>
+  <li><a href="#anomalies-and-behavioral-finance" id="toc-anomalies-and-behavioral-finance" class="nav-link" data-scroll-target="#anomalies-and-behavioral-finance">Anomalies and Behavioral Finance</a></li>
+  </ul></li>
+  <li><a href="#looking-ahead" id="toc-looking-ahead" class="nav-link" data-scroll-target="#looking-ahead"><span class="header-section-number">6.5</span> Looking Ahead</a></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways"><span class="header-section-number">6.6</span> Key Takeaways</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/ncachanosky/ECON-3320-online/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-ch06" class="quarto-section-identifier"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Pricing Financial Assets</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>Every financial asset is a stream of future cash flows discounted to the present. This chapter applies that principle to bonds and stocks, developing the pricing formulas that practitioners use daily and the concepts — yield to maturity, duration, the yield curve, the Gordon Growth Model — that give those formulas analytical meaning. The chapter also examines the Efficient Market Hypothesis: not as a claim that markets are perfect, but as a claim about how quickly prices incorporate available information, with direct implications for how investors should behave.</p>
+  </div>
+</div>
+
+
+</header>
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Learning Objectives
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>By the end of this chapter, you will be able to:</p>
+<ul>
+<li>Define the key features of a bond and price it using present value</li>
+<li>Derive and explain the inverse relationship between bond prices and yields</li>
+<li>Calculate and interpret current yield, yield to maturity, and holding period return</li>
+<li>Identify the main risks bonds carry and explain how credit ratings address information asymmetry in bond markets</li>
+<li>Calculate Macaulay duration and use it to measure a bond’s interest rate sensitivity</li>
+<li>Describe the term structure of interest rates and explain what determines the shape of the yield curve</li>
+<li>State the expectations hypothesis, derive the long rate formula, and identify what the hypothesis explains and what it leaves unexplained</li>
+<li>Explain the term premium and use it to interpret flat and inverted yield curves</li>
+<li>Value a stock using the dividend discount model and interpret P/E ratios</li>
+<li>Describe the main US stock market indices and explain the difference between price-weighted and market-cap-weighted construction</li>
+<li>State the Efficient Market Hypothesis in its three forms, explain why prices change if markets are efficient, evaluate the case for passive investing, and assess the role of behavioral finance as a complement to EMH</li>
+</ul>
+</div>
+</div>
+<section id="bond-valuation" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="bond-valuation"><span class="header-section-number">6.1</span> Bond Valuation</h2>
+<section id="what-a-bond-is" class="level3">
+<h3 class="anchored" data-anchor-id="what-a-bond-is">What a Bond Is</h3>
+<p>A <strong><a href="https://en.wikipedia.org/wiki/Bond_(finance)">bond</a></strong> is a debt instrument: a contract in which the issuer borrows money from the bondholder today and promises to make specified cash payments in the future. Chapter 5 introduced bonds as one category of financial instrument — a fixed, senior claim with contractual cash flows. This section develops the pricing mechanics in detail.</p>
+<p>The canonical bond — the <strong>bullet bond</strong> — has three defining features:</p>
+<ul>
+<li><strong>Face value (principal):</strong> the amount the issuer repays at maturity, typically $1,000 or $100 for government bonds</li>
+<li><strong>Coupon rate:</strong> the annual interest payment expressed as a percentage of face value. A 5% coupon on a $100 bond pays $5 per year</li>
+<li><strong>Maturity date:</strong> the date the final coupon and principal are paid</li>
+</ul>
+<p>The bond’s cash flow structure is thus: coupon payments at regular intervals (annually or semi-annually) plus a single principal repayment at maturity. This structure makes the bond a straightforward present value problem — which is exactly how we will price it.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key Definition: Bond
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A <strong>bond</strong> is a contract specifying a stream of future cash flows: periodic coupon payments <span class="math inline">\(C\)</span> and a face value <span class="math inline">\(F\)</span> paid at maturity <span class="math inline">\(T\)</span>. The issuer — a government, corporation, or other entity — receives the bond’s price <span class="math inline">\(p\)</span> today in exchange for making these future payments. The bondholder is a creditor with a senior, fixed claim: the promised payments must be made before any residual can be distributed to equity holders.</p>
+</div>
+</div>
+</section>
+<section id="pricing-a-bond-present-value-of-future-cash-flows" class="level3">
+<h3 class="anchored" data-anchor-id="pricing-a-bond-present-value-of-future-cash-flows">Pricing a Bond: Present Value of Future Cash Flows</h3>
+<p>Since the bond’s future cash flows are known and contractually specified, pricing it is a direct application of the present value formula from Chapter 5. The price <span class="math inline">\(p\)</span> of a bond paying annual coupon <span class="math inline">\(C\)</span> for <span class="math inline">\(T\)</span> years with face value <span class="math inline">\(F\)</span> is:</p>
+<p><span class="math display">\[p = \frac{C}{(1+i)} + \frac{C}{(1+i)^2} + \cdots + \frac{C+F}{(1+i)^T} = \sum_{t=1}^{T} \frac{C}{(1+i)^t} + \frac{F}{(1+i)^T}\]</span></p>
+<p>where <span class="math inline">\(i\)</span> is the discount rate — the rate the market applies to discount this bond’s cash flows given its risk profile and maturity.</p>
+<p>Two worked examples make the relationship between the coupon rate, the discount rate, and the bond price concrete. Both use a 5-year bond with $100 face value.</p>
+<p><strong>Example 1: Discount rate (5%) exceeds coupon rate (3%) → bond trades at a discount</strong></p>
+<p><span class="math display">\[p = \frac{\$3}{1.05} + \frac{\$3}{1.05^2} + \frac{\$3}{1.05^3} + \frac{\$3}{1.05^4} + \frac{\$103}{1.05^5} = \$2.86 + \$2.72 + \$2.59 + \$2.47 + \$80.70 = \$91.34\]</span></p>
+<p>The bond is worth $91.34, an $8.66 loss relative to the $100 face value. The market demands a 5% return but the bond only promises 3% coupons, so the price must fall to make the effective return competitive.</p>
+<p><strong>Example 2: Coupon rate (5%) exceeds discount rate (3%) → bond trades at a premium</strong></p>
+<p><span class="math display">\[p = \frac{\$5}{1.03} + \frac{\$5}{1.03^2} + \frac{\$5}{1.03^3} + \frac{\$5}{1.03^4} + \frac{\$105}{1.03^5} = \$4.85 + \$4.71 + \$4.58 + \$4.44 + \$90.57 = \$109.16\]</span></p>
+<p>The bond is worth $109.16, a $9.16 gain relative to face value. The bond promises above-market coupons, so investors bid up its price.</p>
+<p>These examples demonstrate the <strong>inverse relationship between bond prices and yields</strong>: when market interest rates rise, the discount rate rises, and bond prices fall. When rates fall, bond prices rise. This relationship holds for <em>all</em> bonds, regardless of coupon rate, maturity, or issuer — it is a direct consequence of the present value formula.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key Takeaway: The Inverse Price-Yield Relationship
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Bond prices and yields always move in opposite directions. This is not a market convention or an empirical regularity — it is a mathematical necessity that follows directly from the present value formula. If you understand present value, you understand why bond prices fall when interest rates rise.</p>
+</div>
+</div>
+</section>
+<section id="bond-yields-three-measures" class="level3">
+<h3 class="anchored" data-anchor-id="bond-yields-three-measures">Bond Yields: Three Measures</h3>
+<p>The <strong>yield</strong> of a bond is the return the bondholder earns. There are three common measures, each answering a slightly different question.</p>
+<p><strong><a href="https://en.wikipedia.org/wiki/Current_yield">Current yield</a></strong> is the simplest: the annual coupon divided by the current market price.</p>
+<p><span class="math display">\[\text{Current yield} = \frac{C}{p}\]</span></p>
+<p>If a bond pays $5 in annual coupons and its price is $91.34, its current yield is <span class="math inline">\(\frac{\$5}{\$91.34} \approx 5.47\%\)</span>. The “current” in current yield refers to the bondholder’s current fiscal year — it measures the income the investor actually receives over the next 12 months relative to what they paid for the bond. It ignores the capital gain or loss the investor realizes at maturity, so it is an incomplete measure of total return.</p>
+<p><strong><a href="https://en.wikipedia.org/wiki/Yield_to_maturity">Yield to maturity (YTM)</a></strong> is the discount rate that makes the present value of all future cash flows equal to the current market price. It is the most comprehensive yield measure because it accounts for all sources of return: coupon income, reinvestment of coupons, and capital gain or loss at maturity.</p>
+<p>For a 2-year bond with $100 face value and 5% coupon:</p>
+<p><span class="math display">\[p = \frac{\$5}{1+\text{YTM}} + \frac{\$105}{(1+\text{YTM})^2}\]</span></p>
+<p>If <span class="math inline">\(p = \$100\)</span>, then YTM = 5% (equal to the coupon rate). If <span class="math inline">\(p &lt; \$100\)</span>, then YTM <span class="math inline">\(&gt;\)</span> 5% — the investor gets the coupon income <em>plus</em> a capital gain at maturity, so the total return exceeds the coupon rate. If <span class="math inline">\(p &gt; \$100\)</span>, then YTM <span class="math inline">\(&lt;\)</span> 5% — the capital loss at maturity reduces the total return below the coupon rate. The coupon rate, current yield, and YTM are equal <em>only</em> when the bond trades at par (price equals face value).</p>
+<p><strong><a href="https://en.wikipedia.org/wiki/Holding_period_return">Holding period return</a></strong> applies when the investor sells the bond before maturity, at some intermediate price <span class="math inline">\(p_s\)</span>:</p>
+<p><span class="math display">\[\text{Holding period return} = \underbrace{\frac{C}{p}}_{\text{current yield}} + \underbrace{\frac{p_s - p}{p}}_{\text{capital gain (or loss)}}\]</span></p>
+<p>The holding period return decomposes into coupon income and price appreciation. This measure matters because most bond investors do not hold to maturity — they sell in secondary markets, and their actual return depends on what price the bond fetches when they sell. That price depends on where interest rates are at the time of sale — which brings us directly to interest rate risk.</p>
+</section>
+<section id="bond-risks" class="level3">
+<h3 class="anchored" data-anchor-id="bond-risks">Bond Risks</h3>
+<p>Because bonds are promises of future cash flows, they are exposed to several categories of risk that affect their pricing.</p>
+<p><strong>Default (credit) risk</strong> is the risk that the issuer fails to make the promised payments — whether partial or total. Default risk is the primary concern for most bondholders. Quantifying it requires navigating complex financial statements, hidden liabilities, and uncertain future economic conditions. This information problem — a classic case of the asymmetric information discussed in Chapter 5 — is addressed by <strong>credit rating agencies</strong>: <a href="https://en.wikipedia.org/wiki/Moody%27s_Ratings">Moody’s Ratings</a>, <a href="https://en.wikipedia.org/wiki/S%26P_Global_Ratings">S&amp;P Global Ratings</a>, and <a href="https://en.wikipedia.org/wiki/Fitch_Ratings">Fitch Ratings</a>. These agencies specialize in evaluating issuers and assigning standardized ratings that compress complex credit analysis into a single signal.</p>
+<p>The three agencies use a similar grading scale:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 13%">
+<col style="width: 18%">
+<col style="width: 37%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Grade</th>
+<th style="text-align: center;">Moody’s</th>
+<th style="text-align: center;">S&amp;P / Fitch</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Investment grade</td>
+<td style="text-align: center;">Aaa</td>
+<td style="text-align: center;">AAA</td>
+<td>Highest quality</td>
+</tr>
+<tr class="even">
+<td></td>
+<td style="text-align: center;">Aa</td>
+<td style="text-align: center;">AA</td>
+<td>Very high quality</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: center;">A</td>
+<td style="text-align: center;">A</td>
+<td>High quality</td>
+</tr>
+<tr class="even">
+<td></td>
+<td style="text-align: center;">Baa</td>
+<td style="text-align: center;">BBB</td>
+<td>Good quality</td>
+</tr>
+<tr class="odd">
+<td>Speculative grade</td>
+<td style="text-align: center;">Ba</td>
+<td style="text-align: center;">BB</td>
+<td>Speculative</td>
+</tr>
+<tr class="even">
+<td></td>
+<td style="text-align: center;">B</td>
+<td style="text-align: center;">B</td>
+<td>Highly speculative</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td style="text-align: center;">Caa</td>
+<td style="text-align: center;">CCC</td>
+<td>Substantial default risk</td>
+</tr>
+<tr class="even">
+<td></td>
+<td style="text-align: center;">Ca</td>
+<td style="text-align: center;">CC</td>
+<td>Very high default risk</td>
+</tr>
+<tr class="odd">
+<td>High-yield (“junk”)</td>
+<td style="text-align: center;">C/D</td>
+<td style="text-align: center;">C/D</td>
+<td>In default</td>
+</tr>
+</tbody>
+</table>
+<p>The lower the rating, the higher the default risk, and therefore the higher the yield the market demands. The spread between a junk bond yield and a AAA bond yield of the same maturity is a direct measure of how much the market is charging for credit risk — a concept developed further in Chapter 7. Bond ratings are a practical solution to asymmetric information in a market too large and complex for individual investors to evaluate each issuer independently.</p>
+<p><strong>Interest rate risk</strong> is the risk that market interest rates change after the bond is purchased, causing its price to fall. This is the risk we have been analyzing throughout this section — it is inescapable for any fixed-income investor who might need to sell before maturity.</p>
+<p><strong>Inflation risk</strong> is the risk that inflation erodes the real purchasing power of the bond’s fixed cash flows. A bond that promises $5 per year is worth less in real terms if inflation runs at 5% than if it runs at 1%. Inflation-indexed bonds (such as US Treasury Inflation-Protected Securities, or TIPS) address this risk by adjusting the principal for inflation.</p>
+</section>
+<section id="duration-quantifying-interest-rate-sensitivity" class="level3">
+<h3 class="anchored" data-anchor-id="duration-quantifying-interest-rate-sensitivity">Duration: Quantifying Interest Rate Sensitivity</h3>
+<p>Chapter 5 introduced duration as the weighted average time until a bond’s cash flows are received. We can now give it its full treatment.</p>
+<p><strong><a href="https://en.wikipedia.org/wiki/Duration_(finance)#Macaulay_duration">Macaulay duration</a></strong> is defined as:</p>
+<p><span class="math display">\[D = \frac{\displaystyle\sum_{t=1}^{T} t \cdot \frac{CF_t}{(1+i)^t}}{p}\]</span></p>
+<p>where the numerator is the sum of each cash flow’s present value weighted by its time, and the denominator is the bond’s price (the sum of all discounted cash flows). Duration is measured in years and represents the effective maturity of the bond — the center of gravity of its cash flow stream.</p>
+<div id="fig-duration" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-duration-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/chapter_06/duration.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-duration-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.1: Duration as a balance point. A 5-year bond with $3 annual coupons and $103 at maturity has a Macaulay duration of 4.99 years — nearly the full maturity, because most of the value is in the final payment. A high-coupon bond would have a shorter duration because relatively more value is received early. Duration is the fulcrum that balances the bond’s cash flows in time.
+</figcaption>
+</figure>
+</div>
+<p>The practical importance of duration is its relationship to price sensitivity. <strong><a href="https://en.wikipedia.org/wiki/Duration_(finance)#Modified_duration">Modified duration</a></strong> (<span class="math inline">\(MD\)</span>) measures the percentage change in bond price for a one percentage point change in yield:</p>
+<p><span class="math display">\[MD = \frac{D}{1 + i}\]</span></p>
+<p>Modified duration and Macaulay duration are closely related but measure different things: Macaulay duration measures the average life of the bond’s cash flows — a concept in time — while modified duration measures price sensitivity — a concept in return. They are connected because the same property that makes a bond’s cash flows long-dated (high Macaulay duration) is precisely what makes its price sensitive to interest rate changes (high modified duration). In continuous time the two are equivalent, <span class="math inline">\(MD = D\)</span>; in discrete time they differ by the factor <span class="math inline">\(1/(1+i)\)</span>, which is small when rates are low but meaningful at higher yields. In practice, for typical interest rate levels, <span class="math inline">\(MD \approx D\)</span> is a useful approximation.</p>
+<p>A bond with a Macaulay duration of 5 years and a yield of 5% has a modified duration of <span class="math inline">\(5/1.05 \approx 4.76\)</span> — meaning a 1 percentage point rise in yields reduces the bond’s price by approximately 4.76%. This is the quantitative statement of the duration-sensitivity relationship introduced in Chapter 5.</p>
+<p>Two properties follow immediately:</p>
+<p>First, <strong>longer-maturity bonds have higher duration</strong> and are therefore more interest-rate sensitive. A 30-year Treasury bond is far more volatile than a 2-year Treasury note when rates move — which is why investors demand higher yields for longer maturities even when credit risk is identical.</p>
+<p>Second, <strong>lower-coupon bonds have higher duration</strong> for a given maturity. This is because a lower coupon means a greater fraction of total value is in the distant principal repayment (which gets discounted heavily) rather than in near-term coupons. A zero-coupon bond has duration exactly equal to its maturity — all value is in the final payment.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Common Mistake: Maturity and Duration Are Not the Same
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Maturity is the date of the last payment. Duration is the effective time-weighted average of <em>all</em> payments. For a coupon-bearing bond, duration is always less than maturity, because some cash flows arrive before the final payment date. The exception is a zero-coupon bond, where duration equals maturity exactly. When assessing interest rate risk, duration is the correct measure — not maturity.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="the-yield-curve" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="the-yield-curve"><span class="header-section-number">6.2</span> The Yield Curve</h2>
+<section id="what-the-yield-curve-is" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-yield-curve-is">What the Yield Curve Is</h3>
+<p>The <strong><a href="https://en.wikipedia.org/wiki/Yield_curve">yield curve</a></strong> plots the yields of otherwise identical bonds against their maturities. “Otherwise identical” means same issuer, same credit quality, same currency — the only thing varying is time to maturity. The US Treasury yield curve is the benchmark: it shows the yield on Treasury securities from 1 month to 30 years, all free of default risk, and the shape of that curve contains important information about expectations for interest rates and the economy.</p>
+<div id="fig-yield-curve-shapes" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-yield-curve-shapes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/chapter_06/typical_yield_curves.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-yield-curve-shapes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.2: Three common shapes of the yield curve. An <strong>upward-sloping</strong> (normal) curve — short rates below long rates — is the most common configuration, reflecting positive term premiums and/or expectations that rates will rise. A <strong>flat</strong> curve signals uncertainty or transition. An <strong>inverted</strong> curve — short rates above long rates — is the most informative: it signals that markets expect rates to fall, typically because they expect economic slowdown.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="why-different-maturities-have-different-yields-the-term-structure" class="level3">
+<h3 class="anchored" data-anchor-id="why-different-maturities-have-different-yields-the-term-structure">Why Different Maturities Have Different Yields: The Term Structure</h3>
+<p>Two Treasury bonds identical in every respect except maturity will, in general, have different yields. Three forces drive this difference:</p>
+<p><strong>Risk.</strong> The longer the maturity, the more time for something to go wrong — even for a default-free issuer. Unexpected inflation, policy changes, and shifts in the economic environment all become more likely over longer horizons. Investors demand compensation for bearing this uncertainty.</p>
+<p><strong>Expected changes in the risk-free rate.</strong> If the market expects short-term interest rates to be higher in the future, long-term rates must be higher today to make long-term bonds competitive with rolling over short-term bonds. If the market expects rates to fall, long-term rates will be lower than current short-term rates.</p>
+<p><strong>Inflation uncertainty.</strong> Inflation is harder to forecast at longer horizons. A bondholder locked into a 30-year fixed rate faces 30 years of inflation risk; a holder of 1-month bills faces only one month. This additional inflation risk at long maturities is reflected in higher long-term yields.</p>
+</section>
+<section id="the-expectations-hypothesis" class="level3">
+<h3 class="anchored" data-anchor-id="the-expectations-hypothesis">The Expectations Hypothesis</h3>
+<p>The <strong><a href="https://en.wikipedia.org/wiki/Expectations_hypothesis">expectations hypothesis</a></strong> formalizes the second force: long-term rates as averages of expected future short-term rates. The key insight is that a rational investor should be indifferent between holding a 2-year bond and rolling over two consecutive 1-year bonds — if they are not indifferent, arbitrage will equalize the returns.</p>
+<p>For a 2-year bond:</p>
+<p><span class="math display">\[(1 + i_{2t})^2 = (1 + i_{1t})(1 + i_{1t+1}^e)\]</span></p>
+<p>Solving for the 2-year rate:</p>
+<p><span class="math display">\[i_{2t} = \sqrt{(1 + i_{1t})(1 + i_{1t+1}^e)} - 1 \approx \frac{i_{1t} + i_{1t+1}^e}{2}\]</span></p>
+<p>The 2-year rate is approximately the average of today’s 1-year rate and the expected 1-year rate next year. Generalizing to <span class="math inline">\(n\)</span> periods:</p>
+<p><span class="math display">\[i_{nt} \approx \frac{i_{1t} + i_{1t+1}^e + i_{1t+2}^e + \cdots + i_{1t+(n-1)}^e}{n}\]</span></p>
+<p>The <span class="math inline">\(n\)</span>-year rate is the average of expected future 1-year rates over the next <span class="math inline">\(n\)</span> years.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Intuition Builder: Reading the Yield Curve Through the Expectations Hypothesis
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If the yield curve is upward sloping — say, the 1-year rate is 3% and the 10-year rate is 5% — the expectations hypothesis says the market expects short-term rates to rise over the next decade. If the curve is flat (1-year and 10-year yields are equal), the market expects short rates to stay roughly the same. If the curve is inverted (1-year rate exceeds 10-year rate), the market expects short rates to <em>fall</em> — which typically signals that investors anticipate an economic slowdown and eventual monetary easing.</p>
+</div>
+</div>
+<p>The expectations hypothesis has real empirical content. It correctly predicts that short-term and long-term rates tend to move together — when the Fed raises the federal funds rate, longer-term rates generally rise too, though by less. It also correctly predicts that longer-term rates move less than shorter-term rates in response to a given policy change, because the long rate averages many expected future short rates, dampening the impact of any single rate change.</p>
+<p>But the expectations hypothesis has a well-known shortcoming: it cannot explain why the yield curve is upward-sloping on average. If the curve simply reflected expected future rates, we would expect it to be flat on average — sometimes sloping up (when rates are expected to rise), sometimes sloping down (when rates are expected to fall), with no systematic tilt. The fact that long rates are almost always above short rates requires an additional explanation.</p>
+</section>
+<section id="the-term-premium" class="level3">
+<h3 class="anchored" data-anchor-id="the-term-premium">The Term Premium</h3>
+<p>The missing piece is the <strong>term premium</strong>: the extra return investors demand for holding longer-maturity bonds rather than rolling over short-term bonds. The term premium compensates for two things: the interest rate risk inherent in long-duration bonds (which, as we saw above, can suffer large price declines if rates rise), and the greater inflation uncertainty at longer horizons.</p>
+<p>Incorporating the term premium <span class="math inline">\(\phi_t\)</span> into the expectations hypothesis:</p>
+<p><span class="math display">\[i_{nt} \approx \frac{i_{1t} + i_{1t+1}^e + \cdots + i_{1t+(n-1)}^e}{n} + \phi_t\]</span></p>
+<p>The observed long-term yield has two components: the average of expected future short rates (the pure expectations component) and the term premium. This is why the yield curve is upward-sloping on average even when investors don’t expect rates to rise: the term premium alone tilts the curve upward.</p>
+<p>The term premium also explains why a <strong>flat yield curve</strong> is already informative — it suggests that expectations of <em>falling</em> short rates are roughly offsetting the positive term premium. And it explains why an <strong><a href="https://en.wikipedia.org/wiki/Inverted_yield_curve">inverted yield curve</a></strong> is a particularly strong signal: to invert, the expected-rate-decline component must be large enough to overcome both the term premium and any remaining upward expectations effect.</p>
+</section>
+<section id="the-zero-coupon-yield-curve-and-spot-rates" class="level3">
+<h3 class="anchored" data-anchor-id="the-zero-coupon-yield-curve-and-spot-rates">The Zero-Coupon Yield Curve and Spot Rates</h3>
+<p>The yield curve plotted from standard coupon bonds — the Treasury yield curve you see quoted daily — is actually a composite. Each point on that curve is the yield to maturity of a coupon-paying bond, and YTM, as noted in §6.1, is an internal rate of return that averages across all of the bond’s cash flows. A 10-year Treasury bond paying semi-annual coupons does not produce a clean measure of the market’s required return for the 10-year horizon specifically — some of those coupons arrive in years 1, 2, 3, and so on, each implicitly discounted at rates appropriate for their own maturities. The YTM blends all of those discount rates together.</p>
+<p>For many analytical purposes — pricing derivatives, valuing complex instruments, testing the expectations hypothesis precisely — economists and practitioners want a purer measure: the <strong>spot rate</strong> <span class="math inline">\(s_T\)</span>, which is the market’s required return for a single cash flow received exactly <span class="math inline">\(T\)</span> years from today, with no intervening payments. Spot rates eliminate the averaging problem entirely.</p>
+<p>Zero-coupon bonds provide the cleanest path to spot rates. Because a zero-coupon bond pays nothing until maturity, its yield to maturity <em>is</em> the spot rate for that maturity — there are no intermediate cash flows to complicate the picture. The relationship is direct:</p>
+<p><span class="math display">\[s_T = \left(\frac{F}{p}\right)^{1/T} - 1\]</span></p>
+<p>where <span class="math inline">\(F\)</span> is the face value and <span class="math inline">\(p\)</span> is today’s price. No averaging, no blending — just the single required return for the single horizon <span class="math inline">\(T\)</span>. And notice that for a zero-coupon bond, duration equals maturity exactly (<span class="math inline">\(D = T\)</span>), a property established in §6.1. This is not a coincidence: it reflects the same underlying logic. YTM equals the spot rate for zero-coupon bonds precisely <em>because</em> there is only one cash flow and therefore only one horizon to discount — the absence of intermediate payments makes duration and maturity collapse to the same number.</p>
+<p>In practice, the US Treasury does not issue zero-coupon bonds directly, but the Treasury’s <a href="https://en.wikipedia.org/wiki/United_States_Treasury_security#STRIPS">STRIPS</a> program — introduced in Chapter 5 — creates them synthetically. Stripping a 10-year Treasury bond produces 21 separate zero-coupon instruments: 20 semi-annual coupon strips and one principal strip, each maturing on a different date. The market prices of these strips give direct observations of spot rates at each of those 21 maturities. Connecting them produces the <strong>zero-coupon yield curve</strong> (also called the <strong>spot rate curve</strong>), which is the term structure of interest rates in its purest form.</p>
+<p>The par yield curve (constructed from coupon bonds trading at par) and the spot rate curve generally have similar shapes but differ in level — the spot rate curve is slightly steeper when the par curve is upward-sloping, because the longer maturities contain cash flows that are discounted at successively higher rates. When the par curve is inverted, the spot curve tends to invert more sharply. These differences matter when pricing instruments precisely, though for the broad intuitions developed in this course — reading the yield curve shape, understanding the expectations hypothesis, identifying inversions — the par curve and the spot curve tell the same story.</p>
+</section>
+<section id="country-risk-and-sovereign-spreads" class="level3">
+<h3 class="anchored" data-anchor-id="country-risk-and-sovereign-spreads">Country Risk and Sovereign Spreads</h3>
+<p>The yield curve analysis above applies to bonds of a single issuer. When comparing bonds across countries, an additional factor enters: <strong>country risk</strong>, also called sovereign risk. A bond issued by the Greek government carries default risk that a German government bond does not — both are euro-denominated, but Greece’s fiscal position and institutional framework make default more plausible. The difference in yield between Greek and German bonds of the same maturity is the <strong>credit spread</strong>, and it measures the market’s assessment of Greek sovereign risk relative to Germany.</p>
+<div id="fig-country_risk" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-country_risk-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/chapter_06/country_risk.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-country_risk-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.3: Country risk and sovereign spreads. The spread between the yields of a risk-free reference country and a riskier country reflects the market’s assessment of default risk for a given maturity. Wider spreads signal greater perceived risk.
+</figcaption>
+</figure>
+</div>
+<p>During the European sovereign debt crisis of 2010–2012, discussed in Chapter 3, Greek 10-year yields reached over 25% while German yields were below 2% — a spread of over 23 percentage points reflecting the market’s near-certain assessment of a Greek default. Country risk spreads are the bond market’s real-time verdict on fiscal sustainability, and they move faster than any credit rating agency.</p>
+</section>
+<section id="the-inverted-yield-curve-as-a-recession-indicator" class="level3">
+<h3 class="anchored" data-anchor-id="the-inverted-yield-curve-as-a-recession-indicator">The Inverted Yield Curve as a Recession Indicator</h3>
+<p>The inverted yield curve — when short-term rates exceed long-term rates — is one of the most reliable macroeconomic indicators we have. The historical record is striking:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Recession</th>
+<th style="text-align: center;">Inversion began</th>
+<th style="text-align: center;">Recession started</th>
+<th style="text-align: center;">Months between</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1970</td>
+<td style="text-align: center;">Dec 1968</td>
+<td style="text-align: center;">Jan 1970</td>
+<td style="text-align: center;">13</td>
+</tr>
+<tr class="even">
+<td>1974</td>
+<td style="text-align: center;">Jun 1973</td>
+<td style="text-align: center;">Dec 1973</td>
+<td style="text-align: center;">6</td>
+</tr>
+<tr class="odd">
+<td>1980</td>
+<td style="text-align: center;">Nov 1978</td>
+<td style="text-align: center;">Feb 1980</td>
+<td style="text-align: center;">15</td>
+</tr>
+<tr class="even">
+<td>1981</td>
+<td style="text-align: center;">Oct 1980</td>
+<td style="text-align: center;">Aug 1981</td>
+<td style="text-align: center;">10</td>
+</tr>
+<tr class="odd">
+<td>1990</td>
+<td style="text-align: center;">Jun 1989</td>
+<td style="text-align: center;">Aug 1990</td>
+<td style="text-align: center;">16</td>
+</tr>
+<tr class="even">
+<td>2001</td>
+<td style="text-align: center;">Jul 2000</td>
+<td style="text-align: center;">Apr 2001</td>
+<td style="text-align: center;">9</td>
+</tr>
+<tr class="odd">
+<td>2008</td>
+<td style="text-align: center;">Aug 2006</td>
+<td style="text-align: center;">Jan 2008</td>
+<td style="text-align: center;">17</td>
+</tr>
+<tr class="even">
+<td>2020</td>
+<td style="text-align: center;">May 2019</td>
+<td style="text-align: center;">Mar 2020</td>
+<td style="text-align: center;">10</td>
+</tr>
+</tbody>
+</table>
+<p>Every US recession since 1970 has been preceded by an inverted yield curve. Every inversion has been followed by a recession. The lead time varies — from 6 to 17 months — but the signal has been remarkably consistent.</p>
+<p>The mechanism runs through monetary policy and expectations. An inverted curve typically occurs when the Fed has raised short-term rates aggressively (to fight inflation) while long-term rates remain lower, reflecting market expectations that the rate hikes will eventually cause a slowdown — forcing the Fed to reverse course and cut rates. Investors rush to lock in current long-term rates before rates fall, bidding up long bond prices and pushing long yields below short yields. In essence, the inverted curve reflects markets pricing in the Fed’s future easing — because they anticipate an imminent recession.</p>
+<p>The Fed’s aggressive rate hikes of 2022–2023 produced the deepest yield curve inversion in decades, with the 3-month Treasury bill yielding more than 5% while the 10-year Treasury yielded less than 4%. The recession the inversion was predicting had not materialized as of early 2025, making this episode one of the most-watched tests of the yield curve’s forecasting reliability in recent memory.</p>
+</section>
+</section>
+<section id="stock-valuation" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="stock-valuation"><span class="header-section-number">6.3</span> Stock Valuation</h2>
+<section id="what-equity-is-and-why-its-harder-to-value-than-debt" class="level3">
+<h3 class="anchored" data-anchor-id="what-equity-is-and-why-its-harder-to-value-than-debt">What Equity Is — and Why It’s Harder to Value Than Debt</h3>
+<p>A bond’s cash flows are specified by contract — the issuer <em>must</em> pay the coupon and principal on schedule (or default). An equity share has no such contractual promise. The stockholder is a residual claimant: they receive whatever is left after all debt obligations, taxes, and operating costs have been paid. This residual can be distributed as dividends or retained in the firm to fund future growth — the decision is at the discretion of management and the board.</p>
+<p>This makes stock valuation fundamentally more difficult than bond valuation. For a bond, you know the cash flows and need only the discount rate. For a stock, you know neither the future cash flows (dividends are discretionary and uncertain) nor with confidence the appropriate discount rate (which depends on the stock’s risk profile relative to other investments). Both inputs must be estimated, and small changes in either input produce large changes in valuation.</p>
+<p>This difference also reflects two fundamentally different investment objectives. An investor who wants to <strong>secure a predictable cash flow</strong> buys a bond: the coupon payments are contractual, the maturity date is known, and the return over the holding period is largely predictable from the purchase price and the coupon rate. An investor who buys a <strong>stock</strong> is doing something different: since dividends are discretionary and most equity returns come from price appreciation rather than dividend income, buying a stock is primarily a bet on the future price of the shares — a form of speculation on the firm’s growth and the market’s eventual valuation of that growth. This is not a criticism of equity investing; capital gains are a legitimate and important source of return. But it clarifies why the two instruments attract different investors with different objectives, and why equity valuation is inherently more uncertain than bond valuation.</p>
+<p>Several approaches to stock valuation exist. <strong><a href="https://en.wikipedia.org/wiki/Technical_analysis">Technical analysis</a></strong> attempts to predict future prices from historical price patterns — a methodology rejected by most academic economists for reasons connected to the EMH discussion in §6.4. <strong>Behavioral approaches</strong> focus on psychological factors and investor sentiment. <strong><a href="https://en.wikipedia.org/wiki/Fundamental_analysis">Fundamental analysis</a></strong> — the approach we develop here — attempts to estimate intrinsic value by analyzing the firm’s business and financial fundamentals. The <strong>Gordon Growth Model</strong> (also called the dividend discount model, or DDM) formalizes the fundamental analysis approach.</p>
+</section>
+<section id="the-gordon-growth-model" class="level3">
+<h3 class="anchored" data-anchor-id="the-gordon-growth-model">The Gordon Growth Model</h3>
+<p>The <a href="https://en.wikipedia.org/wiki/Dividend_discount_model">Gordon Growth Model</a> starts from the observation that a stock is ultimately a claim on the firm’s future cash flows to shareholders — whether those flows come as dividends, buybacks, or eventual liquidation. Like a bond, a stock’s value is the present value of its expected future cash flows.</p>
+<p>The general form of the model prices a stock held for <span class="math inline">\(n\)</span> periods as the present value of expected dividends plus the expected selling price:</p>
+<p><span class="math display">\[p_t = \frac{D_{t+1}}{1+i} + \frac{D_{t+2}}{(1+i)^2} + \cdots + \frac{D_{t+n} + p_{t+n}}{(1+i)^n}\]</span></p>
+<p>where <span class="math inline">\(D_{t+j}\)</span> is the dividend expected in period <span class="math inline">\(t+j\)</span>, <span class="math inline">\(p_{t+n}\)</span> is the expected selling price at the end of the holding period, and <span class="math inline">\(i\)</span> is the discount rate. The expected selling price itself depends on future dividends, which in turn depend on dividends after that — so ultimately, the stock price equals the present value of <em>all</em> future dividends, discounted to today.</p>
+<p><strong>Worked example.</strong> Suppose a stock is expected to pay $1 in dividends each year for 3 years and can be sold for $50 at the end of year 3. The appropriate discount rate is 3%. Then:</p>
+<p><span class="math display">\[p_t = \frac{\$1}{1.03} + \frac{\$1}{1.03^2} + \frac{\$1 + \$50}{1.03^3} = \$0.97 + \$0.94 + \$46.68 = \$48.59\]</span></p>
+<p>The stock is worth $48.59 today. Notice that the expected selling price ($50) dominates the valuation — the near-term dividends contribute relatively little. This is typical for growth stocks, where most of the value is in future earnings rather than near-term income.</p>
+<p>Under the special assumption that dividends grow at a constant rate <span class="math inline">\(g\)</span> forever, the infinite sum simplifies to a closed-form expression — the Gordon Growth Model in its most compact form:</p>
+<p><span class="math display">\[p_t = \frac{D_{t+1}}{i - g}\]</span></p>
+<p>This formula is worth pausing on. A stock’s true value depends on an infinite stream of future dividends — an unknowable sequence of cash flows stretching decades into the future. The Gordon Growth Model compresses all of that unknowable information into just two parameters: the growth rate of dividends <span class="math inline">\(g\)</span> and the required return on equity <span class="math inline">\(i\)</span>. This is the model’s great practical appeal: instead of forecasting dividends year by year forever, analysts need only estimate a long-run growth rate and a discount rate. Both must still be estimated with care — and as the formula makes clear, small changes in either produce large changes in price — but the information requirement has been dramatically reduced relative to a full cash-flow forecast.</p>
+<p>The formula says that stock price rises when the growth rate <span class="math inline">\(g\)</span> rises (better growth prospects), falls when the required return <span class="math inline">\(i\)</span> rises (higher opportunity cost or risk), and is explosive as <span class="math inline">\(g\)</span> approaches <span class="math inline">\(i\)</span> — a reminder that the constant-growth assumption breaks down when growth rates are close to discount rates.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Common Mistake: Confusing the Discount Rate with the Risk-Free Rate
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The discount rate <span class="math inline">\(i\)</span> in stock valuation is not the Treasury yield or the federal funds rate. It is the <strong>required return on equity</strong> — the return investors demand for bearing the specific risk of this stock. Required return on equity equals the risk-free rate <em>plus</em> a risk premium that compensates for the stock’s exposure to market-wide risk. A risky startup and a stable utility company have very different required returns, even when the risk-free rate is the same. Chapter 7 develops the theory of how this risk premium is determined — it is one of the central questions of asset pricing. For now, the key point is that the discount rate in the DDM embeds a risk premium that must be estimated, not simply looked up.</p>
+</div>
+</div>
+<p>What does that risk premium look like in practice? The most comprehensive long-run evidence comes from <a href="https://en.wikipedia.org/wiki/Equity_premium_puzzle">Dimson, Marsh, and Staunton</a>, who assembled stock and bond return data across 35 countries going back to 1900. For the United States, the historical <strong>equity risk premium</strong> — the average annual return on equities above the return on government bills — has been approximately 5–7% per year depending on the measurement period and whether returns are measured arithmetically or geometrically. Other developed markets show similar but slightly lower premia, typically in the 3–6% range. This premium is not guaranteed: there have been decade-long stretches — most notably the 1970s and the 2000s — where US equities underperformed Treasury bonds significantly. But over horizons of 20 years or more, equities have historically rewarded investors for bearing the additional risk.</p>
+<p>For a Gordon Growth Model application, this empirical anchor is useful. If the current 10-year Treasury yield is 4% (the risk-free rate) and the equity risk premium is roughly 5%, then the required return on a broad equity index is approximately 9%. That is the <span class="math inline">\(i\)</span> to plug into <span class="math inline">\(p = D/(i-g)\)</span>. Whether the Gordon Growth Model’s output is plausible depends heavily on whether these inputs — especially the long-run dividend growth rate <span class="math inline">\(g\)</span> — are realistic. The model’s sensitivity to small input changes, noted above, is precisely why analysts treat the ERP estimate as a calibration anchor rather than a precise forecast.</p>
+</section>
+<section id="price-earnings-ratios" class="level3">
+<h3 class="anchored" data-anchor-id="price-earnings-ratios">Price-Earnings Ratios</h3>
+<p>The <strong>price-earnings ratio (P/E)</strong> is the most widely reported valuation metric in equity markets: the stock’s current price divided by its earnings per share (EPS) over the trailing 12 months.</p>
+<p><span class="math display">\[\text{P/E} = \frac{p}{\text{EPS}}\]</span></p>
+<p>The P/E ratio tells you how many dollars investors are paying per dollar of current earnings — a higher P/E means investors are paying more for each dollar of profit. A large-cap technology company with strong growth expectations might trade at a P/E of 30 or 40: investors are willing to pay $30–40 today for each $1 of current earnings because they expect those earnings to grow substantially. A mature utility company with stable but slow-growing profits might trade at a P/E of 12–15.</p>
+<p>P/E ratios are a useful shortcut but have important limitations. They embed implicit assumptions about growth and risk that are not made explicit. Comparing P/E ratios across firms is only meaningful if those firms have similar risk profiles and growth prospects. And P/E ratios based on historical earnings can be misleading for firms undergoing rapid change.</p>
+<p>The Gordon Growth Model provides a conceptual foundation for the P/E ratio. If we assume dividends are a constant fraction of earnings (<span class="math inline">\(D = b \cdot \text{EPS}\)</span>, where <span class="math inline">\(b\)</span> is the payout ratio), then:</p>
+<p><span class="math display">\[\text{P/E} = \frac{b}{i - g}\]</span></p>
+<p>This expression shows that P/E is higher when the payout ratio is higher, when the growth rate is higher, or when the required return on equity is lower. A market with low interest rates (and thus low required returns) will have high P/E ratios on average — a relationship that was visible in the 2010s and early 2020s, when historically low interest rates drove historically high equity valuations.</p>
+</section>
+<section id="stock-market-indices" class="level3">
+<h3 class="anchored" data-anchor-id="stock-market-indices">Stock Market Indices</h3>
+<p>A <strong><a href="https://en.wikipedia.org/wiki/Stock_market_index">stock market index</a></strong> tracks the aggregate performance of a selected group of stocks, providing a single number that summarizes the state of a broad market or sector. Indices serve several functions: they give investors a benchmark against which to compare portfolio performance, they allow passive investors to replicate “the market” through a single instrument, and they serve as an economic indicator — a rising market generally reflects improving expectations about corporate earnings and economic growth.</p>
+<p>The main US indices differ in their construction and scope:</p>
+<p>The <strong><a href="https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average">Dow Jones Industrial Average</a></strong> (DJIA) is the oldest and most widely cited US index, tracking 30 large blue-chip companies. It is <strong>price-weighted</strong>: each stock’s influence on the index is proportional to its share price, not its market capitalization. This means a $500 stock affects the Dow five times as much as a $100 stock, regardless of how large either company is — a peculiarity that makes the DJIA less theoretically satisfying than other indices, though its long history (dating to 1896) gives it cultural and historical significance.</p>
+<p>The <strong><a href="https://en.wikipedia.org/wiki/S%26P_500">S&amp;P 500</a></strong> tracks 500 large US companies and is the standard professional benchmark. It is <strong>market capitalization-weighted</strong>: each stock’s influence is proportional to its total market value (share price × shares outstanding). This construction means the largest companies — Apple, Microsoft, Amazon, Alphabet — have the most influence on the index. The S&amp;P 500 covers roughly 80% of total US equity market capitalization, making it a better representation of “the US stock market” than the Dow.</p>
+<p>The <strong><a href="https://en.wikipedia.org/wiki/Wilshire_5000">Wilshire 5000</a></strong> (which actually contains several thousand stocks, not exactly 5000) is the broadest measure of the US equity market, covering essentially all publicly traded US companies. It is also market-cap weighted and is the closest thing to a comprehensive measure of total US stock market wealth.</p>
+<p>The <strong><a href="https://en.wikipedia.org/wiki/Nasdaq_Composite">NASDAQ Composite</a></strong> covers all stocks listed on the NASDAQ exchange, which is disproportionately weighted toward technology and growth companies. It is the index most sensitive to technology sector performance and growth stock valuations.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Intuition Builder: Index Funds and Passive Investing
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>When financial advisors recommend “investing in the market,” they typically mean buying an index fund or ETF that replicates one of these indices — usually the S&amp;P 500. A Vanguard S&amp;P 500 index fund, for instance, holds all 500 companies in the index in proportion to their market weight, at an annual fee of roughly 0.03%. Owning such a fund means owning a tiny fraction of 500 of the largest US companies simultaneously — the practical implementation of the diversification principle and the passive investing logic that the EMH discussion in §6.4 develops in detail.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="the-efficient-market-hypothesis" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="the-efficient-market-hypothesis"><span class="header-section-number">6.4</span> The Efficient Market Hypothesis</h2>
+<section id="the-puzzle-of-active-vs.-passive-management" class="level3">
+<h3 class="anchored" data-anchor-id="the-puzzle-of-active-vs.-passive-management">The Puzzle of Active vs.&nbsp;Passive Management</h3>
+<p>The financial industry employs thousands of highly paid analysts, portfolio managers, and traders whose job is to identify mispriced securities and generate returns above the market average. The puzzle is: evidence consistently shows that most actively managed funds <em>underperform</em> their benchmark indexes after fees. Not occasionally, not temporarily — systematically, over long periods, across most market conditions.</p>
+<div id="fig-malkiel-monkey" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-malkiel-monkey-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<p><img src="figures/chapter_06/malkiel_monkey.jpg" class="img-fluid figure-img"></p>
+<p><a href="https://en.wikipedia.org/wiki/Burton_Malkiel">Burton Malkiel</a>, in his influential book <em>A Random Walk Down Wall Street</em>, argued that a blindfolded monkey throwing darts at a newspaper’s financial pages could select a portfolio that would do just as well as one carefully selected by experts. This is not a criticism of analysts’ intelligence — it is a statement about market structure.</p>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-malkiel-monkey-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.4: The <strong>Efficient Market Hypothesis</strong> (EMH) provides the theoretical explanation for this puzzle. But before we get there, notice something about the monkey itself: the dart-throwing monkey is not just lucky. By throwing darts randomly at a full list of stocks, the monkey is — by construction — <strong>diversifying</strong>. A portfolio assembled by throwing enough darts will hold many stocks across many sectors, approximating the composition of the market index. This is not a coincidence. It is precisely what index funds do deliberately. The monkey’s “strategy” produces market-like returns at zero cost because random selection across a broad universe is functionally equivalent to indexing. The real puzzle is not why the monkey does well — it is why professional managers, with all their research and expertise, cannot consistently do better than the monkey once fees are accounted for.
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="what-emh-claims" class="level3">
+<h3 class="anchored" data-anchor-id="what-emh-claims">What EMH Claims</h3>
+<p>The <a href="https://en.wikipedia.org/wiki/Efficient-market_hypothesis">Efficient Market Hypothesis</a>, associated primarily with <a href="https://en.wikipedia.org/wiki/Eugene_Fama">Eugene Fama</a> (Nobel Prize, 2013), claims that financial market prices fully reflect all available information. If prices already incorporate all information, no investor can consistently earn returns above the market average <em>using that information</em> — because the market has already acted on it. Any profit opportunity that exists will be competed away as soon as it is identified.</p>
+<p>Three forms of EMH define what “all available information” means:</p>
+<p><strong>Weak form:</strong> prices reflect all information in past price history. Technical analysis — the attempt to predict future prices from historical price patterns — cannot generate consistent excess returns, because past prices are already incorporated. This is the most widely accepted form of EMH.</p>
+<p><strong>Semi-strong form:</strong> prices reflect all publicly available information, including past prices, earnings announcements, economic data, news, and analyst reports. Fundamental analysis — the attempt to identify undervalued stocks by analyzing publicly available financial information — cannot generate consistent excess returns. This is more controversial but well-supported empirically.</p>
+<p><strong>Strong form:</strong> prices reflect all information, including private (insider) information. Even insiders cannot consistently earn excess returns. This is the most extreme form and is generally rejected — insider trading laws exist precisely because markets recognize that insiders <em>do</em> have an information advantage.</p>
+</section>
+<section id="why-do-prices-change-if-all-information-is-already-incorporated" class="level3">
+<h3 class="anchored" data-anchor-id="why-do-prices-change-if-all-information-is-already-incorporated">Why Do Prices Change If All Information Is Already Incorporated?</h3>
+<p>This is the most common source of confusion about EMH. Students often ask: if markets are efficient, why do stock prices change every second?</p>
+<p>The answer is that prices change because <em>new information</em> arrives continuously. EMH does not say prices are correct in some absolute sense — it says prices <em>quickly incorporate</em> all <em>currently available</em> information. When a company reports unexpectedly strong earnings, its stock price rises immediately. When the Fed announces a surprise rate decision, bond and stock prices move instantly. These price changes are not evidence against EMH; they are exactly what EMH predicts.</p>
+<p>What EMH says cannot happen is a <em>systematic</em>, <em>predictable</em> pattern of mispricing that informed investors can exploit repeatedly. Individual price movements are unpredictable — they respond to new information, which by definition is not known in advance. This is why stock prices follow something close to a <strong><a href="https://en.wikipedia.org/wiki/Random_walk">random walk</a></strong>: each price change is essentially unpredictable from prior information, because prior information is already embedded in the current price.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Intuition Builder: The Random Walk
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>If the current stock price is $100, EMH says the best prediction of tomorrow’s price is also $100 — not because markets are stagnant, but because any predictable deviation from $100 would already have been exploited and arbitraged away. The price tomorrow will differ from $100 only because of news that arrives between now and then — and that news is, by definition, not predictable today. Prices are not <em>random</em> in the sense of being arbitrary; they are random in the sense that <em>changes</em> in prices are driven by unpredictable new information.</p>
+</div>
+</div>
+</section>
+<section id="the-case-for-passive-investing" class="level3">
+<h3 class="anchored" data-anchor-id="the-case-for-passive-investing">The Case for Passive Investing</h3>
+<p>If EMH is approximately correct — even in its semi-strong form — the implications for investment strategy are stark. Actively managed funds that attempt to beat the market by selecting securities must, on average, fail after fees. The aggregate of all active investors <em>is</em> the market, so their aggregate return before fees equals the market return. After fees, the aggregate active investor underperforms the market by exactly the amount of fees paid. Some active managers beat the market in any given year, but research consistently shows this is largely luck — there is little persistence in fund performance from year to year.</p>
+<p>The practical implication is the case for <strong>passive investing</strong>: holding a diversified portfolio that tracks a market index, at the lowest possible cost. <a href="https://en.wikipedia.org/wiki/Index_fund">Index funds</a> and <a href="https://en.wikipedia.org/wiki/Exchange-traded_fund">ETFs</a> implement this strategy at fees of 0.03–0.10% per year, compared to 0.5–1.5% for actively managed funds. The gap in fees compounds dramatically over time: the difference between 0.05% and 1.0% in annual fees over 30 years on a $100,000 investment is over $100,000 in lost wealth.</p>
+<p>This does not mean active management is valueless. Active managers provide a service: by attempting to identify and trade on mispricing, they are the mechanism <em>by which</em> prices become efficient. If every investor were passive, prices would stop updating to new information, creating profitable opportunities for the first active investor to return. EMH is an equilibrium condition, not a universal truth that holds regardless of who is participating.</p>
+</section>
+<section id="anomalies-and-behavioral-finance" class="level3">
+<h3 class="anchored" data-anchor-id="anomalies-and-behavioral-finance">Anomalies and Behavioral Finance</h3>
+<p>The EMH is not without challenge. Several well-documented <strong>anomalies</strong> — systematic patterns in returns that appear inconsistent with full market efficiency — have attracted extensive research:</p>
+<p><strong>The momentum effect:</strong> stocks that have outperformed over the past 6–12 months tend to continue outperforming for the next several months. This contradicts weak-form EMH.</p>
+<p><strong>The value premium:</strong> stocks with low price-to-book ratios (value stocks) have historically earned higher returns than stocks with high price-to-book ratios (growth stocks), even after controlling for other risk factors.</p>
+<p><strong>The size effect:</strong> small-capitalization stocks have historically earned higher returns than large-capitalization stocks.</p>
+<p>Two explanations compete for each of these anomalies. The <strong>risk-based explanation</strong> holds that what appears to be a free lunch is actually compensation for risk that the standard models are not capturing — value stocks, for example, may systematically perform worse in recessions, making their higher average return a risk premium rather than a mispricing. The <strong>behavioral explanation</strong> holds that investors make systematic cognitive errors — overconfidence, loss aversion, herding — that produce predictable mispricings that the market is slow to correct.</p>
+<p><a href="https://en.wikipedia.org/wiki/Behavioral_finance">Behavioral finance</a>, associated with <a href="https://en.wikipedia.org/wiki/Daniel_Kahneman">Daniel Kahneman</a> (Nobel Prize, 2002) and <a href="https://en.wikipedia.org/wiki/Richard_Thaler">Richard Thaler</a> (Nobel Prize, 2017), documents these systematic biases and their market implications. The behavioral view does not claim that markets are systematically inefficient — it claims that investor psychology creates occasional, predictable departures from efficiency that persist because arbitraging them is costly or risky.</p>
+<p>The practical bottom line is not that EMH is either perfectly correct or fundamentally wrong. It is that markets are <em>approximately</em> efficient most of the time — meaning prices incorporate available information quickly and consistently enough that outperforming the market systematically is very difficult. The burden of proof is on the active manager to demonstrate that their information or analytical advantage is large enough to overcome this efficiency, consistently enough to justify the fees they charge.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key Takeaway: What EMH Does and Does Not Say
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>EMH does <strong>not</strong> say prices are always correct, that bubbles are impossible, or that financial crises cannot happen. It says that prices quickly incorporate available information, making it difficult to consistently beat the market using that information. Bubbles can occur when investors rationally extrapolate past returns into the future — a process consistent with individuals acting on their information even if the collective result is a misaligned price level. The practical implication of EMH — that passive investing outperforms active management on average after fees — survives even if the strong form is rejected and even if behavioral anomalies exist.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="looking-ahead" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="looking-ahead"><span class="header-section-number">6.5</span> Looking Ahead</h2>
+<p>This chapter has valued bonds and stocks as present value problems and examined what market prices tell us about expectations — for future interest rates, economic growth, and firm performance. But one important input has appeared repeatedly without being fully explained: the <strong>discount rate</strong>. For bonds, the relevant discount rate is the market yield, which we decomposed into the risk-free rate, the term premium, and the credit spread. For stocks, the relevant discount rate is the required return on equity, which equals the risk-free rate plus an equity risk premium. In both cases, the premium above the risk-free rate is compensation for bearing risk — but what risk, exactly, and how much compensation does the market demand for it?</p>
+<p>These questions are the subject of Chapter 7. It develops the theory of risk and return: how to measure risk, how the market prices it, and how investors can manage it through diversification and derivatives. The equity risk premium embedded in every stock valuation, the credit spread embedded in every corporate bond yield, and the term premium embedded in every long-term rate all find their theoretical foundations there. Pricing financial assets, as this chapter has shown, is straightforward once you know the discount rate. Chapter 7 explains where that discount rate comes from.</p>
+</section>
+<section id="key-takeaways" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="key-takeaways"><span class="header-section-number">6.6</span> Key Takeaways</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Chapter 6 Summary
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Bond valuation:</strong> A bond’s price is the present value of its cash flows — coupons plus principal — discounted at the market yield. The inverse price-yield relationship follows directly from the PV formula: when yields rise, bond prices fall, and vice versa. Three yield measures capture different aspects of return: current yield (coupon ÷ price), YTM (the discount rate equating price to all future cash flows), and holding period return (current yield plus capital gain). These three are equal only when the bond trades at par.</p>
+<p><strong>Bond risks:</strong> Default risk is addressed by credit rating agencies — which exist as a solution to the asymmetric information problem in bond markets. Interest rate risk is the risk that market rates rise after purchase, reducing the bond’s market value. Inflation risk is the erosion of fixed cash flows’ real value. Duration — specifically Macaulay duration — quantifies interest rate sensitivity: a bond with duration <span class="math inline">\(D\)</span> loses approximately <span class="math inline">\(D\%\)</span> of its value for each 1 percentage point rise in yields. Duration is always less than maturity for coupon bonds; it equals maturity only for zero-coupon bonds.</p>
+<p><strong>The yield curve:</strong> The term structure of interest rates reflects three forces: risk at longer maturities, expected future rate changes, and inflation uncertainty. The expectations hypothesis derives long rates as averages of expected future short rates; it explains why rates tend to move together but cannot explain the systematic upward slope of the yield curve. The term premium — extra compensation for duration and inflation risk — provides the missing piece. An inverted yield curve (short rates above long rates) signals that rate-decline expectations have overwhelmed the term premium, and has preceded every US recession since 1970 with a lead time of 6–17 months.</p>
+<p><strong>Stock valuation:</strong> Equity is a residual claim with no contractual cash flows. Unlike bonds — which investors buy to secure predictable future payments — stocks are primarily purchased for capital gains: the investor is speculating on the future price, not locking in a cash flow. This makes equity valuation fundamentally harder. The Gordon Growth Model prices a stock as the present value of expected dividends plus expected selling price; under constant dividend growth, <span class="math inline">\(p = D/(i-g)\)</span>. The model’s practical value is information compression: instead of forecasting an infinite dividend stream, analysts estimate just two parameters — the growth rate <span class="math inline">\(g\)</span> and the required return <span class="math inline">\(i\)</span>. Small changes in either, however, produce large changes in price. P/E ratios are a shortcut that embeds implicit growth and risk assumptions; high P/E is not necessarily overvaluation but may reflect high growth expectations or low required returns. Stock market indices (Dow Jones, S&amp;P 500, Wilshire 5000, NASDAQ) aggregate individual valuations into benchmarks; the S&amp;P 500 is the standard professional benchmark. Passive investing through index funds replicates the index at minimal cost — the practical application of the EMH logic in §6.4.</p>
+<p><strong>The Efficient Market Hypothesis:</strong> EMH holds that prices quickly incorporate all available information, making consistent excess returns impossible using that information. Weak form: past prices are already reflected — technical analysis cannot beat the market. Semi-strong form: all public information is reflected — fundamental analysis cannot consistently beat the market. Strong form (generally rejected): even private information is reflected. Prices change because new information arrives — not because of predictable patterns. The dart-throwing monkey does well by construction: random selection across a broad stock universe produces a diversified, market-like portfolio at zero cost — which is functionally equivalent to indexing. The practical implication is that passive index investing outperforms active management on average after fees. Behavioral anomalies (momentum, value premium, size effect) exist but are either risk-based premia or are difficult to exploit after transaction costs. Markets are approximately efficient most of the time.</p>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/ncachanosky\.github\.io\/ECON-3320-online");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./chapter_05.html" class="pagination-link" aria-label="How Financial Markets Work">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">How Financial Markets Work</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./chapter_07.html" class="pagination-link" aria-label="Managing Risk in Financial Markets">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Managing Risk in Financial Markets</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Nicolas Cachanosky, The University of Texas at El Paso, Center for Free Enterprise</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ncachanosky/ECON-3320-online/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link active" href="https://github.com/ncachanosky/ECON-3320-online" aria-current="page">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/ncachanosky">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/n_cachanosky">
+      <i class="bi bi-twitter-x" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

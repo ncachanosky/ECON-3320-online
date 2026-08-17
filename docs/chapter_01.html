@@ -1,0 +1,1663 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.7.33">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Course readings for ECON 3320 – Money and Banking – The University of Texas at El Paso.">
+
+<title>1&nbsp; The Nature and Price of Money – Money, Institutions, and Markets</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./chapter_02.html" rel="next">
+<link href="./index.html" rel="prev">
+<link href="./favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-59898bd1c6b9d2bb783127feaa000c76.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d329e753491efaeac79c98c4b193a686.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-59898bd1c6b9d2bb783127feaa000c76.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-a85ebc0699499b942797964cd7e7e0b0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-f3a59b040a9154f9807748a60e6bd056.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-a85ebc0699499b942797964cd7e7e0b0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<script src="site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Money, Institutions, and Markets">
+<meta property="og:description" content="Course readings for ECON 3320 – Money and Banking – The University of Texas at El Paso. An institutions-first treatment of monetary and financial economics.">
+<meta property="og:image" content="https://ncachanosky.github.io/ECON-3320-online/assets/logo.png">
+<meta property="og:site_name" content="Money, Institutions, and Markets">
+<meta property="og:image:height" content="1687">
+<meta property="og:image:width" content="1687">
+<meta name="twitter:title" content="Money, Institutions, and Markets">
+<meta name="twitter:description" content="Course readings for ECON 3320 – Money and Banking – The University of Texas at El Paso. An institutions-first treatment of monetary and financial economics.">
+<meta name="twitter:image" content="https://ncachanosky.github.io/ECON-3320-online/assets/logo.png">
+<meta name="twitter:creator" content="@n_cachanosky">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image-height" content="1687">
+<meta name="twitter:image-width" content="1687">
+</head>
+
+<body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter_01.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Nature and Price of Money</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./index.html" class="sidebar-logo-link">
+      <img src="./assets/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Money, Institutions, and Markets</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/ncachanosky/ECON-3320-online" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_01.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Nature and Price of Money</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">How Banking Developed Before Central Banks</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Central Banks</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">How Central Banks Operate — and Why It Matters</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">How Financial Markets Work</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Pricing Financial Assets</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./chapter_07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Managing Risk in Financial Markets</span></span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#what-is-money" id="toc-what-is-money" class="nav-link active" data-scroll-target="#what-is-money"><span class="header-section-number">1.1</span> What Is Money?</a>
+  <ul class="collapse">
+  <li><a href="#the-three-functions-of-money" id="toc-the-three-functions-of-money" class="nav-link" data-scroll-target="#the-three-functions-of-money">The Three Functions of Money</a></li>
+  <li><a href="#money-vs.-wealth-income-and-payment-technologies" id="toc-money-vs.-wealth-income-and-payment-technologies" class="nav-link" data-scroll-target="#money-vs.-wealth-income-and-payment-technologies">Money vs.&nbsp;Wealth, Income, and Payment Technologies</a></li>
+  </ul></li>
+  <li><a href="#how-much-money-is-there-the-money-supply" id="toc-how-much-money-is-there-the-money-supply" class="nav-link" data-scroll-target="#how-much-money-is-there-the-money-supply"><span class="header-section-number">1.2</span> How Much Money Is There? The Money Supply</a>
+  <ul class="collapse">
+  <li><a href="#base-money-and-money-substitutes" id="toc-base-money-and-money-substitutes" class="nav-link" data-scroll-target="#base-money-and-money-substitutes">Base Money and Money Substitutes</a></li>
+  <li><a href="#the-official-monetary-aggregates" id="toc-the-official-monetary-aggregates" class="nav-link" data-scroll-target="#the-official-monetary-aggregates">The Official Monetary Aggregates</a></li>
+  </ul></li>
+  <li><a href="#payment-technologies" id="toc-payment-technologies" class="nav-link" data-scroll-target="#payment-technologies"><span class="header-section-number">1.3</span> Payment Technologies</a>
+  <ul class="collapse">
+  <li><a href="#cash" id="toc-cash" class="nav-link" data-scroll-target="#cash">Cash</a></li>
+  <li><a href="#checks" id="toc-checks" class="nav-link" data-scroll-target="#checks">Checks</a></li>
+  <li><a href="#electronic-payments" id="toc-electronic-payments" class="nav-link" data-scroll-target="#electronic-payments">Electronic Payments</a></li>
+  </ul></li>
+  <li><a href="#a-short-history-of-money" id="toc-a-short-history-of-money" class="nav-link" data-scroll-target="#a-short-history-of-money"><span class="header-section-number">1.4</span> A Short History of Money</a>
+  <ul class="collapse">
+  <li><a href="#the-problem-of-barter" id="toc-the-problem-of-barter" class="nav-link" data-scroll-target="#the-problem-of-barter">The Problem of Barter</a></li>
+  <li><a href="#how-money-emerged-two-competing-theories" id="toc-how-money-emerged-two-competing-theories" class="nav-link" data-scroll-target="#how-money-emerged-two-competing-theories">How Money Emerged: Two Competing Theories</a></li>
+  <li><a href="#six-stages-in-the-history-of-money" id="toc-six-stages-in-the-history-of-money" class="nav-link" data-scroll-target="#six-stages-in-the-history-of-money">Six Stages in the History of Money</a></li>
+  </ul></li>
+  <li><a href="#the-price-of-money-and-inflation" id="toc-the-price-of-money-and-inflation" class="nav-link" data-scroll-target="#the-price-of-money-and-inflation"><span class="header-section-number">1.5</span> The Price of Money and Inflation</a>
+  <ul class="collapse">
+  <li><a href="#the-price-of-money-is-its-purchasing-power" id="toc-the-price-of-money-is-its-purchasing-power" class="nav-link" data-scroll-target="#the-price-of-money-is-its-purchasing-power">The Price of Money Is Its Purchasing Power</a></li>
+  <li><a href="#supply-demand-and-the-price-level" id="toc-supply-demand-and-the-price-level" class="nav-link" data-scroll-target="#supply-demand-and-the-price-level">Supply, Demand, and the Price Level</a></li>
+  <li><a href="#what-causes-inflation" id="toc-what-causes-inflation" class="nav-link" data-scroll-target="#what-causes-inflation">What Causes Inflation?</a></li>
+  <li><a href="#the-equation-of-exchange" id="toc-the-equation-of-exchange" class="nav-link" data-scroll-target="#the-equation-of-exchange">The Equation of Exchange</a></li>
+  <li><a href="#the-quantity-theory-of-money" id="toc-the-quantity-theory-of-money" class="nav-link" data-scroll-target="#the-quantity-theory-of-money">The Quantity Theory of Money</a></li>
+  <li><a href="#why-inflation-is-costly" id="toc-why-inflation-is-costly" class="nav-link" data-scroll-target="#why-inflation-is-costly">Why Inflation Is Costly</a></li>
+  <li><a href="#hyperinflation-when-money-loses-all-meaning" id="toc-hyperinflation-when-money-loses-all-meaning" class="nav-link" data-scroll-target="#hyperinflation-when-money-loses-all-meaning">Hyperinflation: When Money Loses All Meaning</a></li>
+  </ul></li>
+  <li><a href="#the-future-of-money" id="toc-the-future-of-money" class="nav-link" data-scroll-target="#the-future-of-money"><span class="header-section-number">1.6</span> The Future of Money</a>
+  <ul class="collapse">
+  <li><a href="#bitcoin-and-the-cryptocurrency-experiment" id="toc-bitcoin-and-the-cryptocurrency-experiment" class="nav-link" data-scroll-target="#bitcoin-and-the-cryptocurrency-experiment">Bitcoin and the Cryptocurrency Experiment</a></li>
+  <li><a href="#stablecoins-and-their-risks" id="toc-stablecoins-and-their-risks" class="nav-link" data-scroll-target="#stablecoins-and-their-risks">Stablecoins and Their Risks</a></li>
+  <li><a href="#central-bank-digital-currencies-cbdcs" id="toc-central-bank-digital-currencies-cbdcs" class="nav-link" data-scroll-target="#central-bank-digital-currencies-cbdcs">Central Bank Digital Currencies (CBDCs)</a></li>
+  <li><a href="#history-coming-full-circle" id="toc-history-coming-full-circle" class="nav-link" data-scroll-target="#history-coming-full-circle">History Coming Full Circle?</a></li>
+  </ul></li>
+  <li><a href="#from-money-to-banking" id="toc-from-money-to-banking" class="nav-link" data-scroll-target="#from-money-to-banking"><span class="header-section-number">1.7</span> From Money to Banking</a></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link" data-scroll-target="#key-takeaways"><span class="header-section-number">1.8</span> Key Takeaways</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/ncachanosky/ECON-3320-online/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span id="sec-ch01" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">The Nature and Price of Money</span></span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>Money is not just a medium of exchange — it is an institution that solves a fundamental coordination problem. This chapter establishes the conceptual foundations for the entire course: what money is, how its supply is structured, how the price level is determined, and why the quality of monetary institutions shapes economic outcomes. The regression theorem explains why money cannot be created by decree from nothing, a constraint that bears directly on modern debates about cryptocurrencies and central bank digital currencies.</p>
+  </div>
+</div>
+
+
+</header>
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Learning Objectives
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>By the end of this chapter, you will be able to:</p>
+<ul>
+<li>Define money using its three core functions and explain why the definition matters more than the functions</li>
+<li>Distinguish money from related concepts such as wealth, income, and payment technologies</li>
+<li>Explain how money emerged historically, and evaluate two competing theories of that origin</li>
+<li>Use the equation of exchange to explain the relationship between money supply and the price level</li>
+<li>Apply the Quantity Theory of Money to understand inflation, including the mechanics of hyperinflation</li>
+<li>Identify the key features of cryptocurrencies and Central Bank Digital Currencies, and assess whether Bitcoin qualifies as money</li>
+</ul>
+</div>
+</div>
+<section id="what-is-money" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="what-is-money"><span class="header-section-number">1.1</span> What Is Money?</h2>
+<p>Let’s start with a question that sounds almost too simple to be worth asking: what is money?</p>
+<p>Most people would point to the dollar bills in their wallet or the balance in their bank account. That’s a reasonable start — but it turns out that what money <em>is</em> and what money <em>does</em> are two different things. Economists care a lot about getting the distinction right, because sloppy thinking about money leads to serious confusion in economic policy.</p>
+<p>The most useful way to understand money is not to look at what it’s made of, but at what it <em>does</em>. Money performs three essential functions in any economy.</p>
+<section id="the-three-functions-of-money" class="level3">
+<h3 class="anchored" data-anchor-id="the-three-functions-of-money">The Three Functions of Money</h3>
+<p><strong>Function 1: Means of Payment.</strong> The most fundamental job of money is to serve as a means of payment — a commonly accepted asset that finalizes transactions. When you hand over cash (or swipe a card that triggers a transfer of funds) for a cup of coffee, the transaction is complete. The seller accepts the payment and lets you walk away. No further obligation exists between you.</p>
+<p>This might sound obvious, but it’s actually an extraordinary achievement. Before money existed, people had to trade goods directly for other goods. That system is called <strong>barter</strong>, and it has a fatal flaw we’ll explore in section 1.3. Money solves that problem elegantly by becoming the universal go-between in every transaction.</p>
+<p>Notice also that money enables anonymous transactions. The coffee shop doesn’t need to know anything about you — your reputation, your creditworthiness, your relationship to anyone — to accept your payment. Money carries its own credibility. This anonymity is economically profound. In a barter economy, or in any system where payment depends on personal trust, you can only trade with people you know and who know you. Money dissolves that constraint: you can transact with almost anyone who carries the same commonly accepted medium of exchange, whether they live next door or on the other side of the country. This represents a massive reduction in <strong>transaction costs</strong> — the time, effort, and resources spent finding, evaluating, and negotiating with trading partners — and a correspondingly massive expansion in the potential size of the market. <a href="https://en.wikipedia.org/wiki/Adam_Smith">Adam Smith</a>’s insight that the division of labor is limited by the extent of the market cuts both ways: money extends the market, which deepens specialization, which raises productivity. Much of modern economic prosperity traces back to this single feature of money.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key Definition: Money
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Money</strong> is an asset that is generally accepted as a means of payment for goods and services. This is the definition, and it flows from the first function. The other two functions — unit of account and store of value — are necessary conditions for money to work, but they don’t constitute its definition.</p>
+</div>
+</div>
+<p><strong>Function 2: Unit of Account.</strong> Money provides a common measuring stick for prices. In a modern economy with thousands of goods and services, prices are expressed in money terms: a coffee costs $4, a textbook costs $80, an apartment rents for $1,200 a month. This is enormously useful because it allows us to compare the value of very different things using a single scale.</p>
+<p>Think about what life would be like without a unit of account. If you wanted to know how much a textbook was worth relative to coffee, you’d need to know the textbook-to-coffee exchange rate directly. In a world with <span class="math inline">\(n\)</span> goods, you’d need to track <span class="math inline">\(\frac{n(n-1)}{2}\)</span> different bilateral exchange ratios — for just 1,000 goods, that’s nearly half a million prices. A unit of account collapses this to just <span class="math inline">\(n\)</span> prices, one for each good expressed in money.</p>
+<p>More importantly, money prices make <strong>profit and loss calculation</strong> possible. Entrepreneurs can add up revenues and subtract costs — all in the same units — to figure out whether an activity creates or destroys value. Without a unit of account, this calculation is practically impossible, and market economies cannot function.</p>
+<p><strong>Function 3: Store of Value.</strong> For money to work as a means of payment, people need to be willing to hold it. A seller who accepts money today must be confident that it will still be worth something tomorrow. If money lost its value overnight, nobody would want to hold it, and it would cease to circulate.</p>
+<p>Money is not the only store of value — stocks, bonds, real estate, and even fine art can all preserve purchasing power over time. But money is the most <em>liquid</em> store of value: it can be used immediately in any transaction without needing to be converted into something else first.</p>
+<p>It is worth pausing to distinguish the <em>definition</em> of money from its <em>functions</em>. The definition — a generally accepted means of payment — tells us what money <em>is</em>. The three functions tell us what money <em>does</em>, and they also give us a way to evaluate money’s <strong>quality</strong>. Money that performs all three functions well is high-quality money: it is widely accepted, prices are reliably quoted in it, and it holds its value over time. Money that performs them poorly is low-quality money. The Argentine peso, for instance, qualifies as money by definition — it is the accepted means of payment within Argentina — but it performs poorly as a store of value due to persistent inflation, making it low-quality money by the three-function standard. This quality dimension matters for policy: a central bank that destroys the store-of-value function through excessive money creation does not stop producing money, it just produces worse money.</p>
+<div id="fig-functions-of-money" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-functions-of-money-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/chapter_01/functions_of_money.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-functions-of-money-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.1: Functions of money; do not confuse with the <strong>definition</strong> of money.
+</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Common Mistake: Confusing the Functions with the Definition
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Students often assume that anything performing all three functions <em>is</em> money. That’s not quite right. The <strong>definition</strong> rests on the first function: general acceptance as a means of payment. Storing value alone doesn’t make something money. Gold stores value beautifully, but you can’t walk into a grocery store and pay with gold coins — gold is not money in modern economies. Bitcoin may store value (though extreme volatility makes that debatable), but it is not generally accepted as a means of payment, so it too is not money, at least not yet.</p>
+</div>
+</div>
+</section>
+<section id="money-vs.-wealth-income-and-payment-technologies" class="level3">
+<h3 class="anchored" data-anchor-id="money-vs.-wealth-income-and-payment-technologies">Money vs.&nbsp;Wealth, Income, and Payment Technologies</h3>
+<p>Three things are frequently confused with money. Clearing them up now will prevent headaches later.</p>
+<p><strong>Money is not the same as wealth.</strong> This is one of the most common everyday confusions. When someone says “she has a lot of money,” they usually mean she is <em>wealthy</em> — not that she is literally carrying large amounts of cash. But the two are genuinely distinct, and conflating them causes real analytical errors.</p>
+<p>Wealth is your total assets minus your total liabilities:</p>
+<p><span class="math display">\[W = (\text{money} + \text{stocks} + \text{real estate} + \text{cars} + \text{art}) - (\text{mortgage} + \text{other loans})\]</span></p>
+<p>Money is just one item on the asset side — and often a small one. Consider two people. The first owns a home, a diversified stock portfolio, and a car, but keeps only $200 in her checking account: she is wealthy but holds very little money in the economic sense. The second has $5,000 in cash but owes $40,000 in credit card debt and has no other assets: he holds a lot of money but has strongly negative net wealth. Having cash and being wealthy are related but distinct conditions. Indeed, a truly wealthy individual typically <em>chooses</em> to hold little money, because idle cash earns little return — they prefer to keep assets in higher-yielding forms like stocks or real estate.</p>
+<p><strong>Money is not the same as income.</strong> Income is a <em>flow</em> — earnings over a period of time. Money is a <em>stock</em> — an amount held at a point in time. But the relationship between them is worth spelling out carefully, because money is the <em>form</em> in which income is typically delivered. Your employer pays your salary in dollars rather than in apples or hours of legal advice for the same reason money exists at all: it is far more practical. Receiving income in money rather than in goods eliminates the need to negotiate what you are paid in, find buyers for your in-kind income, and evaluate its quality. Money makes income fungible — a dollar of wages buys the same things as a dollar of rental income or dividend income. That said, not all income arrives as money. Senior executives often receive part of their compensation in <a href="https://en.wikipedia.org/wiki/Employee_stock_option">stock options</a> — claims on equity that are not money but may be converted into money later. This is a reminder that the boundary between money and other assets is not always sharp in practice, even though the conceptual distinction is clear.</p>
+<p><strong>Money is not the same as payment technologies.</strong> The technology used to transfer money is not money itself. When you pay with a debit card, the card is not money — your bank deposit is. The card is just a tool to move it. This is the subject of the next section.</p>
+<div id="fig-balance-composition" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-balance-composition-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/chapter_01/balance_composition.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-balance-composition-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.2: Wealth is composed of money plus other assets, minus liabilities. Having cash and being wealthy are not the same thing.
+</figcaption>
+</figure>
+</div>
+<p>One concept bridges the definition of money and its legal context: <strong><a href="https://en.wikipedia.org/wiki/Legal_tender">legal tender</a></strong>. Legal tender is an asset that a state has designated as acceptable for settling debts and paying taxes. In the US, Federal Reserve notes are legal tender — a creditor cannot legally refuse them in settlement of a debt, though a private store may choose to refuse cash for a spot transaction. Legal tender status is neither necessary nor sufficient for something to be money in the economic sense: an asset can circulate as money without legal tender designation (as privately issued banknotes did in the free banking era), and legal tender status cannot by itself make a worthless asset into functioning money. But it is an important part of the institutional framework that supports modern monetary systems.</p>
+<section id="applied-is-it-actually-money" class="level4">
+<h4 class="anchored" data-anchor-id="applied-is-it-actually-money">Applied: Is It Actually Money?</h4>
+<p>The table below applies the three functions to four familiar assets. Notice that both gold and Bitcoin fail the means-of-payment criterion — and therefore fail the definition — even though gold clearly stores value and Bitcoin might. The Argentine peso qualifies as money despite failing as a store of value, because it is still widely accepted and used for transactions and pricing within Argentina.</p>
+<div id="tbl-is-it-money" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-is-it-money-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1.1: The three-function test applied to four assets.
+</figcaption>
+<div aria-describedby="tbl-is-it-money-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 29%">
+<col style="width: 19%">
+<col style="width: 22%">
+<col style="width: 12%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th style="text-align: center;"><strong>U.S. Dollar</strong></th>
+<th style="text-align: center;"><strong>Argentine Peso</strong></th>
+<th style="text-align: center;"><strong>Gold</strong></th>
+<th style="text-align: center;"><strong>Bitcoin</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Common means of exchange</td>
+<td style="text-align: center;">✅ Yes</td>
+<td style="text-align: center;">✅ Yes</td>
+<td style="text-align: center;">❌ No</td>
+<td style="text-align: center;">❌ No</td>
+</tr>
+<tr class="even">
+<td>Unit of account</td>
+<td style="text-align: center;">✅ Yes</td>
+<td style="text-align: center;">✅ Yes</td>
+<td style="text-align: center;">❌ No</td>
+<td style="text-align: center;">❌ No</td>
+</tr>
+<tr class="odd">
+<td>Store of value</td>
+<td style="text-align: center;">✅ Yes</td>
+<td style="text-align: center;">❌ No</td>
+<td style="text-align: center;">✅ Yes</td>
+<td style="text-align: center;">❓ Maybe</td>
+</tr>
+<tr class="even">
+<td><strong>Is it money?</strong></td>
+<td style="text-align: center;"><strong>✅ Yes</strong></td>
+<td style="text-align: center;"><strong>✅ Yes</strong></td>
+<td style="text-align: center;"><strong>❌ No</strong></td>
+<td style="text-align: center;"><strong>❌ No</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+</section>
+</section>
+<section id="how-much-money-is-there-the-money-supply" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="how-much-money-is-there-the-money-supply"><span class="header-section-number">1.2</span> How Much Money Is There? The Money Supply</h2>
+<p>Knowing what money <em>is</em> immediately raises a follow-up question: how much of it is there? The answer turns out to be surprisingly slippery, because the money supply is not a single number — it’s a hierarchy of assets that shade from perfectly liquid to somewhat less liquid. Where you draw the line determines the number you get.</p>
+<section id="base-money-and-money-substitutes" class="level3">
+<h3 class="anchored" data-anchor-id="base-money-and-money-substitutes">Base Money and Money Substitutes</h3>
+<p>Total money has two broad components. <strong>Base money</strong> — also called the monetary base or <a href="https://en.wikipedia.org/wiki/Monetary_base">high-powered money</a> — is the narrow core: historically, gold and silver coin; today, currency issued by the central bank plus the reserves that commercial banks hold on deposit at the central bank. Base money is the foundation. It is either physically in your hands or held as an electronic claim directly on the central bank.</p>
+<p><strong>Money substitutes</strong> are assets that function like money for most practical purposes but are not themselves base money. A checking account balance is the clearest example: you can use it to pay for almost anything, it is denominated in dollars, and it is redeemable on demand — but it is a claim on a commercial bank, not on the central bank directly. Other money substitutes include savings accounts, money market funds, and short-term certificates of deposit. These are slightly less liquid — they may require a transfer step or a waiting period — but they are close enough to money that they belong in any serious accounting of the money supply.</p>
+<div id="fig-money-composition" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-money-composition-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/chapter_01/money_composition.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-money-composition-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.3: The conceptual structure of the money supply. Base money (commodity, fiat, or digital) is the narrow foundation. Money substitutes — bank deposits, money market funds, certificates of deposit — extend it into the broader economy. The dividing line between “narrow money” and “broad money” depends on how strictly you define general acceptance.
+</figcaption>
+</figure>
+</div>
+<p>The key insight is that money substitutes are created by the banking system through lending, not by the central bank directly. When a bank makes a loan, it credits the borrower’s deposit account — creating a new money substitute “out of thin air,” backed by the borrower’s promise to repay. This process, called <strong><a href="https://en.wikipedia.org/wiki/Fractional-reserve_banking">fractional reserve banking</a></strong>, is why the total money supply is always a multiple of the monetary base. We’ll examine the mechanics in detail in Chapter 2.</p>
+</section>
+<section id="the-official-monetary-aggregates" class="level3">
+<h3 class="anchored" data-anchor-id="the-official-monetary-aggregates">The Official Monetary Aggregates</h3>
+<p>Because the line between “money” and “near-money” is not sharp, economists track the money supply at several levels of breadth. The official U.S. measures, defined by the <a href="https://www.federalreserve.gov/releases/h6/">Federal Reserve</a>, are organized from most to least liquid:</p>
+<div id="fig-money-aggregates" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-money-aggregates-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/chapter_01/money_aggregates.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-money-aggregates-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.4: The U.S. monetary aggregates. Each level includes everything inside it plus additional, slightly less liquid assets. The monetary base is the most narrow; M2 is the broadest standard measure.
+</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Monetary Base (MB):</strong> currency in circulation plus bank reserves held at the Federal Reserve. This is the portion of the money supply under direct Fed control. A dollar of monetary base is either physical cash or an electronic reserve balance — both are claims on the central bank itself.</li>
+<li><strong>M1:</strong> currency in circulation plus demand deposits (checking accounts) plus other liquid deposits. This is “transaction money” — the assets you can spend directly, without any conversion step. Note that reserves are <em>already embedded</em> in the deposits that banks have created against them — adding reserves again when going from MB to M1 would double-count them. M1 picks up the currency held by the public and the deposit liabilities of banks, not the reserves backing those deposits.</li>
+<li><strong>M2:</strong> M1 plus savings accounts, small-denomination time deposits (certificates of deposit under $100,000), and retail money market funds. These assets are liquid but require a small step to convert into spending power — you might need to initiate a transfer or wait a day.</li>
+</ul>
+<p>As of July 2024, the U.S. monetary base stood at roughly $5.6 trillion, M1 at around $18 trillion, and M2 at roughly $21 trillion. The chart below shows the components of each aggregate in dollar terms.</p>
+<div id="fig-monetary-aggregates-values" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-monetary-aggregates-values-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/chapter_01/money_aggregates_values.png" class="img-fluid figure-img" style="width:80.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-monetary-aggregates-values-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.5: Components of U.S. monetary aggregates, March 2026 (billions of dollars).<br>
+Source: <a href="https://www.federalreserve.gov/releases/h6/20260428/">Federal Reserve H.6 Release</a>.
+</figcaption>
+</figure>
+</div>
+<p>The gap between the monetary base and M2 is striking — M2 is nearly four times the size of the base. This multiplier reflects the banking system’s role in creating money substitutes through lending. A $1 increase in base money can generate several dollars of additional deposits as the same reserves circulate through multiple rounds of lending and redepositing. This is not magic, and it has limits: the multiplier depends on how much cash people want to hold and how much reserves banks choose to keep. But it means the Fed’s control over M2 is indirect — it controls the base directly, and M2 responds, with some lag and uncertainty.</p>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Common Mistake: Treating Any Single Aggregate as the “Real” Money Supply
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Students sometimes ask: which aggregate is the “true” money supply? The answer is that they measure different things and are useful for different purposes. The monetary base is what the Fed directly controls. M1 is the best measure of money used in transactions. M2 is the best measure of the total stock of liquid assets held by the public. None is more “real” than the others — each answers a different question.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="payment-technologies" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="payment-technologies"><span class="header-section-number">1.3</span> Payment Technologies</h2>
+<p>Now that we know what money is and how much of it exists, a separate question arises: how does it actually move from one person to another? That is the job of <strong>payment technologies</strong> — the mechanisms and instruments that transfer money between buyers and sellers. Understanding this distinction is essential, because payment technology is often confused with money itself.</p>
+<p>Think of it like a railroad and a train. The railroad (payment technology) is the infrastructure that moves things from one place to another; the train (money) is what actually travels along it. Building more railroads — faster, cheaper, more extensive — does not create more trains. It just moves existing trains more efficiently. In the same way, improving payment technology makes transactions faster and cheaper, but it does not create more money or change the money supply.</p>
+<p>Here is a question that illustrates the confusion: if you pay for lunch with Apple Pay, what are you actually paying with? The answer is not “Apple Pay.” Apple Pay is the railroad — a method of routing a transfer of funds. What you’re paying with is money held in a bank account: the train. The technology is the interface; the money is the underlying asset being moved.</p>
+<p>Cash transactions are where the confusion is most acute, because the technology and the money look like the same thing. When you hand over a $20 bill, the physical act — moving your arm, passing paper — is the payment technology. The money is the dollar claim that bill represents. In a digital payment this is obvious (you can clearly see the app is separate from your bank balance); with cash it is less visible, but the distinction is real. The $20 bill is both the instrument and the carrier, which is what makes cash the special case — and why understanding payment technologies separately from the money supply matters most when we move beyond cash.</p>
+<section id="cash" class="level3">
+<h3 class="anchored" data-anchor-id="cash">Cash</h3>
+<p>Cash is the most direct form of payment. When you hand over physical currency, you are transferring money itself — no intermediary needed, no clearing required, no counterparty risk. The transaction is immediate and final.</p>
+<p>Three types of money can circulate as cash:</p>
+<ul>
+<li><strong>Commodity money:</strong> physical objects with value both as money and as goods — gold, silver, salt, silk. Historically important; rarely used today.</li>
+<li><strong>Fiat money:</strong> paper currency issued by a government with no significant non-monetary use. The US dollar, euro, and yen are all fiat money. They are valuable because governments declare them legal tender and people accept them as payment.</li>
+<li><strong>Digital money:</strong> money that exists only as electronic records, with no physical counterpart and no non-monetary use.</li>
+</ul>
+</section>
+<section id="checks" class="level3">
+<h3 class="anchored" data-anchor-id="checks">Checks</h3>
+<p>A check is not money. It is an instruction — an order from you to your bank to transfer funds to someone else’s account. The paper itself has no intrinsic value; it is a claim on the deposit behind it.</p>
+<div id="fig-check" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-check-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/chapter_01/check.jpg" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-check-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.6: A check is a payment instruction, not money itself. Its design incorporates multiple security features: an authorized signature acting as a password, a MICR line encoding routing and account numbers, and intricate graphic patterns that make counterfeiting difficult..
+</figcaption>
+</figure>
+</div>
+<p>A check’s security comes from several built-in design features. The <strong>authorized signature</strong> acts as a “password” — the bank checks it against the account holder’s signature on file before honoring the instruction. The <strong>MICR line</strong> (the row of machine-readable numbers at the bottom of every check) encodes the routing number identifying the bank, the account number, and the check number, allowing automated processing and verification at scale. Sequential check numbers provide an audit trail, making it easy to detect gaps or duplicates. Magnetic ink and printed security features on the paper itself make physical counterfeiting difficult. Together, these features make checks significantly more secure than handing cash to a stranger.</p>
+<p>A bounced check is not “bad money” — it’s a failed instruction, because the deposit balance wasn’t there to cover it.</p>
+</section>
+<section id="electronic-payments" class="level3">
+<h3 class="anchored" data-anchor-id="electronic-payments">Electronic Payments</h3>
+<p>Electronic payments are the digital evolution of the check. Instead of paper, an electronic signal triggers the fund transfer.</p>
+<ul>
+<li><strong>Debit cards</strong> work like electronic checks — they draw directly from your bank account in near real time.</li>
+<li><strong>Credit cards</strong> work differently: the card issuer pays the merchant on your behalf, and you repay the issuer later. You are spending borrowed money — a credit line — not your own deposit.</li>
+<li><strong>Electronic funds transfers</strong> move money between accounts through networks like Fedwire (large-value, real-time) or ACH (Automated Clearing House, used for recurring transactions like payroll and bills).</li>
+<li><strong>Real-Time Payments (RTP):</strong> The newest development is truly instantaneous settlement. Private networks (like The Clearing House’s RTP) and the Federal Reserve’s FedNow service now clear payments in seconds, 24/7 — unlike traditional ACH, which can take one to two business days.</li>
+</ul>
+<p>More recently, payment apps like Venmo, Zelle, Apple Pay, and Google Pay have made electronic transfers almost frictionless. In some markets — Kenya’s M-Pesa being the most striking example — mobile phone-based payments have replaced both cash and traditional banking for tens of millions of people. Worldwide, more individuals have a mobile phone than a bank account, making mobile money the most realistic path to financial inclusion in many developing economies.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Intuition Builder: The Plumbing vs.&nbsp;the Water
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Think of the money supply as water in a plumbing system. Cash, checks, and electronic payments are different types of pipes — they move water from one place to another. The amount of water in the system is determined by monetary policy, not by the choice of pipes. A better payment technology (faster, cheaper pipes) makes the system more efficient, but it doesn’t change how much water there is. This is why the Federal Reserve tracks M1 and M2, not the volume of card or app transactions.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="a-short-history-of-money" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="a-short-history-of-money"><span class="header-section-number">1.4</span> A Short History of Money</h2>
+<p>Money is one of humanity’s great institutional inventions. But unlike the steam engine or the smartphone, nobody sat down and designed it. It emerged — gradually, spontaneously, and independently in different parts of the world — as societies grew too complex for barter.</p>
+<section id="the-problem-of-barter" class="level3">
+<h3 class="anchored" data-anchor-id="the-problem-of-barter">The Problem of Barter</h3>
+<p>Imagine a world without money. You’re a farmer with a surplus of apples. You want bananas. Across town, someone has bananas but wants salt. Somewhere else, a third person has salt but wants apples.</p>
+<div id="fig-barter" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-barter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/chapter_01/barter.png" class="img-fluid figure-img" style="width:35.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-barter-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.7: Barter economy and the problem of <em>double-coincidence of wants</em>.
+</figcaption>
+</figure>
+</div>
+<p>For direct <a href="https://en.wikipedia.org/wiki/Barter">barter</a> to work, you need a <strong>double coincidence of wants</strong>: person A must have what person B wants, <strong>and</strong> person B must have what person A wants, at the same time and place. In a small village this might be manageable. But as economies grow — more people, more specialization, more goods — the double coincidence of wants becomes a crippling constraint on trade.</p>
+<p>Money dissolves this problem. Instead of finding someone who has bananas <strong>and</strong> wants apples, you just find someone who has bananas and accepts money — which everyone does.</p>
+</section>
+<section id="how-money-emerged-two-competing-theories" class="level3">
+<h3 class="anchored" data-anchor-id="how-money-emerged-two-competing-theories">How Money Emerged: Two Competing Theories</h3>
+<p><strong>Explanation 1: The Spontaneous Market Account</strong></p>
+<p>The Austrian economist <a href="https://en.wikipedia.org/wiki/Carl_Menger">Carl Menger</a> provided the classic account in the late 19th century, later formalized by <a href="https://en.wikipedia.org/wiki/Ludwig_von_Mises">Ludwig von Mises</a> as the <strong>regression theorem</strong>. In a barter economy, some goods are more salable than others — more widely desired, more divisible, more durable. A smart trader realizes that even if the person offering salt doesn’t want what the trader has, acquiring salt is still useful because it can be traded with almost anyone later. Salt becomes a medium of exchange before it becomes money, simply through its high marketability.</p>
+<p>As more traders adopt this strategy, salt’s value increases: it acquires both its consumption value and a monetary premium. This self-reinforcing process can elevate a commodity to the status of a general medium of exchange.</p>
+<p>The regression theorem’s critical point: for a good to first serve as money, it must already have an established value from non-monetary uses. When adopted as money, people use yesterday’s non-monetary prices as a reference. Trace this logic backward and you always arrive at a good that had value <em>before</em> it was money. This means purely fiat money — with no non-monetary value — cannot emerge spontaneously from barter. It can only arise as an outgrowth of a prior commodity money system.</p>
+<div id="fig-regression-theorem" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-regression-theorem-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+    A["🪙 Commodity Value\n(non-monetary origin)"]
+    B["Early Monetary Use"]
+    C["Established Money"]
+    D["Gold Standard /\nBretton Woods"]
+    E["Present Value"]
+
+    A --&gt;|anchors| B
+    B --&gt;|anchors| C
+    C --&gt;|anchors| D
+    D --&gt;|anchors| E
+
+    D --&gt;|"inherits value from predecessor"| F["Fiat Money\n(post-1971)"]
+    D --&gt;|"no commodity anchor —\nvalue from expectations alone?"| G["Bitcoin / Crypto"]
+
+    style A fill:#B87333,color:#fff,stroke:#36454F
+    style B fill:#5B9BD5,color:#fff,stroke:#36454F
+    style C fill:#5B9BD5,color:#fff,stroke:#36454F
+    style D fill:#5B9BD5,color:#fff,stroke:#36454F
+    style E fill:#5B9BD5,color:#fff,stroke:#36454F
+    style F fill:#87A96B,color:#fff,stroke:#36454F
+    style G fill:#D4745E,color:#fff,stroke:#36454F
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-regression-theorem-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.8: The regression theorem traces monetary value backward through time: each period’s acceptance of money as payment is grounded in its value in the prior period, with the chain terminating at a non-monetary commodity origin. Fiat money extended the chain by inheriting value from the gold-linked money it replaced. Bitcoin and other cryptocurrencies face a bootstrapping problem — with no commodity anchor, initial monetary value must emerge from expectations alone.
+</figcaption>
+</figure>
+</div>
+<p>What kinds of goods ended up as money? History gives a consistent answer: <strong>precious metals</strong> — durable (they don’t rot or rust), divisible (meltable into any denomination), portable (high value in small volume), and relatively scarce.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Intuition Builder: Why Salt Before Gold?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>In coastal regions with easy sea access, salt was cheap and abundant — a poor money candidate. In landlocked regions where salt required long-distance transport, it was scarce and universally desired. The word “salary” comes from the Latin <em>salarium</em>, related to salt payments made to Roman soldiers. Context and scarcity determine what becomes money — not any intrinsic property of the good itself.</p>
+</div>
+</div>
+<p><strong>Explanation 2: The Chartalist Theory</strong></p>
+<p>The chartalist tradition (<a href="https://en.wikipedia.org/wiki/Georg_Friedrich_Knapp">Georg Friedrich Knapp</a>) offers a radically different account: money is a creature of the state, created by law rather than emerging from market exchange.</p>
+<p>The core argument: what makes an asset <strong>generally accepted</strong> is not its marketability but its legal status. When a state declares an asset legal tender and demands taxes be paid in it, it creates enormous demand for that asset across the entire population. Everyone with a tax obligation must acquire it. This legally-mandated demand is what turns paper into money.</p>
+<p>Chartalism is not primarily trying to explain money’s first appearance, but why a particular currency becomes <strong>widely</strong> accepted across a large population. The debate between spontaneous-market and chartalist views resurfaces directly in modern discussions: cryptocurrencies attempt to create money without state backing; CBDCs represent state money in new digital form.</p>
+<p>It is worth noting an important distinction between the two explanations. The spontaneous market account focuses on the <strong>economic origin and role</strong> of money — why certain goods are adopted as media of exchange through voluntary market processes. The chartalist theory focuses on the <strong>legal definition and status</strong> of money — why a particular asset is declared and enforced as the accepted means of payment by state authority. These are not mutually exclusive: both economic forces and legal institutions shape what functions as money in practice.</p>
+<p>But the regression theorem makes a specific claim that goes beyond origin: it says that for a new money to acquire value, it must be able to reference the purchasing power of something that already had value — either a commodity or a prior monetary unit. Without that anchor, there is no basis for coordination on what the new money is worth in terms of real goods. This insight explains a pattern that repeats throughout monetary history: monetary systems almost never restart from zero. When the Weimar hyperinflation destroyed the German mark in 1923, the stabilizing Rentenmark was backed by real assets — land — and crucially, it reset prices relative to a pre-existing reference point. When Bretton Woods collapsed and currencies began floating freely, no country invented a new monetary unit; every country kept working with the currency it already had, whose purchasing power was already embedded in millions of contracts, price lists, and expectations. The euro itself, when it launched in 1999, was defined in fixed conversion rates against the existing national currencies it replaced — it inherited their price histories rather than constructing a new one. Launching a currency from zero, without either a commodity anchor or a prior monetary unit to inherit value from, is one of the hardest problems in monetary economics. That difficulty is not accidental; it is exactly what the regression theorem predicts.</p>
+</section>
+<section id="six-stages-in-the-history-of-money" class="level3">
+<h3 class="anchored" data-anchor-id="six-stages-in-the-history-of-money">Six Stages in the History of Money</h3>
+<p>Monetary history can be organized into six broad stages. Each stage reflects a different answer to the same underlying questions: who issues money, what backs it, and how is its supply constrained? The progression is not a smooth line of progress — each stage solved some problems while creating others, and the transitions between them were often forced by war, financial crisis, or technological change. The figure below summarizes the sequence; the discussion that follows explains what changed at each step and why.</p>
+<div id="fig-history-of-money" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-history-of-money-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/chapter_01/history_of_money.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-history-of-money-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.9: Six stages in the history of money. The first five are well-established; the sixth is unfolding now.
+</figcaption>
+</figure>
+</div>
+<p>The history of money is not a story of steady progress toward a better system. It is a story of institutions solving one problem, creating another, and being replaced when the new problem became intolerable. Each of the six stages in the figure above reflects a different answer to the same underlying questions — who issues money, what backs it, and how is its supply constrained — and each transition was driven by a specific tension that the previous arrangement could not resolve.</p>
+<p><strong>The starting point is commodity money</strong>. For most of human history, money was a physical commodity — shells, cattle, salt, copper, silver, gold — something with value in its own right. The great virtue of commodity money is that its supply is constrained by nature. You cannot print gold; you can only mine it. This physical scarcity anchors the price level over the long run and prevents governments from creating money at will to finance their spending. The limitation is equally obvious: gold is heavy, inconvenient in large quantities, and indivisible below a certain point. As trade grew more complex and long-distance commerce expanded, carrying gold everywhere became impractical.</p>
+<p><strong>That inconvenience created banking</strong>. Rather than transport gold, merchants began depositing it with goldsmiths and banks, receiving paper receipts in return. Those receipts — convertible to gold on demand — were easier to carry and transfer. Private banks began issuing their own notes, all backed by gold reserves, and competing for customers on the quality and reputation of their promises. This is the free banking stage: multiple private issuers, one underlying commodity standard, no central monetary authority. It worked remarkably well where it was genuinely allowed to operate — Scotland and Canada being the benchmark cases — because the convertibility promise was credible and the clearing system disciplined over-issuers automatically. Chapter 2 examines this stage in depth.</p>
+<p><strong>The gold standard centralized what free banking had left competitive</strong>. By the late 19th century, most governments had consolidated note issuance under a single national central bank, while maintaining the gold convertibility commitment. The key point — often misunderstood — is that money was still gold. Central bank notes were gold substitutes, claims on a fixed weight of gold, not a separate currency. There was no exchange rate between a Bank of England note and a Banque de France note in any meaningful sense, just as there is no exchange rate between a Wells Fargo check and a JPMorgan check if both are denominated in the same dollars. The gold standard provided remarkable long-run price stability, but it inherited the gold standard’s fundamental constraint: you could not create gold to respond to a crisis, and wartime fiscal needs were orders of magnitude beyond what any gold reserve could accommodate.</p>
+<p><strong>World War I broke the system</strong>. Every major belligerent suspended gold convertibility to print the money needed to finance unprecedented military spending. When the war ended, governments tried to restore the gold standard — but did so badly, returning to prewar exchange parities that no longer reflected wartime inflation. The result was a deflationary straightjacket that deepened the Great Depression. The lesson drawn — wrongly, but understandably — was that gold discipline itself was the problem. At Bretton Woods in 1944, the Allied nations constructed a compromise: a modified gold standard, but with the US dollar at its center rather than gold directly. The dollar was pegged to gold at $35 per ounce; all other currencies were pegged to the dollar; and only foreign central banks, not ordinary people or businesses, could redeem dollars for gold. The IMF was created to manage the system and provide short-term liquidity to countries defending their pegs. It was an attempt to preserve the discipline of gold while giving governments more flexibility — but as Chapter 2 discusses, the Triffin dilemma made the system structurally unstable from the start.</p>
+<p><strong>When Bretton Woods collapsed in 1971, the last link to gold was severed</strong>. President Nixon’s suspension of dollar-gold convertibility — the Nixon shock — ended the system, and the world moved to fiat money: currencies backed by nothing but government authority and public acceptance. This is where we are today. Fiat money is not unprecedented — governments have issued inconvertible paper before — but it is the first time in history that the entire world has operated simultaneously on a pure fiat standard with no commodity anchor of any kind. The regression theorem offers a partial explanation for how fiat money acquired value: it inherited its initial price from the gold-linked money it replaced. But sustaining that value requires something that commodity money provided automatically and fiat money must construct institutionally — a credible commitment not to over-issue. That commitment is the central challenge of modern monetary policy, and it is the subject of Chapters 3 and 4.</p>
+<p>Stage 6 is where we live now, and its defining feature is uncertainty. Two paths are visible: cryptocurrencies attempting to recreate the scarcity discipline of commodity money through code rather than physics, and Central Bank Digital Currencies extending state money into new technological forms. Neither has yet displaced the fiat system. What is certain is that the experiment is underway, and the history traced in the five stages before it is the essential context for evaluating what comes next.</p>
+</section>
+</section>
+<section id="the-price-of-money-and-inflation" class="level2" data-number="1.5">
+<h2 data-number="1.5" class="anchored" data-anchor-id="the-price-of-money-and-inflation"><span class="header-section-number">1.5</span> The Price of Money and Inflation</h2>
+<p>So far we’ve covered what money is and where it came from. Now we turn to something more immediately practical: how does the value of money change over time, and what drives those changes?</p>
+<p>The short answer is that money, like any other good, has a price determined by supply and demand.</p>
+<section id="the-price-of-money-is-its-purchasing-power" class="level3">
+<h3 class="anchored" data-anchor-id="the-price-of-money-is-its-purchasing-power">The Price of Money Is Its Purchasing Power</h3>
+<p>The price of a good is how much money you give up to get it. The price of money, then, is how much of everything else you can get in exchange for a unit of money — its <strong>purchasing power</strong>. If the price level is <span class="math inline">\(P\)</span> (a weighted average of all goods’ prices), then the purchasing power of money is <span class="math inline">\(\frac{1}{P}\)</span>.</p>
+<p>When the price level rises, the purchasing power of money falls: each dollar buys less. When the price level falls, purchasing power rises. <strong>Inflation</strong> is the rate at which the price level is <strong>continuously</strong> increasing — equivalently, the rate at which purchasing power is declining.</p>
+<p>A crucial clarification: inflation means a <strong>continuously rising</strong> price level, not merely a <em>high</em> price level. The diagram below makes this precise.</p>
+<div id="fig-inflation" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-inflation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figures/chapter_01/inflation.png" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-inflation-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1.10: What counts as inflation. A persistently high price level, or a one-time jump, is <em>not</em> inflation. Inflation is the ongoing, sustained upward movement in the price level over time. The level of prices doesn’t matter for inflation — only the rate of change does.
+</figcaption>
+</figure>
+</div>
+<p>This framing is useful because it reminds us that inflation is not something that happens to goods — it’s something that happens to money. Goods don’t appear more expensive because they became more valuable; they appear more expensive because the money used to price them became less valuable.</p>
+</section>
+<section id="supply-demand-and-the-price-level" class="level3">
+<h3 class="anchored" data-anchor-id="supply-demand-and-the-price-level">Supply, Demand, and the Price Level</h3>
+<p>Like any market, the market for money has a supply and a demand, and equilibrium determines the price level.</p>
+<p><strong>Money demand</strong> is the desire to hold money balances — to keep some wealth in liquid form rather than in stocks or real estate. You hold money because you need it for transactions: you can’t pay for lunch with Apple stock. Money demand rises with income (more transactions needed) and falls when interest rates rise (higher opportunity cost of holding idle cash).</p>
+<p>There is a fundamental accounting identity that connects money holding to real spending:</p>
+<p><span class="math display">\[Y = C + M^D\]</span></p>
+<p>Your income (<span class="math inline">\(Y\)</span>) is divided between consumption (<span class="math inline">\(C\)</span>) and the money balances you choose to hold (<span class="math inline">\(M^D\)</span>). Rearranged:</p>
+<p><span class="math display">\[C = Y - M^D\]</span></p>
+<p>This is more than bookkeeping — it’s an economic insight. When people choose to hold <em>more</em> money, they by definition spend <em>less</em> on consumption, holding income constant. When money demand falls and people want to hold less cash, consumption rises. This direct link gives monetary policy its macroeconomic power: changes in the willingness to hold money ripple through to changes in aggregate spending.</p>
+<p><strong>Money supply</strong> is determined in a modern fiat system primarily by the central bank through its control of the monetary base. The banking system then multiplies that base into a larger supply through lending — a process covered in detail in Chapter 2.</p>
+<p>The equilibrium price level <span class="math inline">\(P^*\)</span> is where money demand equals money supply. Changes in either shift equilibrium and change the value of money. This is the essence of the <strong>cash-balance approach</strong> to monetary theory: the price level adjusts until people are willing to hold exactly the amount of money the central bank has supplied. If the government supplies more money than people want to hold at current prices, people try to spend the excess — they buy goods, assets, anything to reduce their cash balances. This surge in spending bids up prices until the real value of money balances falls back into line with desired holdings. The price level rises. The reverse holds when the supply falls short of desired holdings: people try to rebuild their cash balances by spending less, demand falls, and the price level adjusts downward. Equilibrium is precisely where desired money holdings equal money supplied — and therefore where the price level is no longer moving. Inflation, from this perspective, is what happens when the central bank persistently supplies more money than the public wants to hold.</p>
+</section>
+<section id="what-causes-inflation" class="level3">
+<h3 class="anchored" data-anchor-id="what-causes-inflation">What Causes Inflation?</h3>
+<p>The general price level <span class="math inline">\(P\)</span> is a weighted average of all individual prices:</p>
+<p><span class="math display">\[P = \omega_1 p_1 + \omega_2 p_2 + \cdots + \omega_n p_n\]</span></p>
+<p>For <span class="math inline">\(P\)</span> to rise persistently, many prices must rise simultaneously and continuously. Why would they? It is worth being precise about what can and cannot produce inflation as we have defined it — a <em>continuous</em> increase in the price level, not a one-time jump.</p>
+<p>Two things are sometimes confused with inflation but are not, properly understood:</p>
+<ul>
+<li><strong>Supply shocks</strong> (e.g., an oil embargo) raise prices in one sector. But money diverted to oil must come from somewhere — spending on other goods falls, pulling their prices down. The overall price level may shift temporarily, but without an accompanying increase in money supply the effect is a <strong>relative</strong> price change, not a sustained rise across the board. Once the shock passes, prices tend to stabilize at the new level. Additionally, a supply shock is more likely to produce a one-time jump in the price level rather than a continuous increase. The initial shock raises prices, but without ongoing excess money creation, there is no mechanism to keep pushing prices up indefinitely.</li>
+<li><strong>A fall in money demand</strong>: if people want to hold less cash, they spend more, and prices rise. But this is a one-time adjustment. Once people have rebalanced their portfolios, spending normalizes and the price level stabilizes. A shift in money demand moves the price level to a new plateau; it does not keep pushing it upward indefinitely.</li>
+</ul>
+<p>Only one mechanism can produce sustained, continuously rising prices: an <strong>excess of money supply</strong> that keeps growing faster than the real economy. If the central bank continuously creates more money than people want to hold, people continuously try to spend the excess, and prices continuously rise. This is the only source of genuine, persistent inflation in the sense economists mean by the term. The conclusion is stark: sustained inflation requires sustained money growth — a claim confirmed by every serious historical episode of persistent inflation without exception.</p>
+</section>
+<section id="the-equation-of-exchange" class="level3">
+<h3 class="anchored" data-anchor-id="the-equation-of-exchange">The Equation of Exchange</h3>
+<p>The <strong>equation of exchange</strong> makes this relationship precise. It is an accounting identity — true by definition:</p>
+<p><span class="math display">\[MV \equiv Py\]</span></p>
+<p>where <span class="math inline">\(M\)</span> is the money supply, <span class="math inline">\(V\)</span> is the <strong>velocity of money</strong> (average number of times a dollar is spent per period), <span class="math inline">\(P\)</span> is the price level, and <span class="math inline">\(y\)</span> is real output (real GDP).</p>
+<p>The left side, <span class="math inline">\(MV\)</span>, is total nominal spending. The right side, <span class="math inline">\(Py\)</span>, is nominal GDP. They must be equal: every dollar spent on goods and services generates an equal dollar of income for someone.</p>
+<p>Velocity has a useful interpretation: it’s the inverse of money demand. When people want to hold less cash relative to income, each dollar turns over faster — high velocity. When money demand is high, velocity falls.</p>
+<p>In growth-rate form:</p>
+<p><span class="math display">\[\dot{M} + \dot{V} \equiv \pi + \dot{y}\]</span></p>
+<p>where <span class="math inline">\(\pi\)</span> denotes inflation and dots denote growth rates. Money supply growth plus velocity growth equals inflation plus real output growth.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key Definition: Money Velocity
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>Velocity</strong> (<span class="math inline">\(V\)</span>) is the average number of times a unit of money changes hands in a given period. It is the inverse of money demand. When people want to hold more cash, velocity falls; when they spend more freely, velocity rises. Velocity is not directly controlled by the central bank — it depends on payment habits, financial innovation, and expectations about the future value of money.</p>
+</div>
+</div>
+</section>
+<section id="the-quantity-theory-of-money" class="level3">
+<h3 class="anchored" data-anchor-id="the-quantity-theory-of-money">The Quantity Theory of Money</h3>
+<p>The equation of exchange becomes a theory when we add three empirical assumptions:</p>
+<ol type="1">
+<li><strong>Real GDP growth is roughly stable</strong> (<span class="math inline">\(\dot{y} \approx 0\)</span> in the short run)</li>
+<li><strong>Velocity is roughly stable</strong> (<span class="math inline">\(\dot{V} \approx 0\)</span>)</li>
+<li><strong>The money supply is set by the central bank</strong> (<span class="math inline">\(M\)</span> is exogenous)</li>
+</ol>
+<p>Under these conditions:</p>
+<p><span class="math display">\[\dot{M} \approx \pi\]</span></p>
+<p>Inflation approximately equals money supply growth. This is <a href="https://en.wikipedia.org/wiki/Milton_Friedman">Milton Friedman</a>’s dictum: <em>“Inflation is always and everywhere a monetary phenomenon.”</em> Persistent, large-scale inflation requires a sustained increase in the money supply — no exceptions at the extremes.</p>
+<p>A real-world caveat: the assumption that velocity is stable has been challenged since the 1990s. M2 velocity in the US has trended downward since then, partly because a growing share of money flows into financial assets — stocks, bonds, real estate — rather than goods and services counted in GDP. This doesn’t overturn the Quantity Theory; it reminds us that the assumptions matter and that the link between broad money and inflation has become less mechanical over time.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key Takeaway: The Root Cause of Inflation
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The Quantity Theory tells us that sustained, large-scale inflation requires sustained money supply growth. Supply shocks can temporarily raise the price level, but only excess money creation can keep inflation elevated over the long run. This is why central bank independence — keeping money creation out of politicians’ hands — is considered so critical for price stability.</p>
+</div>
+</div>
+</section>
+<section id="why-inflation-is-costly" class="level3">
+<h3 class="anchored" data-anchor-id="why-inflation-is-costly">Why Inflation Is Costly</h3>
+<p>Even moderate inflation imposes real costs.</p>
+<p><strong>Cantillon effects and distorted price signals.</strong> Prices don’t rise simultaneously or uniformly. Newly created money enters the economy at specific points — through government spending or bank lending — and spreads outward. First recipients spend it before prices have risen; later recipients get it after prices have adjusted. This uneven process, named after 18th-century economist <a href="https://en.wikipedia.org/wiki/Richard_Cantillon">Richard Cantillon</a>, creates arbitrary redistributions with no relation to productive contribution.</p>
+<p>More fundamentally, inflation corrupts the information content of prices. In a market economy, a rising price for a particular good signals genuine increased demand, guiding producers to shift resources accordingly. But when the overall price level is rising, a producer can’t easily distinguish whether their product is becoming more valuable or whether everything is just more expensive. This <strong>extraction signal problem</strong> leads to business overexpansion based on “fake” profits — profits that are really just inflation — which eventually must be unwound.</p>
+<p><strong>Wealth redistribution between lenders and borrowers.</strong> Consider a concrete example. John borrows $100,000 at 7% to open a pizza restaurant. The bank expects 2% inflation (<span class="math inline">\(\pi^E = 2\%\)</span>), so it expects a real return of 5%. John must repay $107,000 a year later — $2,000 from higher pizza prices (inflation) and $5,000 from real profits.</p>
+<p>Now suppose actual inflation differs from what both parties expected:</p>
+<div id="tbl-inflation-redistribution" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-inflation-redistribution-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1.2: Inflation and wealth redistribution. Only when actual inflation equals expected inflation does neither party gain or lose relative to their plan.
+</figcaption>
+<div aria-describedby="tbl-inflation-redistribution-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><span class="math inline">\(\pi &lt; \pi^E\)</span></th>
+<th><span class="math inline">\(\pi = \pi^E\)</span></th>
+<th><span class="math inline">\(\pi &gt; \pi^E\)</span></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Lender</strong></td>
+<td>Gains purchasing power</td>
+<td>Unaffected</td>
+<td>Loses purchasing power</td>
+</tr>
+<tr class="even">
+<td><strong>Borrower</strong></td>
+<td>Loses purchasing power</td>
+<td>Unaffected</td>
+<td>Gains purchasing power</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p>If inflation comes in at 1% — below expectations — John must cover more of the $107,000 from real profits; the bank does better than planned. At 3%, John’s pizza prices rise more, reducing his real burden; the bank earns less in real terms. These gains and losses are purely redistributive — no new wealth is created, just shuffled between parties based on an unpredictable macroeconomic variable. Inflation <em>uncertainty</em> may be even more damaging than inflation itself, since it forces lenders to demand higher risk premiums on every long-term contract, raising borrowing costs throughout the economy.</p>
+<p><strong>Fiscal distortions.</strong> Inflation interacts perversely with tax systems based on nominal values. Suppose you buy a stock for $100 and sell it for $110 — a $10 nominal gain on which you owe capital gains tax. But if inflation was 15% over that period, your stock’s real value actually <em>fell</em>. You pay taxes on an economic loss. This was a serious problem during the high-inflation 1970s in the US and remains acute in high-inflation economies today.</p>
+<p><strong>The cost of stopping inflation.</strong> Perhaps the cruelest cost is that reducing embedded inflation requires accepting real economic pain. Once inflation expectations are built into wage negotiations and price-setting, slowing money supply creates a money shortage relative to expectations. Spending falls, output contracts, unemployment rises. The Federal Reserve’s 1980–82 disinflation under Paul Volcker pushed unemployment above 10% and triggered the deepest recession since the Great Depression. That’s the price of letting inflation become entrenched in the first place.</p>
+</section>
+<section id="hyperinflation-when-money-loses-all-meaning" class="level3">
+<h3 class="anchored" data-anchor-id="hyperinflation-when-money-loses-all-meaning">Hyperinflation: When Money Loses All Meaning</h3>
+<p>Inflation becomes <strong>hyperinflation</strong> when it spirals out of control. The standard quantitative threshold is a monthly inflation rate of at least 50% — roughly 13,000% annually. The qualitative definition may be more instructive: hyperinflation occurs when <em>money velocity grows out of control</em>.</p>
+<p>Hyperinflations are nearly always triggered by large fiscal deficits financed by printing money. As the government prints, prices rise. As prices rise, people expect more inflation and rush to spend before money loses more value. This accelerates velocity — the same money stock chases goods faster and faster. Eventually the inflation rate <em>exceeds</em> the money supply growth rate:</p>
+<p><span class="math display">\[\pi &gt; \dot{M} \quad \text{because} \quad \dot{V} &gt; 0\]</span></p>
+<p>At this point, the central bank has lost control. The only remedy is a dramatic institutional shock that credibly re-anchors expectations — a currency reform, a new monetary constitution, sometimes a foreign currency peg.</p>
+<p>The historical record is sobering:</p>
+<div id="tbl-hyperinflations" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-hyperinflations-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1.3: Selected hyperinflation episodes.
+</figcaption>
+<div aria-describedby="tbl-hyperinflations-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 16%">
+<col style="width: 34%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Country</strong></th>
+<th><strong>Period</strong></th>
+<th style="text-align: right;"><strong>Cumulative inflation</strong></th>
+<th style="text-align: right;"><strong>Max monthly rate</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>United States</td>
+<td>1777–1780</td>
+<td style="text-align: right;">2,707%</td>
+<td style="text-align: right;">1,342%</td>
+</tr>
+<tr class="even">
+<td>Germany</td>
+<td>1919–1923</td>
+<td style="text-align: right;">500,000,000,000%</td>
+<td style="text-align: right;">3,250,000%</td>
+</tr>
+<tr class="odd">
+<td>Greece</td>
+<td>1941–1944</td>
+<td style="text-align: right;">160,000,000,000%</td>
+<td style="text-align: right;">8,500,000,000%</td>
+</tr>
+<tr class="even">
+<td>Hungary</td>
+<td>1945–1946</td>
+<td style="text-align: right;">1.3 × 10²⁴%</td>
+<td style="text-align: right;">4.19 × 10¹⁶%</td>
+</tr>
+<tr class="odd">
+<td>Bolivia</td>
+<td>1984–1985</td>
+<td style="text-align: right;">97,282%</td>
+<td style="text-align: right;">196%</td>
+</tr>
+<tr class="even">
+<td>Nicaragua</td>
+<td>1986–1991</td>
+<td style="text-align: right;">12,000,000,000%</td>
+<td style="text-align: right;">261%</td>
+</tr>
+<tr class="odd">
+<td>Yugoslavia</td>
+<td>1993–1994</td>
+<td style="text-align: right;">1.6 × 10⁹%</td>
+<td style="text-align: right;">5 × 10¹⁵%</td>
+</tr>
+<tr class="even">
+<td>Zimbabwe</td>
+<td>2001–2008</td>
+<td style="text-align: right;">8.53 × 10²³%</td>
+<td style="text-align: right;">7.96 × 10¹⁰%</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Intuition Builder: The Wheelbarrow Economy
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The famous image of Weimar Germany is people bringing wheelbarrows full of currency to buy bread. This illustrates an economic logic, not just colorful history. When money loses value so fast that prices double within days, no one wants to hold it for even 24 hours. You get paid, immediately spend everything, come back tomorrow and repeat. Velocity approaches infinity. The economy retreats toward barter and foreign currencies. Savings are wiped out, long-term contracts become impossible, and economic calculation breaks down entirely.</p>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="the-future-of-money" class="level2" data-number="1.6">
+<h2 data-number="1.6" class="anchored" data-anchor-id="the-future-of-money"><span class="header-section-number">1.6</span> The Future of Money</h2>
+<p>The history traced in section 1.3 ended at Stage 5: fiat money issued by central banks. Over the past fifteen years, the landscape has started to shift again, and Stage 6 is taking shape. Two broad paths are visible — one toward private money free of state control, the other extending state money into new digital forms.</p>
+<section id="bitcoin-and-the-cryptocurrency-experiment" class="level3">
+<h3 class="anchored" data-anchor-id="bitcoin-and-the-cryptocurrency-experiment">Bitcoin and the Cryptocurrency Experiment</h3>
+<p><a href="https://en.wikipedia.org/wiki/Bitcoin">Bitcoin</a> launched in January 2009, during the global financial crisis — not a coincidence. Its pseudonymous creator, <a href="https://en.wikipedia.org/wiki/Satoshi_Nakamoto">Satoshi Nakamoto</a>, framed it explicitly as a response to the failures of both central banks and private banks: a peer-to-peer payment system requiring no trusted third party.</p>
+<p>The core innovation is the <strong><a href="https://en.wikipedia.org/wiki/Blockchain">blockchain</a></strong>: a decentralized, public ledger recording every transaction. Instead of a bank certifying payment validity, a network of “miners” — computers solving computationally difficult problems — verify transactions and add them to the ledger. Miners are compensated with newly created bitcoins.</p>
+<p>Bitcoin’s supply is pre-programmed: total bitcoins will never exceed 21 million. This creates a hard supply cap built into the code — a monetary rule no central bank governor can override. In spirit, it mimics the scarcity discipline of a gold standard.</p>
+<p>Does Bitcoin qualify as money under our definition? Not yet. Bitcoin is not a common means of exchange (very few merchants accept it for everyday purchases), and it is not widely used as a unit of account (prices are not quoted in bitcoin). It may store value for some holders — though extreme price volatility makes this debatable — but storing value alone doesn’t make it money.</p>
+<p>The scalability problem reinforces this. Visa processes around 24,000 transactions per second; PayPal around 193; Bitcoin manages roughly 7. This reflects a fundamental trade-off in decentralized networks between speed and security — a constraint that is architectural, not easily patched.</p>
+</section>
+<section id="stablecoins-and-their-risks" class="level3">
+<h3 class="anchored" data-anchor-id="stablecoins-and-their-risks">Stablecoins and Their Risks</h3>
+<p>Stablecoins are cryptocurrencies designed to maintain a fixed value relative to a conventional currency, usually the US dollar. <a href="https://en.wikipedia.org/wiki/Tether_(cryptocurrency)">Tether (USDT)</a> and <a href="https://en.wikipedia.org/wiki/USDC_(cryptocurrency)">USD Coin (USDC)</a> are the largest examples.</p>
+<p>The critical question is what backs them. If actual dollar reserves, the stablecoin is essentially a digital money certificate — conceptually identical to what Scottish free banks did with gold in the 18th century. The ancient risk remains: are the reserves actually there? The collapse of the <a href="https://en.wikipedia.org/wiki/Terra_(blockchain)">TerraUSD</a> algorithmic stablecoin in 2022 — which claimed to maintain its peg through a complex mechanism rather than reserves — wiped out tens of billions in investor wealth overnight, demonstrating that “stable” in the name is not a guarantee.</p>
+</section>
+<section id="central-bank-digital-currencies-cbdcs" class="level3">
+<h3 class="anchored" data-anchor-id="central-bank-digital-currencies-cbdcs">Central Bank Digital Currencies (CBDCs)</h3>
+<p><a href="https://en.wikipedia.org/wiki/Central_bank_digital_currency">CBDCs</a> are digital money issued directly by central banks, available to the general public — in effect, a digital version of cash that is a direct central bank liability rather than a commercial bank deposit.</p>
+<p>Most major central banks are actively exploring CBDCs; China has already launched a significant pilot with its digital yuan (<a href="https://en.wikipedia.org/wiki/Digital_renminbi">e-CNY</a>). Potential advantages include faster and cheaper payments, greater financial inclusion, and new tools for monetary policy transmission.</p>
+<p>But CBDCs raise serious concerns — most notably privacy. Unlike cash, which is anonymous, a CBDC would give the central bank (and potentially the government) a complete record of every transaction. The contrast with Bitcoin, where anonymity is a design goal, could not be sharper:</p>
+<div id="tbl-crypto-cbdc" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-crypto-cbdc-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1.4: Cryptocurrencies vs.&nbsp;CBDCs: a structural comparison.
+</figcaption>
+<div aria-describedby="tbl-crypto-cbdc-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 27%">
+<col style="width: 29%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th><strong>Cryptocurrencies</strong></th>
+<th><strong>CBDC</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Issuer</strong></td>
+<td>Decentralized / private</td>
+<td>Central bank (monopoly)</td>
+</tr>
+<tr class="even">
+<td><strong>Financial privacy</strong></td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td><strong>Network effects</strong></td>
+<td>Must build from scratch</td>
+<td>Inherits existing monetary network</td>
+</tr>
+<tr class="even">
+<td><strong>Geographic scope</strong></td>
+<td>No constraints</td>
+<td>More geographic limitations</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="history-coming-full-circle" class="level3">
+<h3 class="anchored" data-anchor-id="history-coming-full-circle">History Coming Full Circle?</h3>
+<p>The crypto-vs.-CBDC debate maps onto the older debate between private money and state money. For most of the 19th century, private banks issued competing currencies. During the 20th century, the state consolidated control through central banking. Now, in the 21st century, technology is reopening the question.</p>
+<p>The regression theorem suggests purely private digital money faces a bootstrapping problem: if Bitcoin has no non-monetary value, where does its initial value come from? The empirical answer seems to be: speculation, network effects, and the expectation that others will value it. Whether that constitutes a stable monetary foundation remains genuinely uncertain. What is certain is that the experiment is underway — and the conceptual tools developed in this course are exactly what you need to evaluate how it unfolds.</p>
+</section>
+</section>
+<section id="from-money-to-banking" class="level2" data-number="1.7">
+<h2 data-number="1.7" class="anchored" data-anchor-id="from-money-to-banking"><span class="header-section-number">1.7</span> From Money to Banking</h2>
+<p>The debate between private money and state money — which today takes the form of cryptocurrencies versus CBDCs — is not new. It has been running for centuries, and it has been resolved before, in different ways and with different results. To evaluate where it is heading now, we need to understand where it has already been.</p>
+<p>Chapter 1 has given you the conceptual vocabulary: what money is, how its supply is structured, how the price level is determined, and why the quality of monetary institutions matters for economic outcomes. Chapter 2 uses that vocabulary to examine a specific historical question: how did banking actually work in the era <em>before</em> central banks, when private institutions competed to issue money under a commodity standard? The answer will challenge several things you probably think you know about financial history — and it will establish the baseline against which central bank performance should be judged.</p>
+<hr>
+</section>
+<section id="key-takeaways" class="level2" data-number="1.8">
+<h2 data-number="1.8" class="anchored" data-anchor-id="key-takeaways"><span class="header-section-number">1.8</span> Key Takeaways</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Chapter 1 Summary
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><strong>What money is:</strong> Money is an asset generally accepted as a means of payment. It serves three functions — means of payment, unit of account, and store of value — but its definition rests on the first. The functions also measure money’s <em>quality</em>: money that performs all three well is high-quality money; money that fails on store of value is low-quality money. Money is not the same as wealth, income, or payment technology. Legal tender is the state’s formal designation of an asset as acceptable for settling debts — an important institutional support for money, but neither necessary nor sufficient for something to function as money economically.</p>
+<p><strong>The money supply:</strong> Money exists in a hierarchy from narrow (monetary base) to broad (M2). Base money is the foundation — currency and bank reserves, directly controlled by the central bank. Money substitutes, created by the banking system through lending, extend this into a much larger pool of liquid assets. Reserves are embedded in bank deposits and must not be double-counted when moving from MB to M1. The monetary base, M1, and M2 each answer a different question and are useful for different purposes.</p>
+<p><strong>Payment technologies:</strong> Cash, checks, and electronic payments are mechanisms for moving money — the railroad, not the train. Improving payment technology makes transactions faster and cheaper but does not change the amount of money in the economy. Cash is the special case where the instrument and the carrier are the same object.</p>
+<p><strong>How money emerged:</strong> Money arose either spontaneously through market selection of marketable commodities (regression theorem — the <em>economic</em> origin) or through state decree and legal tender laws (chartalism — the <em>legal</em> definition). These explanations address different questions and are not mutually exclusive. The gold standard was a system of gold <em>substitutes</em>, not a fixed exchange rate system. Fiat money emerged from the final break with commodity backing in 1971 and derived its initial value from the gold-linked money it replaced.</p>
+<p><strong>The price of money:</strong> Purchasing power (<span class="math inline">\(1/P\)</span>) is determined by money supply and demand. The cash-balance approach: if money supply exceeds desired holdings, people spend the excess, pushing prices up; if it falls short, people cut spending, pushing prices down. Inflation is a <em>continuously rising</em> price level. Supply shocks and shifts in money demand can move the price level once but cannot sustain continuous increases. Only persistent excess money growth produces persistent inflation.</p>
+<p><strong>Why inflation is costly:</strong> Cantillon effects create arbitrary redistribution as new money enters unevenly; distorted price signals lead to misallocation; lenders lose and borrowers gain when inflation exceeds expectations; fiscal systems interact perversely with nominal values; and disinflation requires real output losses. Hyperinflation occurs when velocity accelerates out of control and requires a credible institutional reset to stop.</p>
+<p><strong>The future:</strong> Cryptocurrencies and CBDCs represent two competing visions for Stage 6 of monetary history — private decentralized money versus state digital money. Neither has displaced the fiat system, but both are forcing a rethinking of what money is, who should control it, and what it should do.</p>
+</div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
+        }
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/ncachanosky\.github\.io\/ECON-3320-online");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="Preface">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Preface</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./chapter_02.html" class="pagination-link" aria-label="How Banking Developed Before Central Banks">
+        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">How Banking Developed Before Central Banks</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Nicolas Cachanosky, The University of Texas at El Paso, Center for Free Enterprise</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/ncachanosky/ECON-3320-online/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link active" href="https://github.com/ncachanosky/ECON-3320-online" aria-current="page">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/ncachanosky">
+      <i class="bi bi-linkedin" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/n_cachanosky">
+      <i class="bi bi-twitter-x" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
